@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "FIRELINE Community Feed & Field Reports Seed Data",
+    "updated_at": "2026-10-18T12:00:00Z",
+    "total_reports": 3
+  },
+  "reports": [
+    {
+      "id": "report_01",
+      "author": {
+        "name": "Rina",
+        "role": "Warga",
+        "avatar": "/assets/avatars/rina.png"
+      },
+      "category": "Darurat",
+      "badge_color": "#dc2626",
+      "time_ago": "10 menit yang lalu",
+      "timestamp": "12 sep 26, 10.30 WIB",
+      "address": "Jl. Tunas Rimba No. 18, RT 003/RW 002, Kec. Sungai Tebelian, Kab. Sintang, Kalimantan Barat.",
+      "content": "Terlihat api di lahan kosong dekat jalan desa bancoh. Saya sudah sudah melapor pada petugas.",
+      "image_url": "https://images.unsplash.com/photo-1542385151-efd9000785a0?auto=format&fit=crop&w=800&q=80",
+      "is_live_camera": true,
+      "coordinates": {
+        "latitude": -0.1582,
+        "longitude": 111.4125,
+        "kecamatan": "Kecamatan Sungai Tebelian",
+        "kabupaten": "Kabupaten Sintang"
+      },
+      "status": "dalam_penanganan",
+      "status_label": "Dalam Penanganan",
+      "status_color": "#ea580c",
+      "updates_count": 2,
+      "updates": [
+        {
+          "id": "update_01",
+          "author": "Rina",
+          "timestamp": "12 sep • 10.40 WIB",
+          "content": "Petugas sudah tiba dan mulai melakukan pemadaman. Asap masih terlihat sepi di sekitar lahan.",
+          "image_url": "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=80",
+          "is_latest": true
+        },
+        {
+          "id": "update_02",
+          "author": "Rina",
+          "timestamp": "12 sep • 10.35 WIB",
+          "content": "Asap masih terlihat dan semakin parah... jika ada warga atau relawan yang bisa membantu tolong bisa ke lokasi.",
+          "is_latest": false
+        }
+      ],
+      "comments_count": 4,
+      "comments": [
+        {
+          "id": "comment_01",
+          "author": "Budi",
+          "role": "Warga",
+          "content": "Bener mba tadi saya juga liat pas pulang dari pasar.",
+          "image_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80",
+          "time_ago": "8 menit yang lalu"
+        },
+        {
+          "id": "comment_02",
+          "author": "Tim Relawan Sintang",
+          "role": "Relawan",
+          "content": "Unit 2 Damkar & Relawan Sintang sudah meluncur ke lokasi Jl. Tunas Rimba. Harap warga menjauh dari radius asap dan gunakan masker N95.",
+          "time_ago": "5 menit yang lalu"
+        }
+      ]
+    },
+    {
+      "id": "report_02",
+      "author": {
+        "name": "Rangga Wicaksono",
+        "role": "Warga",
+        "avatar": "/assets/avatars/rangga.png"
+      },
+      "category": "Darurat",
+      "badge_color": "#dc2626",
+      "time_ago": "2 jam yang lalu",
+      "timestamp": "12 sep 26, 08.15 WIB",
+      "address": "Kec. Hulu Sungai, Kab. Ketapang, Kalimantan Barat.",
+      "content": "Api yang kemarin sempat dipadamkan kembali muncul setelah angin kencang melanda sekitar lokasi. Kejadian dekat batas kebun warga.",
+      "image_url": "https://images.unsplash.com/photo-1602980085566-4c69d3893899?auto=format&fit=crop&w=800&q=80",
+      "is_live_camera": true,
+      "coordinates": {
+        "latitude": -1.8214,
+        "longitude": 111.2014,
+        "kecamatan": "Kecamatan Hulu Sungai",
+        "kabupaten": "Kabupaten Ketapang"
+      },
+      "status": "menunggu_verifikasi",
+      "status_label": "Menunggu Verifikasi",
+      "status_color": "#f59e0b",
+      "updates_count": 0,
+      "updates": [],
+      "comments_count": 2,
+      "comments": [
+        {
+          "id": "comment_03",
+          "author": "Posko BPBD Ketapang",
+          "role": "Admin",
+          "content": "Laporan diterima. Tim TRC sedang melakukan verifikasi koordinat.",
+          "time_ago": "1 jam yang lalu"
+        }
+      ]
+    },
+    {
+      "id": "report_03",
+      "author": {
+        "name": "Sarah",
+        "role": "Warga",
+        "avatar": "/assets/avatars/sarah.png"
+      },
+      "category": "Informasi",
+      "badge_color": "#0d9488",
+      "time_ago": "15 menit yang lalu",
+      "timestamp": "12 sep 26, 10.15 WIB",
+      "address": "Jl. Rimba Raya, RT 004/RW 002, Kec. Sungai Raya, Kab. Kubu Raya",
+      "content": "Pagi ini masih terlihat kabut asap tipis di sekitar rumah saya di Kec. Sungai Raya, Kab. Kubu Raya. Dibanding kemarin sore, deretan rumah di ujung jalan sudah lebih terlihat, tapi bau asap masih terasa. Foto ini saya ambil dari teras rumah. Ada yang tinggal di sekitar sini juga? Bagaimana kondisinya di tempat kalian?",
+      "image_url": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=800&q=80",
+      "is_live_camera": true,
+      "coordinates": {
+        "latitude": -0.1145,
+        "longitude": 109.3982,
+        "kecamatan": "Kecamatan Sungai Raya",
+        "kabupaten": "Kabupaten Kubu Raya"
+      },
+      "status": "informasi_publik",
+      "status_label": "Informasi Publik",
+      "status_color": "#0d9488",
+      "updates_count": 1,
+      "updates": [
+        {
+          "id": "update_03",
+          "author": "Sarah",
+          "timestamp": "14 sep • 10.45 WIB",
+          "content": "Alhamdulillah hari ini turun hujan. Kabut asap juga sudah menghilang dan udara menjadi sejuk kembali.",
+          "image_url": "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=800&q=80",
+          "is_latest": true
+        }
+      ],
+      "comments_count": 5,
+      "comments": []
+    }
+  ]
+}
