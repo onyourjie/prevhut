@@ -23,6 +23,10 @@ class ClusterItem(BaseModel):
     days_detected_7d: int
     median_frp_mw: float
     max_frp_mw: Optional[float] = None
+    base_risk_score: Optional[float] = None
+    citizen_reports_count: int = 0
+    citizen_urgency_boost: float = 0.0
+    citizen_validation_status: Optional[str] = "Belum Ada Laporan Lapangan"
     risk_score: float
     priority_level: str
     badge: str

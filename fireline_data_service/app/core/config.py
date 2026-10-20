@@ -16,7 +16,15 @@ class Settings(BaseSettings):
     
     # Data directory
     BASE_DIR: str = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    DATA_DIR: str = os.path.join(BASE_DIR, "data")
+    DATA_DIR: str = (
+        os.path.join(BASE_DIR, "data")
+        if os.path.exists(os.path.join(BASE_DIR, "data", "clusters_summary.json"))
+        else (
+            os.path.join(os.path.dirname(BASE_DIR), "data", "processed")
+            if os.path.exists(os.path.join(os.path.dirname(BASE_DIR), "data", "processed", "clusters_summary.json"))
+            else os.path.join(BASE_DIR, "data")
+        )
+    )
     
     # CORS
     CORS_ORIGINS: list = [

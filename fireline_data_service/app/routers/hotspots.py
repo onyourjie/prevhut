@@ -6,6 +6,7 @@ from app.schemas.models import HotspotPoint
 router = APIRouter(prefix="/hotspots", tags=["Satellite Hotspots (NASA FIRMS)"])
 
 @router.get("/live", response_model=Dict[str, Any])
+@router.get("/24h", response_model=Dict[str, Any])
 def get_live_hotspots(
     province: Optional[str] = Query(None, description="Filter Provinsi (misal: Kalimantan Barat)"),
     confidence: Optional[str] = Query(None, description="Filter Confidence (nominal, high, low)"),

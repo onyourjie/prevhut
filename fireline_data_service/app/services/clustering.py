@@ -28,6 +28,16 @@ def haversine_dist(lat1, lon1, lat2, lon2):
     c = 2 * np.arcsin(np.sqrt(a))
     return R * c
 
+def calculate_citizen_boost(report_count: int) -> float:
+    if report_count == 0:
+        return 0.0
+    elif report_count == 1:
+        return 5.0
+    elif report_count <= 3:
+        return 10.0
+    else:
+        return min(15.0, 10.0 + (report_count - 3) * 1.0)
+
 def run_clustering_and_scoring(df_24h: pd.DataFrame, df_7d: pd.DataFrame) -> List[Dict[str, Any]]:
     """
     Eksekusi clustering DBSCAN dan pembobotan Explainable Risk Score
@@ -133,9 +143,7 @@ def run_clustering_and_scoring(df_24h: pd.DataFrame, df_7d: pd.DataFrame) -> Lis
         if idx == 0:
             c['kabupaten'] = "Kabupaten Sintang"
             c['kecamatan'] = "Kecamatan Sintang"
-            c['risk_score'] = 85.2
-            c['priority_level'] = "P1 - Prioritas Tinggi"
-            c['badge'] = "Prioritas Tinggi"
+            c['base_risk_score'] = 85.2
             c['hotspot_count_24h'] = 4
             c['days_detected_7d'] = 6
             c['median_frp_mw'] = 58.33
@@ -143,23 +151,37 @@ def run_clustering_and_scoring(df_24h: pd.DataFrame, df_7d: pd.DataFrame) -> Lis
             c['nearest_settlement'] = "Kecamatan Sintang (Permukiman & Sekolah)"
             c['distance_to_settlement_km'] = 2.4
             c['threat_level'] = "🚨 Kritis (< 3 km - Ancaman Langsung)"
+            # Simulation: Area 01 has 1 verified report
+            c['citizen_reports_count'] = 1
+            c['citizen_urgency_boost'] = 0.0 # already top P1 score
+            c['citizen_validation_status'] = "🟡 Dikonfirmasi Satelit & Warga (Dual Confirmed)"
+            c['risk_score'] = 85.2
+            c['priority_level'] = "P1 - Prioritas Tinggi"
+            c['badge'] = "Prioritas Tinggi"
         elif idx == 1:
             c['kabupaten'] = "Kabupaten Sintang"
             c['kecamatan'] = "Kecamatan Sungai Tebelian"
-            c['risk_score'] = 75.4
-            c['priority_level'] = "P2 - Perhatian Meningkat"
-            c['badge'] = "Perhatian Meningkat"
+            c['base_risk_score'] = 75.4
             c['hotspot_count_24h'] = 3
             c['days_detected_7d'] = 4
             c['median_frp_mw'] = 34.21
-            c['primary_factor'] = "Jumlah deteksi pada tanggal ini (3 catatan)"
             c['nearest_settlement'] = "Kecamatan Sungai Tebelian (Desa Bancoh)"
             c['distance_to_settlement_km'] = 4.8
             c['threat_level'] = "⚠️ Waspada (3 - 7 km - Paparan Asap)"
+            # Simulation: Area 02 has 2 reports (Rina & Budi confirm in Bancoh!) -> +10.0 Boost!
+            c['citizen_reports_count'] = 2
+            c['citizen_urgency_boost'] = 10.0
+            c['citizen_validation_status'] = "🔴 Dikonfirmasi Konsensus Komunitas (Tinggi)"
+            # Boost score from 75.4 -> 85.4 -> Promoted to P1!
+            c['risk_score'] = 85.4
+            c['priority_level'] = "P1 - Prioritas Tinggi (Terkonfirmasi Warga)"
+            c['badge'] = "Prioritas Tinggi (Warga)"
+            c['primary_factor'] = "Dikonfirmasi langsung oleh 2 laporan darurat warga di Desa Bancoh (+10 Poin)"
         else:
             d_info = sintang_districts[idx % len(sintang_districts)]
             c['kabupaten'] = d_info[0]
             c['kecamatan'] = d_info[1]
+            c['base_risk_score'] = c['risk_score']
             
             # Hitung jarak terdekat
             min_d = 999.0
@@ -177,6 +199,10 @@ def run_clustering_and_scoring(df_24h: pd.DataFrame, df_7d: pd.DataFrame) -> Lis
                 c['threat_level'] = "⚠️ Waspada (3 - 7 km - Paparan Asap)"
             else:
                 c['threat_level'] = "🛡️ Pantauan Luar (> 7 km - Area Terisolir)"
+                
+            c['citizen_reports_count'] = 0
+            c['citizen_urgency_boost'] = 0.0
+            c['citizen_validation_status'] = "🛡️ Belum Ada Laporan Lapangan"
                 
         c['province'] = c.pop('provinsi')
         
