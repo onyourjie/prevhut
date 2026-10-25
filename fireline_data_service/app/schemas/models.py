@@ -35,6 +35,8 @@ class ClusterItem(BaseModel):
     threat_level: Optional[str] = None
     primary_factor: str
     last_updated: str = "01.00 WIB"
+    kabupaten_list: Optional[List[str]] = None
+    hotspots: Optional[List[Dict[str, Any]]] = None
 
 class HotspotPoint(BaseModel):
     id: str
