@@ -1,0 +1,33 @@
+# Environment & Secret files (Never commit API keys or credentials)
+.env
+*.env
+.env.*
+!.env.example
+fireline_data_service/.env
+
+# Linked web project repository (tracked in separate repo onyourjie/prevhut_web)
+fireline_web
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints*/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
