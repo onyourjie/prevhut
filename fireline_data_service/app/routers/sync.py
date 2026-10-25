@@ -16,14 +16,8 @@ async def sync_live_data():
     Menjalankan proses sinkronisasi live data satelit NASA FIRMS dan melakukan re-clustering DBSCAN.
     Dapat dipicu oleh Cron Job Backend atau secara manual oleh Admin Posko.
     """
-    df_24h, source_label = await firms_client.fetch_latest_hotspots()
-    
-    # Load 7d data for temporal persistence matching
-    fallback_7d_path = os.path.join(settings.DATA_DIR, "hotspots_kalimantan_7d.csv")
-    if os.path.exists(fallback_7d_path):
-        import pandas as pd
-        df_7d = pd.read_csv(fallback_7d_path)
-    else:
+    df_24h, df_7d, source_label = await firms_client.fetch_latest_hotspots()
+    if df_7d.empty:
         df_7d = df_24h
         
     # Re-run clustering and scoring

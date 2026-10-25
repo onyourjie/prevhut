@@ -1,7 +1,13 @@
 import os
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
+    model_config = SettingsConfigDict(
+        env_file=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), ".env"),
+        env_file_encoding="utf-8",
+        extra="ignore"
+    )
+
     PROJECT_NAME: str = "FIRELINE Data & Intelligence Service"
     PROJECT_VERSION: str = "1.0.0"
     API_PREFIX: str = "/api"
@@ -11,7 +17,7 @@ class Settings(BaseSettings):
     )
     
     # NASA FIRMS API config
-    NASA_FIRMS_MAP_KEY: str = os.getenv("NASA_FIRMS_MAP_KEY", "DEMO_KEY")
+    NASA_FIRMS_MAP_KEY: str = "DEMO_KEY"
     KALIMANTAN_BBOX: str = "108.5,-4.5,119.2,4.5" # Bounding box Kalimantan
     
     # Data directory
