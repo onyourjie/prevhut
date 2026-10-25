@@ -1,2926 +1,2392 @@
 {
   "metadata": {
     "title": "PREVHUT / FIRELINE Explainable Risk Clusters",
-    "model": "DBSCAN Spatial Clustering + Multi-Criteria Risk Scoring + Settlement Exposure",
-    "weights": {
-      "activity": 0.4,
-      "persistence": 0.35,
-      "intensity": 0.25
-    },
-    "total_clusters": 91
+    "synced_at": "2026-10-25T19:00:04.883990",
+    "source": "NASA FIRMS VIIRS SNPP (2026-10-25 - 187 Titik)",
+    "total_clusters": 22
   },
   "clusters": [
     {
-      "id": "area_pantau_01",
-      "code": "Area Pantau 01",
-      "kabupaten": "Kabupaten Ketapang",
-      "kecamatan": "",
-      "province": "Kalimantan Barat",
-      "centroid": {
-        "latitude": -2.80634,
-        "longitude": 110.69435
-      },
-      "bounding_box": {
-        "min_lat": -2.89466,
-        "max_lat": -2.72301,
-        "min_lon": 110.6465,
-        "max_lon": 110.76901
-      },
-      "hotspot_count_24h": 211,
-      "days_detected_7d": 7,
-      "median_frp_mw": 3.9,
-      "risk_score": 85.2,
-      "priority_level": "P1 - Prioritas Tinggi",
-      "badge": "Prioritas Tinggi",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 76.6,
-      "citizen_reports_count": 1,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udfe1 Dikonfirmasi Satelit & Warga (Dual Confirmed)",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (211 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_02",
-      "code": "Area Pantau 02",
-      "kabupaten": "Kabupaten Katingan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.47779,
-        "longitude": 113.37264
-      },
-      "bounding_box": {
-        "min_lat": -2.58317,
-        "max_lat": -2.39641,
-        "min_lon": 113.2643,
-        "max_lon": 113.46217
-      },
-      "hotspot_count_24h": 111,
-      "days_detected_7d": 7,
-      "median_frp_mw": 2.58,
-      "risk_score": 85.4,
-      "priority_level": "P1 - Prioritas Tinggi (Terkonfirmasi Warga)",
-      "badge": "Prioritas Tinggi",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 76.1,
-      "citizen_reports_count": 2,
-      "citizen_urgency_boost": 10.0,
-      "citizen_validation_status": "\ud83d\udd34 Dikonfirmasi Konsensus Komunitas (Tinggi)",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (111 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_03",
-      "code": "Area Pantau 03",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.89603,
-        "longitude": 112.71047
-      },
-      "bounding_box": {
-        "min_lat": -3.00499,
-        "max_lat": -2.81314,
-        "min_lon": 112.58655,
-        "max_lon": 112.83443
-      },
-      "hotspot_count_24h": 97,
-      "days_detected_7d": 7,
-      "median_frp_mw": 2.09,
-      "risk_score": 75.9,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 75.9,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (97 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_04",
-      "code": "Area Pantau 04",
-      "kabupaten": "Kabupaten Katingan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.74682,
-        "longitude": 113.3365
-      },
-      "bounding_box": {
-        "min_lat": -2.87047,
-        "max_lat": -2.5905,
-        "min_lon": 113.27422,
-        "max_lon": 113.41572
-      },
-      "hotspot_count_24h": 92,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.85,
-      "risk_score": 75.8,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 75.8,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (92 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_05",
-      "code": "Area Pantau 05",
-      "kabupaten": "Kabupaten Pulang Pisau",
-      "kecamatan": "Kecamatan Kahayan Hilir",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.79273,
-        "longitude": 114.11903
-      },
-      "bounding_box": {
-        "min_lat": -2.95331,
-        "max_lat": -2.58385,
-        "min_lon": 113.89705,
-        "max_lon": 114.39845
-      },
-      "hotspot_count_24h": 259,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.7,
-      "risk_score": 75.7,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Kahayan Hilir (Kabupaten Pulang Pisau)",
-      "distance_to_settlement_km": 15.3,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 75.7,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (259 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_06",
-      "code": "Area Pantau 06",
-      "kabupaten": "Kabupaten Katingan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.9426,
-        "longitude": 113.332
-      },
-      "bounding_box": {
-        "min_lat": -3.0014,
-        "max_lat": -2.9054,
-        "min_lon": 113.28899,
-        "max_lon": 113.3605
-      },
-      "hotspot_count_24h": 28,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.33,
-      "risk_score": 75.6,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 75.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (28 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_07",
-      "code": "Area Pantau 07",
-      "kabupaten": "Kabupaten Pulang Pisau",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.83311,
-        "longitude": 113.71893
-      },
-      "bounding_box": {
-        "min_lat": -2.88203,
-        "max_lat": -2.76286,
-        "min_lon": 113.62958,
-        "max_lon": 113.80205
-      },
-      "hotspot_count_24h": 57,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.51,
-      "risk_score": 75.6,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Kahayan Hilir (Kabupaten Pulang Pisau)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 75.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (57 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_08",
-      "code": "Area Pantau 08",
-      "kabupaten": "Kabupaten Kotawaringin Timur",
-      "kecamatan": "Kecamatan Mentawa Baru",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.68375,
-        "longitude": 113.03359
-      },
-      "bounding_box": {
-        "min_lat": -2.89868,
-        "max_lat": -2.48454,
-        "min_lon": 112.88017,
-        "max_lon": 113.12625
-      },
-      "hotspot_count_24h": 167,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.45,
-      "risk_score": 75.6,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 19.3,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 75.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (167 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_09",
-      "code": "Area Pantau 09",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.05734,
-        "longitude": 112.17801
-      },
-      "bounding_box": {
-        "min_lat": -3.21904,
-        "max_lat": -2.95081,
-        "min_lon": 112.06346,
-        "max_lon": 112.28133
-      },
-      "hotspot_count_24h": 200,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.31,
-      "risk_score": 75.5,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 75.5,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (200 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_10",
-      "code": "Area Pantau 10",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.27928,
-        "longitude": 112.05114
-      },
-      "bounding_box": {
-        "min_lat": -3.37813,
-        "max_lat": -3.08891,
-        "min_lon": 111.91432,
-        "max_lon": 112.16081
-      },
-      "hotspot_count_24h": 120,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.28,
-      "risk_score": 75.5,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 75.5,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (120 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_11",
-      "code": "Area Pantau 11",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.08152,
-        "longitude": 112.79613
-      },
-      "bounding_box": {
-        "min_lat": -3.17399,
-        "max_lat": -3.03877,
-        "min_lon": 112.70797,
-        "max_lon": 112.85558
-      },
-      "hotspot_count_24h": 105,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.04,
-      "risk_score": 75.4,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 75.4,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (105 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_12",
-      "code": "Area Pantau 12",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.22921,
-        "longitude": 112.85978
-      },
-      "bounding_box": {
-        "min_lat": -3.31056,
-        "max_lat": -3.14667,
-        "min_lon": 112.75258,
-        "max_lon": 112.94313
-      },
-      "hotspot_count_24h": 36,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.06,
-      "risk_score": 75.4,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 75.4,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (36 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_13",
-      "code": "Area Pantau 13",
-      "kabupaten": "Kabupaten Katingan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.12131,
-        "longitude": 113.42121
-      },
-      "bounding_box": {
-        "min_lat": -3.16866,
-        "max_lat": -3.07201,
-        "min_lon": 113.32761,
-        "max_lon": 113.44997
-      },
-      "hotspot_count_24h": 40,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.06,
-      "risk_score": 75.4,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 75.4,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (40 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_14",
-      "code": "Area Pantau 14",
-      "kabupaten": "Kabupaten Kotawaringin Timur",
-      "kecamatan": "Kecamatan Mentawa Baru",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.37082,
-        "longitude": 112.85618
-      },
-      "bounding_box": {
-        "min_lat": -2.44452,
-        "max_lat": -2.33958,
-        "min_lon": 112.83127,
-        "max_lon": 112.886
-      },
-      "hotspot_count_24h": 34,
-      "days_detected_7d": 6,
-      "median_frp_mw": 3.77,
-      "risk_score": 71.6,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 20.7,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 71.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (34 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_15",
-      "code": "Area Pantau 15",
-      "kabupaten": "Kabupaten Barito Selatan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.41231,
-        "longitude": 114.64066
-      },
-      "bounding_box": {
-        "min_lat": -2.45177,
-        "max_lat": -2.3849,
-        "min_lon": 114.61598,
-        "max_lon": 114.6653
-      },
-      "hotspot_count_24h": 22,
-      "days_detected_7d": 6,
-      "median_frp_mw": 2.89,
-      "risk_score": 71.2,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Kahayan Hilir (Kabupaten Pulang Pisau)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 71.2,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (22 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_16",
-      "code": "Area Pantau 16",
-      "kabupaten": "Kabupaten Kapuas",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.48156,
-        "longitude": 114.35335
-      },
-      "bounding_box": {
-        "min_lat": -2.61476,
-        "max_lat": -2.39511,
-        "min_lon": 114.23235,
-        "max_lon": 114.51486
-      },
-      "hotspot_count_24h": 158,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.8,
-      "risk_score": 70.8,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Kahayan Hilir (Kabupaten Pulang Pisau)",
-      "distance_to_settlement_km": 32.4,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 70.8,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (158 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_17",
-      "code": "Area Pantau 17",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.69404,
-        "longitude": 112.22773
-      },
-      "bounding_box": {
-        "min_lat": -2.77292,
-        "max_lat": -2.62235,
-        "min_lon": 112.16669,
-        "max_lon": 112.26055
-      },
-      "hotspot_count_24h": 20,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.33,
-      "risk_score": 70.6,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 70.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (20 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_18",
-      "code": "Area Pantau 18",
-      "kabupaten": "Kabupaten Paser",
-      "kecamatan": "",
-      "province": "Kalimantan Timur",
-      "centroid": {
-        "latitude": -1.19333,
-        "longitude": 116.07911
-      },
-      "bounding_box": {
-        "min_lat": -1.4014,
-        "max_lat": -1.05908,
-        "min_lon": 115.94489,
-        "max_lon": 116.23136
-      },
-      "hotspot_count_24h": 116,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.19,
-      "risk_score": 70.5,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Tanah Grogot (Kabupaten Paser)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 70.5,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (116 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_19",
-      "code": "Area Pantau 19",
-      "kabupaten": "Kabupaten Kotawaringin Barat",
-      "kecamatan": "Kecamatan Arut Selatan",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.81491,
-        "longitude": 111.83861
-      },
-      "bounding_box": {
-        "min_lat": -2.8732,
-        "max_lat": -2.74574,
-        "min_lon": 111.79989,
-        "max_lon": 111.89135
-      },
-      "hotspot_count_24h": 55,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.23,
-      "risk_score": 70.5,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 28.1,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 70.5,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (55 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_20",
-      "code": "Area Pantau 20",
-      "kabupaten": "Kabupaten Paser",
-      "kecamatan": "",
-      "province": "Kalimantan Timur",
-      "centroid": {
-        "latitude": -2.01884,
-        "longitude": 115.84826
-      },
-      "bounding_box": {
-        "min_lat": -2.1881,
-        "max_lat": -1.83839,
-        "min_lon": 115.79758,
-        "max_lon": 115.89803
-      },
-      "hotspot_count_24h": 44,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.2,
-      "risk_score": 70.5,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Tanah Grogot (Kabupaten Paser)",
-      "distance_to_settlement_km": 41.2,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 70.5,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (44 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_21",
-      "code": "Area Pantau 21",
-      "kabupaten": "Kabupaten Tapin",
-      "kecamatan": "",
+      "cluster_id": 0,
       "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -2.59892,
-        "longitude": 114.87539
-      },
-      "bounding_box": {
-        "min_lat": -2.62989,
-        "max_lat": -2.54343,
-        "min_lon": 114.84611,
-        "max_lon": 114.95516
-      },
-      "hotspot_count_24h": 38,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.24,
-      "risk_score": 70.5,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Selat (Kabupaten Kapuas)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 70.5,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (38 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_22",
-      "code": "Area Pantau 22",
-      "kabupaten": "Kabupaten Banjar",
+      "kabupaten": "Kabupaten Tanah Bumbu",
+      "kabupaten_list": [
+        "Kabupaten Tanah Bumbu"
+      ],
       "kecamatan": "",
-      "province": "Kalimantan Selatan",
+      "hotspots": [
+        {
+          "latitude": -3.57104,
+          "longitude": 115.52955,
+          "frp_mw": 99.01,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.57049,
+          "longitude": 115.53318,
+          "frp_mw": 99.01,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.5875,
+          "longitude": 115.53575,
+          "frp_mw": 70.92,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.5841,
+          "longitude": 115.53525,
+          "frp_mw": 70.55,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.58125,
+          "longitude": 115.53109,
+          "frp_mw": 70.55,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.57784,
+          "longitude": 115.53059,
+          "frp_mw": 16.05,
+          "confidence": "high",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.57444,
+          "longitude": 115.53005,
+          "frp_mw": 16.05,
+          "confidence": "high",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.5739,
+          "longitude": 115.5337,
+          "frp_mw": 16.05,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.59035,
+          "longitude": 115.53989,
+          "frp_mw": 8.96,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": -3.14457,
-        "longitude": 114.94737
+        "latitude": -3.57899,
+        "longitude": 115.53323
       },
       "bounding_box": {
-        "min_lat": -3.1979,
-        "max_lat": -3.07381,
-        "min_lon": 114.90143,
-        "max_lon": 114.97717
-      },
-      "hotspot_count_24h": 20,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.0,
-      "risk_score": 70.4,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Banjarbaru Selatan (Kota Banjarbaru)",
-      "distance_to_settlement_km": 35.4,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 70.4,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (20 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_23",
-      "code": "Area Pantau 23",
-      "kabupaten": "Kabupaten Kapuas",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.23866,
-        "longitude": 114.22394
-      },
-      "bounding_box": {
-        "min_lat": -2.31259,
-        "max_lat": -2.1822,
-        "min_lon": 114.18499,
-        "max_lon": 114.28125
-      },
-      "hotspot_count_24h": 26,
-      "days_detected_7d": 6,
-      "median_frp_mw": 0.83,
-      "risk_score": 70.3,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Pahandut (Kota Palangka Raya)",
-      "distance_to_settlement_km": 34.3,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 70.3,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (26 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_24",
-      "code": "Area Pantau 24",
-      "kabupaten": "Kabupaten Tapin",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -3.0508,
-        "longitude": 115.12778
-      },
-      "bounding_box": {
-        "min_lat": -3.11338,
-        "max_lat": -2.94731,
-        "min_lon": 115.03454,
-        "max_lon": 115.24094
-      },
-      "hotspot_count_24h": 19,
-      "days_detected_7d": 6,
-      "median_frp_mw": 0.88,
-      "risk_score": 69.0,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Banjarbaru Selatan (Kota Banjarbaru)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 69.0,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (19 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_25",
-      "code": "Area Pantau 25",
-      "kabupaten": "Kabupaten Katingan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.95135,
-        "longitude": 113.17893
-      },
-      "bounding_box": {
-        "min_lat": -3.00055,
-        "max_lat": -2.91676,
-        "min_lon": 113.13981,
-        "max_lon": 113.20023
-      },
-      "hotspot_count_24h": 18,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.13,
-      "risk_score": 67.7,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 67.7,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (18 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_26",
-      "code": "Area Pantau 26",
-      "kabupaten": "Kabupaten Paser",
-      "kecamatan": "",
-      "province": "Kalimantan Timur",
-      "centroid": {
-        "latitude": -2.30462,
-        "longitude": 115.91649
-      },
-      "bounding_box": {
-        "min_lat": -2.36403,
-        "max_lat": -2.25693,
-        "min_lon": 115.82587,
-        "max_lon": 115.97733
-      },
-      "hotspot_count_24h": 32,
-      "days_detected_7d": 5,
-      "median_frp_mw": 1.1,
-      "risk_score": 65.5,
-      "priority_level": "P2 - Perhatian Meningkat",
-      "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Tanah Grogot (Kabupaten Paser)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 65.5,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (32 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_27",
-      "code": "Area Pantau 27",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.16001,
-        "longitude": 112.63956
-      },
-      "bounding_box": {
-        "min_lat": -3.19472,
-        "max_lat": -3.1364,
-        "min_lon": 112.61622,
-        "max_lon": 112.66444
-      },
-      "hotspot_count_24h": 12,
-      "days_detected_7d": 7,
-      "median_frp_mw": 0.72,
-      "risk_score": 64.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 64.1,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (7 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_28",
-      "code": "Area Pantau 28",
-      "kabupaten": "Kota Palangka Raya",
-      "kecamatan": "Kecamatan Pahandut",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.30595,
-        "longitude": 114.00869
-      },
-      "bounding_box": {
-        "min_lat": -2.33933,
-        "max_lat": -2.25506,
-        "min_lon": 113.92593,
-        "max_lon": 114.05114
-      },
-      "hotspot_count_24h": 17,
-      "days_detected_7d": 5,
-      "median_frp_mw": 1.58,
-      "risk_score": 61.5,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Pahandut (Kota Palangka Raya)",
-      "distance_to_settlement_km": 15.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 61.5,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (17 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_29",
-      "code": "Area Pantau 29",
-      "kabupaten": "Kabupaten Ketapang",
-      "kecamatan": "",
-      "province": "Kalimantan Barat",
-      "centroid": {
-        "latitude": -2.62527,
-        "longitude": 110.70848
-      },
-      "bounding_box": {
-        "min_lat": -2.64564,
-        "max_lat": -2.60516,
-        "min_lon": 110.67028,
-        "max_lon": 110.78635
+        "min_lat": -3.60535,
+        "max_lat": -3.55549,
+        "min_lon": 115.51455,
+        "max_lon": 115.55489
       },
       "hotspot_count_24h": 9,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.32,
-      "risk_score": 60.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 60.1,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (7 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_30",
-      "code": "Area Pantau 30",
-      "kabupaten": "Kota Palangka Raya",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -1.88762,
-        "longitude": 113.57682
-      },
-      "bounding_box": {
-        "min_lat": -1.92986,
-        "max_lat": -1.8076,
-        "min_lon": 113.46863,
-        "max_lon": 113.67947
-      },
-      "hotspot_count_24h": 12,
-      "days_detected_7d": 6,
-      "median_frp_mw": 0.88,
-      "risk_score": 59.2,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Katingan Hilir (Kabupaten Katingan)",
-      "distance_to_settlement_km": 21.3,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 59.2,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_31",
-      "code": "Area Pantau 31",
-      "kabupaten": "Kabupaten Kapuas",
-      "kecamatan": "Kecamatan Selat",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.98414,
-        "longitude": 114.31932
-      },
-      "bounding_box": {
-        "min_lat": -3.04769,
-        "max_lat": -2.89263,
-        "min_lon": 114.28367,
-        "max_lon": 114.35756
-      },
-      "hotspot_count_24h": 11,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.49,
-      "risk_score": 58.0,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Selat (Kabupaten Kapuas)",
-      "distance_to_settlement_km": 7.9,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 58.0,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_32",
-      "code": "Area Pantau 32",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.14555,
-        "longitude": 112.37499
-      },
-      "bounding_box": {
-        "min_lat": -3.23413,
-        "max_lat": -3.05349,
-        "min_lon": 112.34391,
-        "max_lon": 112.44727
-      },
-      "hotspot_count_24h": 7,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.56,
-      "risk_score": 57.4,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 57.4,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (7 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_33",
-      "code": "Area Pantau 33",
-      "kabupaten": "Kabupaten Ketapang",
-      "kecamatan": "",
-      "province": "Kalimantan Barat",
-      "centroid": {
-        "latitude": -2.80018,
-        "longitude": 110.92517
-      },
-      "bounding_box": {
-        "min_lat": -2.82135,
-        "max_lat": -2.76197,
-        "min_lon": 110.87281,
-        "max_lon": 110.95398
-      },
-      "hotspot_count_24h": 7,
-      "days_detected_7d": 7,
-      "median_frp_mw": 0.74,
-      "risk_score": 57.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 57.1,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (7 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_34",
-      "code": "Area Pantau 34",
-      "kabupaten": "Kabupaten Sukamara",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.99551,
-        "longitude": 110.95358
-      },
-      "bounding_box": {
-        "min_lat": -3.04184,
-        "max_lat": -2.95416,
-        "min_lon": 110.93367,
-        "max_lon": 110.97202
-      },
-      "hotspot_count_24h": 7,
-      "days_detected_7d": 7,
-      "median_frp_mw": 0.82,
-      "risk_score": 57.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 57.1,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (7 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_35",
-      "code": "Area Pantau 35",
-      "kabupaten": "Kabupaten Kutai Timur",
-      "kecamatan": "Kecamatan Sangatta Utara",
-      "province": "Kalimantan Timur",
-      "centroid": {
-        "latitude": 0.68773,
-        "longitude": 117.55602
-      },
-      "bounding_box": {
-        "min_lat": 0.66085,
-        "max_lat": 0.70898,
-        "min_lon": 117.53195,
-        "max_lon": 117.58116
-      },
-      "hotspot_count_24h": 10,
-      "days_detected_7d": 6,
-      "median_frp_mw": 2.42,
-      "risk_score": 57.0,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
-      "distance_to_settlement_km": 21.4,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 57.0,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_36",
-      "code": "Area Pantau 36",
-      "kabupaten": "Kabupaten Kotawaringin Timur",
-      "kecamatan": "Kecamatan Mentawa Baru",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.78951,
-        "longitude": 112.8524
-      },
-      "bounding_box": {
-        "min_lat": -2.83746,
-        "max_lat": -2.74368,
-        "min_lon": 112.79675,
-        "max_lon": 112.89156
-      },
-      "hotspot_count_24h": 10,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.5,
-      "risk_score": 56.6,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 30.7,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 56.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_37",
-      "code": "Area Pantau 37",
-      "kabupaten": "Kabupaten Ketapang",
-      "kecamatan": "",
-      "province": "Kalimantan Barat",
-      "centroid": {
-        "latitude": -2.75818,
-        "longitude": 110.57625
-      },
-      "bounding_box": {
-        "min_lat": -2.78691,
-        "max_lat": -2.73171,
-        "min_lon": 110.53888,
-        "max_lon": 110.61204
-      },
-      "hotspot_count_24h": 47,
-      "days_detected_7d": 3,
-      "median_frp_mw": 1.38,
-      "risk_score": 55.6,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 55.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (47 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_38",
-      "code": "Area Pantau 38",
-      "kabupaten": "Kabupaten Kotawaringin Barat",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.33822,
-        "longitude": 111.89021
-      },
-      "bounding_box": {
-        "min_lat": -3.38569,
-        "max_lat": -3.29076,
-        "min_lon": 111.86936,
-        "max_lon": 111.91432
-      },
-      "hotspot_count_24h": 7,
-      "days_detected_7d": 6,
-      "median_frp_mw": 7.76,
-      "risk_score": 55.0,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 55.0,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_39",
-      "code": "Area Pantau 39",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.32629,
-        "longitude": 112.46268
-      },
-      "bounding_box": {
-        "min_lat": -3.34385,
-        "max_lat": -3.30884,
-        "min_lon": 112.44307,
-        "max_lon": 112.48808
-      },
-      "hotspot_count_24h": 5,
-      "days_detected_7d": 7,
-      "median_frp_mw": 1.58,
-      "risk_score": 54.7,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 54.7,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (7 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_40",
-      "code": "Area Pantau 40",
-      "kabupaten": "Kabupaten Kutai Timur",
-      "kecamatan": "",
-      "province": "Kalimantan Timur",
-      "centroid": {
-        "latitude": 0.79733,
-        "longitude": 117.30986
-      },
-      "bounding_box": {
-        "min_lat": 0.77613,
-        "max_lat": 0.81936,
-        "min_lon": 117.2849,
-        "max_lon": 117.33645
-      },
-      "hotspot_count_24h": 19,
-      "days_detected_7d": 3,
-      "median_frp_mw": 1.56,
-      "risk_score": 54.2,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
-      "distance_to_settlement_km": 43.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 54.2,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (19 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_41",
-      "code": "Area Pantau 41",
-      "kabupaten": "Kabupaten Kapuas",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.06615,
-        "longitude": 114.17103
-      },
-      "bounding_box": {
-        "min_lat": -2.12976,
-        "max_lat": -2.02804,
-        "min_lon": 114.12853,
-        "max_lon": 114.22639
-      },
-      "hotspot_count_24h": 12,
-      "days_detected_7d": 5,
-      "median_frp_mw": 0.86,
-      "risk_score": 54.2,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Pahandut (Kota Palangka Raya)",
-      "distance_to_settlement_km": 32.4,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 54.2,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (12 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_42",
-      "code": "Area Pantau 42",
-      "kabupaten": "Kabupaten Kotawaringin Barat",
-      "kecamatan": "Kecamatan Arut Selatan",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.50648,
-        "longitude": 111.62057
-      },
-      "bounding_box": {
-        "min_lat": -2.55588,
-        "max_lat": -2.45709,
-        "min_lon": 111.59908,
-        "max_lon": 111.64205
-      },
-      "hotspot_count_24h": 8,
-      "days_detected_7d": 6,
-      "median_frp_mw": 0.88,
-      "risk_score": 53.6,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 19.9,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 53.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_43",
-      "code": "Area Pantau 43",
-      "kabupaten": "Kabupaten Pulang Pisau",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.35694,
-        "longitude": 113.92515
-      },
-      "bounding_box": {
-        "min_lat": -3.37939,
-        "max_lat": -3.32582,
-        "min_lon": 113.89766,
-        "max_lon": 113.98119
-      },
-      "hotspot_count_24h": 5,
-      "days_detected_7d": 6,
-      "median_frp_mw": 8.96,
-      "risk_score": 52.7,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Selat (Kabupaten Kapuas)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 52.7,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_44",
-      "code": "Area Pantau 44",
-      "kabupaten": "Kabupaten Katingan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.3394,
-        "longitude": 113.32611
-      },
-      "bounding_box": {
-        "min_lat": -2.3739,
-        "max_lat": -2.29233,
-        "min_lon": 113.30391,
-        "max_lon": 113.35139
-      },
-      "hotspot_count_24h": 6,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.73,
-      "risk_score": 51.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 51.1,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_45",
-      "code": "Area Pantau 45",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.79301,
-        "longitude": 112.64018
-      },
-      "bounding_box": {
-        "min_lat": -2.81874,
-        "max_lat": -2.74439,
-        "min_lon": 112.61275,
-        "max_lon": 112.70204
-      },
-      "hotspot_count_24h": 6,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.52,
-      "risk_score": 51.0,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 51.0,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_46",
-      "code": "Area Pantau 46",
-      "kabupaten": "Kabupaten Kapuas",
-      "kecamatan": "Kecamatan Selat",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.11197,
-        "longitude": 114.28135
-      },
-      "bounding_box": {
-        "min_lat": -3.12893,
-        "max_lat": -3.09501,
-        "min_lon": 114.26433,
-        "max_lon": 114.29838
-      },
-      "hotspot_count_24h": 4,
-      "days_detected_7d": 6,
-      "median_frp_mw": 2.49,
-      "risk_score": 48.6,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Selat (Kabupaten Kapuas)",
-      "distance_to_settlement_km": 16.1,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 48.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_47",
-      "code": "Area Pantau 47",
-      "kabupaten": "Kabupaten Lamandau",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -1.84414,
-        "longitude": 111.04436
-      },
-      "bounding_box": {
-        "min_lat": -1.88765,
-        "max_lat": -1.80207,
-        "min_lon": 111.01056,
-        "max_lon": 111.07981
-      },
-      "hotspot_count_24h": 4,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.27,
-      "risk_score": 48.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Hulu Sungai (Kabupaten Ketapang)",
-      "distance_to_settlement_km": 17.6,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 48.1,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_48",
-      "code": "Area Pantau 48",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.24869,
-        "longitude": 112.59112
-      },
-      "bounding_box": {
-        "min_lat": -3.28133,
-        "max_lat": -3.21466,
-        "min_lon": 112.56826,
-        "max_lon": 112.61492
-      },
-      "hotspot_count_24h": 4,
-      "days_detected_7d": 6,
-      "median_frp_mw": 1.31,
-      "risk_score": 48.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 48.1,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (6 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_49",
-      "code": "Area Pantau 49",
-      "kabupaten": "Kabupaten Tanah Bumbu",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -3.17828,
-        "longitude": 115.6893
-      },
-      "bounding_box": {
-        "min_lat": -3.23179,
-        "max_lat": -3.11206,
-        "min_lon": 115.65793,
-        "max_lon": 115.74198
-      },
-      "hotspot_count_24h": 11,
       "days_detected_7d": 4,
-      "median_frp_mw": 1.47,
-      "risk_score": 48.0,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Pulau Laut Utara (Kabupaten Kotabaru)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 48.0,
+      "median_frp_mw": 70.55,
+      "max_frp_mw": 99.01,
+      "base_risk_score": 77.0,
+      "risk_score": 77.0,
+      "priority_level": "P2 - Perhatian Meningkat",
+      "badge": "Perhatian Meningkat",
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Banjarbaru Selatan (Kota Banjarbaru)",
+      "distance_to_settlement_km": 79.4,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (11 catatan)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 01",
+      "id": "area_pantau_01"
     },
     {
-      "id": "area_pantau_50",
-      "code": "Area Pantau 50",
-      "kabupaten": "Kabupaten Kotabaru",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -3.76901,
-        "longitude": 116.14864
-      },
-      "bounding_box": {
-        "min_lat": -3.79048,
-        "max_lat": -3.74899,
-        "min_lon": 116.13088,
-        "max_lon": 116.16612
-      },
-      "hotspot_count_24h": 7,
-      "days_detected_7d": 5,
-      "median_frp_mw": 2.5,
-      "risk_score": 47.8,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Pulau Laut Utara (Kabupaten Kotabaru)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 47.8,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (5 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_51",
-      "code": "Area Pantau 51",
-      "kabupaten": "Kabupaten Tanah Laut",
-      "kecamatan": "Kecamatan Pelaihari",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -3.75793,
-        "longitude": 114.93645
-      },
-      "bounding_box": {
-        "min_lat": -3.79373,
-        "max_lat": -3.70117,
-        "min_lon": 114.91659,
-        "max_lon": 114.95946
-      },
-      "hotspot_count_24h": 11,
-      "days_detected_7d": 4,
-      "median_frp_mw": 0.54,
-      "risk_score": 47.6,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Pelaihari (Kabupaten Tanah Laut)",
-      "distance_to_settlement_km": 18.8,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 47.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (11 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_52",
-      "code": "Area Pantau 52",
-      "kabupaten": "Kabupaten Ketapang",
-      "kecamatan": "",
-      "province": "Kalimantan Barat",
-      "centroid": {
-        "latitude": -2.8915,
-        "longitude": 110.26308
-      },
-      "bounding_box": {
-        "min_lat": -2.94006,
-        "max_lat": -2.86592,
-        "min_lon": 110.23344,
-        "max_lon": 110.29967
-      },
-      "hotspot_count_24h": 6,
-      "days_detected_7d": 5,
-      "median_frp_mw": 1.23,
-      "risk_score": 45.9,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 45.9,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (5 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_53",
-      "code": "Area Pantau 53",
+      "cluster_id": 9,
+      "province": "Kalimantan Timur",
       "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara"
+      ],
       "kecamatan": "",
-      "province": "Kalimantan Timur",
+      "hotspots": [
+        {
+          "latitude": -0.0426,
+          "longitude": 116.30537,
+          "frp_mw": 33.04,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.04207,
+          "longitude": 116.30882,
+          "frp_mw": 28.04,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.01001,
+          "longitude": 116.36082,
+          "frp_mw": 16.59,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.01053,
+          "longitude": 116.36427,
+          "frp_mw": 15.7,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.03563,
+          "longitude": 116.48396,
+          "frp_mw": 10.97,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.0351,
+          "longitude": 116.4874,
+          "frp_mw": 10.97,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.01708,
+          "longitude": 116.45132,
+          "frp_mw": 9.46,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.0176,
+          "longitude": 116.45477,
+          "frp_mw": 7.77,
+          "confidence": "low",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.01044,
+          "longitude": 116.45233,
+          "frp_mw": 7.05,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.03126,
+          "longitude": 116.49034,
+          "frp_mw": 6.81,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.054,
+          "longitude": 116.36391,
+          "frp_mw": 6.34,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.01534,
+          "longitude": 116.46216,
+          "frp_mw": 5.42,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.00669,
+          "longitude": 116.36131,
+          "frp_mw": 5.31,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.00337,
+          "longitude": 116.36182,
+          "frp_mw": 5.31,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.06944,
+          "longitude": 116.44257,
+          "frp_mw": 5.16,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.02227,
+          "longitude": 116.39387,
+          "frp_mw": 5.01,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.02558,
+          "longitude": 116.39437,
+          "frp_mw": 5.01,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.02861,
+          "longitude": 116.46016,
+          "frp_mw": 4.48,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.02529,
+          "longitude": 116.46066,
+          "frp_mw": 4.48,
+          "confidence": "low",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.01097,
+          "longitude": 116.45578,
+          "frp_mw": 4.45,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.01481,
+          "longitude": 116.45872,
+          "frp_mw": 4.45,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.11582,
+          "longitude": 116.36865,
+          "frp_mw": 4.34,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.02568,
+          "longitude": 116.48245,
+          "frp_mw": 3.45,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.03458,
+          "longitude": 116.49084,
+          "frp_mw": 3.21,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.04489,
+          "longitude": 116.32655,
+          "frp_mw": 3.18,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.01374,
+          "longitude": 116.36089,
+          "frp_mw": 2.3,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": -1.03888,
-        "longitude": 116.85904
+        "latitude": 0.00563,
+        "longitude": 116.41554
       },
       "bounding_box": {
-        "min_lat": -1.06587,
-        "max_lat": -1.01196,
-        "min_lon": 116.83022,
-        "max_lon": 116.88108
+        "min_lat": -0.0576,
+        "max_lat": 0.13082,
+        "min_lon": 116.29037,
+        "max_lon": 116.50584
       },
-      "hotspot_count_24h": 16,
-      "days_detected_7d": 2,
-      "median_frp_mw": 2.16,
-      "risk_score": 45.3,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Balikpapan Kota (Kota Balikpapan)",
-      "distance_to_settlement_km": 25.4,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 45.3,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (16 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_54",
-      "code": "Area Pantau 54",
-      "kabupaten": "Kabupaten Tabalong",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -2.20095,
-        "longitude": 115.52808
-      },
-      "bounding_box": {
-        "min_lat": -2.23828,
-        "max_lat": -2.15903,
-        "min_lon": 115.47485,
-        "max_lon": 115.59748
-      },
-      "hotspot_count_24h": 5,
-      "days_detected_7d": 5,
-      "median_frp_mw": 1.61,
-      "risk_score": 44.7,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Tanah Grogot (Kabupaten Paser)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 44.7,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (5 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_55",
-      "code": "Area Pantau 55",
-      "kabupaten": "Kabupaten Kotawaringin Barat",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -3.01863,
-        "longitude": 111.87435
-      },
-      "bounding_box": {
-        "min_lat": -3.04469,
-        "max_lat": -2.98368,
-        "min_lon": 111.85075,
-        "max_lon": 111.89472
-      },
-      "hotspot_count_24h": 5,
-      "days_detected_7d": 5,
-      "median_frp_mw": 1.02,
-      "risk_score": 44.4,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 44.4,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (5 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_56",
-      "code": "Area Pantau 56",
-      "kabupaten": "Kabupaten Kotabaru",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -2.46659,
-        "longitude": 115.96934
-      },
-      "bounding_box": {
-        "min_lat": -2.50616,
-        "max_lat": -2.42219,
-        "min_lon": 115.88798,
-        "max_lon": 116.05766
-      },
-      "hotspot_count_24h": 8,
+      "hotspot_count_24h": 26,
       "days_detected_7d": 4,
-      "median_frp_mw": 0.77,
-      "risk_score": 43.5,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Tanah Grogot (Kabupaten Paser)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 43.5,
+      "median_frp_mw": 5.31,
+      "max_frp_mw": 33.04,
+      "base_risk_score": 65.7,
+      "risk_score": 65.7,
+      "priority_level": "P2 - Perhatian Meningkat",
+      "badge": "Perhatian Meningkat",
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Tenggarong (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 79.2,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (8 catatan)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 02",
+      "id": "area_pantau_02"
     },
     {
-      "id": "area_pantau_57",
-      "code": "Area Pantau 57",
-      "kabupaten": "Kota Palangka Raya",
-      "kecamatan": "Kecamatan Jekan Raya",
-      "province": "Kalimantan Tengah",
+      "cluster_id": 2,
+      "province": "Kalimantan Barat",
+      "kabupaten": "Kabupaten Ketapang",
+      "kabupaten_list": [
+        "Kabupaten Ketapang"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": -2.84124,
+          "longitude": 110.69538,
+          "frp_mw": 63.12,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.86592,
+          "longitude": 110.68147,
+          "frp_mw": 21.91,
+          "confidence": "high",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.83941,
+          "longitude": 110.6776,
+          "frp_mw": 20.23,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.84565,
+          "longitude": 110.69602,
+          "frp_mw": 17.23,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.84188,
+          "longitude": 110.6911,
+          "frp_mw": 16.41,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.8463,
+          "longitude": 110.69175,
+          "frp_mw": 15.43,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.82928,
+          "longitude": 110.68489,
+          "frp_mw": 14.39,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.86215,
+          "longitude": 110.67654,
+          "frp_mw": 14.06,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.85708,
+          "longitude": 110.68018,
+          "frp_mw": 9.93,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.86085,
+          "longitude": 110.6851,
+          "frp_mw": 9.93,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.8615,
+          "longitude": 110.68083,
+          "frp_mw": 9.93,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.86657,
+          "longitude": 110.6772,
+          "frp_mw": 9.67,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.86506,
+          "longitude": 110.68364,
+          "frp_mw": 9.11,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.86568,
+          "longitude": 110.67936,
+          "frp_mw": 9.11,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.8701,
+          "longitude": 110.68,
+          "frp_mw": 9.11,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.84448,
+          "longitude": 110.67396,
+          "frp_mw": 7.86,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.84006,
+          "longitude": 110.67331,
+          "frp_mw": 7.86,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.8663,
+          "longitude": 110.67506,
+          "frp_mw": 4.67,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": -2.27383,
-        "longitude": 113.80258
+        "latitude": -2.85386,
+        "longitude": 110.68241
       },
       "bounding_box": {
-        "min_lat": -2.31144,
-        "max_lat": -2.24872,
-        "min_lon": 113.77051,
-        "max_lon": 113.84162
+        "min_lat": -2.8851,
+        "max_lat": -2.81428,
+        "min_lon": 110.65831,
+        "max_lon": 110.71102
       },
-      "hotspot_count_24h": 4,
+      "hotspot_count_24h": 18,
       "days_detected_7d": 5,
-      "median_frp_mw": 1.47,
-      "risk_score": 43.2,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Jekan Raya (Kota Palangka Raya)",
-      "distance_to_settlement_km": 13.5,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 43.2,
+      "median_frp_mw": 9.93,
+      "max_frp_mw": 63.12,
+      "base_risk_score": 65.0,
+      "risk_score": 65.0,
+      "priority_level": "P2 - Perhatian Meningkat",
+      "badge": "Perhatian Meningkat",
+      "primary_factor": "Persistensi kebakaran tinggi (5 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
+      "distance_to_settlement_km": 106.0,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (5 dari 7 hari)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 03",
+      "id": "area_pantau_03"
     },
     {
-      "id": "area_pantau_58",
-      "code": "Area Pantau 58",
-      "kabupaten": "Kabupaten Kutai Timur",
-      "kecamatan": "",
+      "cluster_id": 11,
       "province": "Kalimantan Timur",
-      "centroid": {
-        "latitude": 1.06227,
-        "longitude": 117.67073
-      },
-      "bounding_box": {
-        "min_lat": 1.043,
-        "max_lat": 1.082,
-        "min_lon": 117.64901,
-        "max_lon": 117.69772
-      },
-      "hotspot_count_24h": 4,
-      "days_detected_7d": 5,
-      "median_frp_mw": 1.17,
-      "risk_score": 43.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 43.1,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (5 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_59",
-      "code": "Area Pantau 59",
-      "kabupaten": "Kabupaten Tanah Bumbu",
+      "kabupaten": "Kota Bontang",
+      "kabupaten_list": [
+        "Kota Bontang",
+        "Kabupaten Kutai Kartanegara"
+      ],
       "kecamatan": "",
-      "province": "Kalimantan Selatan",
+      "hotspots": [
+        {
+          "latitude": 0.10447,
+          "longitude": 117.46969,
+          "frp_mw": 12.65,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.10783,
+          "longitude": 117.46918,
+          "frp_mw": 12.65,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.0775,
+          "longitude": 117.46288,
+          "frp_mw": 6.81,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.02269,
+          "longitude": 117.46393,
+          "frp_mw": 5.25,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.031,
+          "longitude": 117.41506,
+          "frp_mw": 3.47,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.02765,
+          "longitude": 117.41456,
+          "frp_mw": 3.47,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": -3.18123,
-        "longitude": 115.51829
+        "latitude": 0.04231,
+        "longitude": 117.44922
       },
       "bounding_box": {
-        "min_lat": -3.21225,
-        "max_lat": -3.13881,
-        "min_lon": 115.47102,
-        "max_lon": 115.55022
-      },
-      "hotspot_count_24h": 4,
-      "days_detected_7d": 5,
-      "median_frp_mw": 0.61,
-      "risk_score": 42.9,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Pulau Laut Utara (Kabupaten Kotabaru)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 42.9,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (5 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_60",
-      "code": "Area Pantau 60",
-      "kabupaten": "Kabupaten Kapuas",
-      "kecamatan": "Kecamatan Selat",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.73219,
-        "longitude": 114.41539
-      },
-      "bounding_box": {
-        "min_lat": -2.75276,
-        "max_lat": -2.71211,
-        "min_lon": 114.39468,
-        "max_lon": 114.43688
-      },
-      "hotspot_count_24h": 14,
-      "days_detected_7d": 2,
-      "median_frp_mw": 1.67,
-      "risk_score": 42.3,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Kahayan Hilir (Kabupaten Pulang Pisau)",
-      "distance_to_settlement_km": 18.4,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 42.3,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (14 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_61",
-      "code": "Area Pantau 61",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.65283,
-        "longitude": 112.3689
-      },
-      "bounding_box": {
-        "min_lat": -2.67425,
-        "max_lat": -2.63253,
-        "min_lon": 112.34388,
-        "max_lon": 112.39006
+        "min_lat": -0.046,
+        "max_lat": 0.12283,
+        "min_lon": 117.39956,
+        "max_lon": 117.48469
       },
       "hotspot_count_24h": 6,
-      "days_detected_7d": 4,
-      "median_frp_mw": 0.76,
-      "risk_score": 40.7,
+      "days_detected_7d": 5,
+      "median_frp_mw": 6.03,
+      "max_frp_mw": 12.65,
+      "base_risk_score": 53.4,
+      "risk_score": 53.4,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 40.7,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (6 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_62",
-      "code": "Area Pantau 62",
-      "kabupaten": "Kabupaten Bulungan",
-      "kecamatan": "",
-      "province": "Kalimantan Utara",
-      "centroid": {
-        "latitude": 3.27163,
-        "longitude": 117.09405
-      },
-      "bounding_box": {
-        "min_lat": 3.2522,
-        "max_lat": 3.29105,
-        "min_lon": 117.07834,
-        "max_lon": 117.10974
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 2,
-      "median_frp_mw": 32.56,
-      "risk_score": 39.8,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Tanjung Selor (Kabupaten Bulungan)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 39.8,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_63",
-      "code": "Area Pantau 63",
-      "kabupaten": "Kabupaten Kutai Timur",
-      "kecamatan": "",
-      "province": "Kalimantan Timur",
-      "centroid": {
-        "latitude": 1.145,
-        "longitude": 117.73978
-      },
-      "bounding_box": {
-        "min_lat": 1.07923,
-        "max_lat": 1.18022,
-        "min_lon": 117.70682,
-        "max_lon": 117.77718
-      },
-      "hotspot_count_24h": 5,
-      "days_detected_7d": 4,
-      "median_frp_mw": 0.94,
-      "risk_score": 39.4,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (5 dari 7 hari)",
       "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 39.4,
+      "distance_to_settlement_km": 51.6,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (4 dari 7 hari)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 04",
+      "id": "area_pantau_04"
     },
     {
-      "id": "area_pantau_64",
-      "code": "Area Pantau 64",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.3284,
-        "longitude": 112.21336
-      },
-      "bounding_box": {
-        "min_lat": -2.35721,
-        "max_lat": -2.30251,
-        "min_lon": 112.19445,
-        "max_lon": 112.23599
-      },
-      "hotspot_count_24h": 5,
-      "days_detected_7d": 4,
-      "median_frp_mw": 0.66,
-      "risk_score": 39.3,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 39.3,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (4 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_65",
-      "code": "Area Pantau 65",
-      "kabupaten": "Kota Banjarbaru",
-      "kecamatan": "Kecamatan Banjarbaru Selatan",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -3.39796,
-        "longitude": 114.76329
-      },
-      "bounding_box": {
-        "min_lat": -3.41546,
-        "max_lat": -3.37977,
-        "min_lon": 114.71987,
-        "max_lon": 114.79346
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 4,
-      "median_frp_mw": 4.73,
-      "risk_score": 38.2,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Banjarbaru Selatan (Kota Banjarbaru)",
-      "distance_to_settlement_km": 8.9,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 38.2,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (4 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_66",
-      "code": "Area Pantau 66",
-      "kabupaten": "Kabupaten Katingan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -1.56456,
-        "longitude": 113.25127
-      },
-      "bounding_box": {
-        "min_lat": -1.6096,
-        "max_lat": -1.53463,
-        "min_lon": 113.22485,
-        "max_lon": 113.28059
-      },
-      "hotspot_count_24h": 7,
-      "days_detected_7d": 3,
-      "median_frp_mw": 2.41,
-      "risk_score": 37.8,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Katingan Hilir (Kabupaten Katingan)",
-      "distance_to_settlement_km": 39.6,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 37.8,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (7 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_67",
-      "code": "Area Pantau 67",
-      "kabupaten": "Kabupaten Banjar",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -3.26803,
-        "longitude": 114.97809
-      },
-      "bounding_box": {
-        "min_lat": -3.30801,
-        "max_lat": -3.2317,
-        "min_lon": 114.95252,
-        "max_lon": 115.00413
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 4,
-      "median_frp_mw": 0.91,
-      "risk_score": 36.6,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Banjarbaru Selatan (Kota Banjarbaru)",
-      "distance_to_settlement_km": 25.2,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 36.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (4 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_68",
-      "code": "Area Pantau 68",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -1.92901,
-        "longitude": 112.25567
-      },
-      "bounding_box": {
-        "min_lat": -1.97027,
-        "max_lat": -1.89947,
-        "min_lon": 112.22786,
-        "max_lon": 112.29221
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 4,
-      "median_frp_mw": 0.57,
-      "risk_score": 36.4,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 36.4,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Konsistensi deteksi tinggi (4 dari 7 hari)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_69",
-      "code": "Area Pantau 69",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.88103,
-        "longitude": 112.25276
-      },
-      "bounding_box": {
-        "min_lat": -2.91348,
-        "max_lat": -2.85496,
-        "min_lon": 112.22633,
-        "max_lon": 112.27201
-      },
-      "hotspot_count_24h": 5,
-      "days_detected_7d": 3,
-      "median_frp_mw": 2.61,
-      "risk_score": 35.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 35.1,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (5 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_70",
-      "code": "Area Pantau 70",
-      "kabupaten": "Kabupaten Katingan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.94439,
-        "longitude": 113.61866
-      },
-      "bounding_box": {
-        "min_lat": -2.96648,
-        "max_lat": -2.9243,
-        "min_lon": 113.59737,
-        "max_lon": 113.63965
-      },
-      "hotspot_count_24h": 5,
-      "days_detected_7d": 3,
-      "median_frp_mw": 1.49,
-      "risk_score": 34.6,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Kahayan Hilir (Kabupaten Pulang Pisau)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 34.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (5 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_71",
-      "code": "Area Pantau 71",
-      "kabupaten": "Kabupaten Kutai Timur",
-      "kecamatan": "",
+      "cluster_id": 21,
       "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": 1.0416,
+          "longitude": 117.16441,
+          "frp_mw": 5.94,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 1.05729,
+          "longitude": 117.15482,
+          "frp_mw": 4.03,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 1.0871,
+          "longitude": 117.21528,
+          "frp_mw": 1.66,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": 0.98642,
-        "longitude": 117.2154
+        "latitude": 1.062,
+        "longitude": 117.17817
       },
       "bounding_box": {
-        "min_lat": 0.96698,
-        "max_lat": 1.00427,
-        "min_lon": 117.19762,
-        "max_lon": 117.23372
+        "min_lat": 1.0266,
+        "max_lat": 1.1021,
+        "min_lon": 117.13982,
+        "max_lon": 117.23028
+      },
+      "hotspot_count_24h": 3,
+      "days_detected_7d": 4,
+      "median_frp_mw": 4.03,
+      "max_frp_mw": 5.94,
+      "base_risk_score": 50.7,
+      "risk_score": 50.7,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 75.5,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 05",
+      "id": "area_pantau_05"
+    },
+    {
+      "cluster_id": 8,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": -0.00794,
+          "longitude": 117.26334,
+          "frp_mw": 24.4,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.00513,
+          "longitude": 117.25934,
+          "frp_mw": 24.4,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.04931,
+          "longitude": 117.27391,
+          "frp_mw": 5.34,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.01897,
+          "longitude": 117.32738,
+          "frp_mw": 3.06,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": -0.01085,
+        "longitude": 117.28099
+      },
+      "bounding_box": {
+        "min_lat": -0.06431,
+        "max_lat": 0.03397,
+        "min_lon": 117.24434,
+        "max_lon": 117.34238
       },
       "hotspot_count_24h": 4,
       "days_detected_7d": 3,
-      "median_frp_mw": 3.42,
+      "median_frp_mw": 14.87,
+      "max_frp_mw": 24.4,
+      "base_risk_score": 47.9,
+      "risk_score": 47.9,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (3 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Tenggarong (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 56.3,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 06",
+      "id": "area_pantau_06"
+    },
+    {
+      "cluster_id": 13,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": 0.26149,
+          "longitude": 116.8116,
+          "frp_mw": 9.81,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.26096,
+          "longitude": 116.80814,
+          "frp_mw": 6.56,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.24464,
+          "longitude": 116.76817,
+          "frp_mw": 6.13,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.24796,
+          "longitude": 116.76767,
+          "frp_mw": 5.49,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.25045,
+          "longitude": 116.80619,
+          "frp_mw": 4.65,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.25098,
+          "longitude": 116.80965,
+          "frp_mw": 4.65,
+          "confidence": "low",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.25378,
+          "longitude": 116.80569,
+          "frp_mw": 4.14,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.25431,
+          "longitude": 116.80916,
+          "frp_mw": 4.14,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.25763,
+          "longitude": 116.80865,
+          "frp_mw": 4.14,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.25484,
+          "longitude": 116.81261,
+          "frp_mw": 3.02,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.25816,
+          "longitude": 116.81211,
+          "frp_mw": 3.02,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": 0.25411,
+        "longitude": 116.80179
+      },
+      "bounding_box": {
+        "min_lat": 0.22964,
+        "max_lat": 0.27649,
+        "min_lon": 116.75267,
+        "max_lon": 116.82761
+      },
+      "hotspot_count_24h": 11,
+      "days_detected_7d": 3,
+      "median_frp_mw": 4.65,
+      "max_frp_mw": 9.81,
+      "base_risk_score": 46.7,
+      "risk_score": 46.7,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (3 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Tenggarong (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 77.8,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 07",
+      "id": "area_pantau_07"
+    },
+    {
+      "cluster_id": 4,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara",
+        "Kabupaten Kutai Barat"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": -0.45472,
+          "longitude": 116.28574,
+          "frp_mw": 5.52,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.49326,
+          "longitude": 116.34441,
+          "frp_mw": 4.02,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.49378,
+          "longitude": 116.34097,
+          "frp_mw": 3.85,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.50684,
+          "longitude": 116.34305,
+          "frp_mw": 3.3,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.48662,
+          "longitude": 116.34341,
+          "frp_mw": 3.21,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": -0.48704,
+        "longitude": 116.33152
+      },
+      "bounding_box": {
+        "min_lat": -0.52184,
+        "max_lat": -0.43972,
+        "min_lon": 116.27074,
+        "max_lon": 116.35941
+      },
+      "hotspot_count_24h": 5,
+      "days_detected_7d": 3,
+      "median_frp_mw": 3.85,
+      "max_frp_mw": 5.52,
+      "base_risk_score": 43.0,
+      "risk_score": 43.0,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (3 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Tenggarong (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 73.1,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 08",
+      "id": "area_pantau_08"
+    },
+    {
+      "cluster_id": 19,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": 0.98059,
+          "longitude": 117.20261,
+          "frp_mw": 10.88,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.91455,
+          "longitude": 117.18797,
+          "frp_mw": 5.92,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.98113,
+          "longitude": 117.20613,
+          "frp_mw": 3.09,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.91401,
+          "longitude": 117.18446,
+          "frp_mw": 2.76,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": 0.94757,
+        "longitude": 117.19529
+      },
+      "bounding_box": {
+        "min_lat": 0.89901,
+        "max_lat": 0.99613,
+        "min_lon": 117.16946,
+        "max_lon": 117.22113
+      },
+      "hotspot_count_24h": 4,
+      "days_detected_7d": 3,
+      "median_frp_mw": 4.5,
+      "max_frp_mw": 10.88,
+      "base_risk_score": 42.7,
+      "risk_score": 42.7,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (3 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 64.0,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 09",
+      "id": "area_pantau_09"
+    },
+    {
+      "cluster_id": 16,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": 0.56782,
+          "longitude": 116.51602,
+          "frp_mw": 10.1,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.57393,
+          "longitude": 116.51157,
+          "frp_mw": 10.03,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.57724,
+          "longitude": 116.51106,
+          "frp_mw": 10.03,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.57672,
+          "longitude": 116.50762,
+          "frp_mw": 10.03,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.5734,
+          "longitude": 116.50813,
+          "frp_mw": 10.03,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.56902,
+          "longitude": 116.50172,
+          "frp_mw": 8.35,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.5657,
+          "longitude": 116.50222,
+          "frp_mw": 8.35,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.55959,
+          "longitude": 116.50668,
+          "frp_mw": 5.57,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.56238,
+          "longitude": 116.50273,
+          "frp_mw": 5.57,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.56291,
+          "longitude": 116.50617,
+          "frp_mw": 5.57,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.57061,
+          "longitude": 116.51207,
+          "frp_mw": 5.31,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.58003,
+          "longitude": 116.50711,
+          "frp_mw": 4.04,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.58056,
+          "longitude": 116.51057,
+          "frp_mw": 4.04,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.55839,
+          "longitude": 116.52098,
+          "frp_mw": 3.92,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.55507,
+          "longitude": 116.52147,
+          "frp_mw": 3.92,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.57219,
+          "longitude": 116.52242,
+          "frp_mw": 2.78,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.56887,
+          "longitude": 116.52292,
+          "frp_mw": 2.78,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": 0.56908,
+        "longitude": 116.51126
+      },
+      "bounding_box": {
+        "min_lat": 0.54007,
+        "max_lat": 0.59556,
+        "min_lon": 116.48672,
+        "max_lon": 116.53792
+      },
+      "hotspot_count_24h": 17,
+      "days_detected_7d": 2,
+      "median_frp_mw": 5.57,
+      "max_frp_mw": 10.1,
+      "base_risk_score": 41.8,
+      "risk_score": 41.8,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Kerapatan deteksi tinggi (17 titik panas satelit)",
+      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 115.9,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 10",
+      "id": "area_pantau_10"
+    },
+    {
+      "cluster_id": 7,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": -0.12438,
+          "longitude": 116.41298,
+          "frp_mw": 7.86,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.10221,
+          "longitude": 116.40258,
+          "frp_mw": 7.82,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.10168,
+          "longitude": 116.40603,
+          "frp_mw": 7.82,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.10116,
+          "longitude": 116.40947,
+          "frp_mw": 3.66,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.10832,
+          "longitude": 116.40702,
+          "frp_mw": 1.33,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": -0.10755,
+        "longitude": 116.40762
+      },
+      "bounding_box": {
+        "min_lat": -0.13938,
+        "max_lat": -0.08616,
+        "min_lon": 116.38758,
+        "max_lon": 116.42798
+      },
+      "hotspot_count_24h": 5,
+      "days_detected_7d": 2,
+      "median_frp_mw": 7.82,
+      "max_frp_mw": 7.86,
+      "base_risk_score": 36.2,
+      "risk_score": 36.2,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (2 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Tenggarong (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 73.1,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 11",
+      "id": "area_pantau_11"
+    },
+    {
+      "cluster_id": 12,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur",
+        "Kabupaten Kutai Kartanegara"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": 0.0819,
+          "longitude": 116.74133,
+          "frp_mw": 5.49,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.08522,
+          "longitude": 116.74083,
+          "frp_mw": 5.49,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.07367,
+          "longitude": 116.73198,
+          "frp_mw": 5.38,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.04882,
+          "longitude": 116.72512,
+          "frp_mw": 2.82,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.04935,
+          "longitude": 116.72858,
+          "frp_mw": 2.82,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": 0.06779,
+        "longitude": 116.73357
+      },
+      "bounding_box": {
+        "min_lat": 0.03382,
+        "max_lat": 0.10022,
+        "min_lon": 116.71012,
+        "max_lon": 116.75633
+      },
+      "hotspot_count_24h": 5,
+      "days_detected_7d": 2,
+      "median_frp_mw": 5.38,
+      "max_frp_mw": 5.49,
+      "base_risk_score": 35.0,
+      "risk_score": 35.0,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (2 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Tenggarong (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 61.2,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 12",
+      "id": "area_pantau_12"
+    },
+    {
+      "cluster_id": 10,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": -0.02935,
+          "longitude": 116.72296,
+          "frp_mw": 5.72,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.02882,
+          "longitude": 116.72642,
+          "frp_mw": 5.72,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.02194,
+          "longitude": 116.77128,
+          "frp_mw": 5.63,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": -0.0267,
+        "longitude": 116.74022
+      },
+      "bounding_box": {
+        "min_lat": -0.04435,
+        "max_lat": -0.00694,
+        "min_lon": 116.70796,
+        "max_lon": 116.78628
+      },
+      "hotspot_count_24h": 3,
+      "days_detected_7d": 2,
+      "median_frp_mw": 5.72,
+      "max_frp_mw": 5.72,
+      "base_risk_score": 34.0,
       "risk_score": 34.0,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 34.0,
+      "primary_factor": "Persistensi kebakaran tinggi (2 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Tenggarong (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 51.7,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (4 catatan)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 13",
+      "id": "area_pantau_13"
     },
     {
-      "id": "area_pantau_72",
-      "code": "Area Pantau 72",
-      "kabupaten": "Kabupaten Barito Selatan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.31966,
-        "longitude": 114.68714
-      },
-      "bounding_box": {
-        "min_lat": -2.33557,
-        "max_lat": -2.30374,
-        "min_lon": 114.6703,
-        "max_lon": 114.70397
-      },
-      "hotspot_count_24h": 4,
-      "days_detected_7d": 3,
-      "median_frp_mw": 1.23,
-      "risk_score": 33.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Kahayan Hilir (Kabupaten Pulang Pisau)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 33.1,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (4 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_73",
-      "code": "Area Pantau 73",
-      "kabupaten": "Kabupaten Kotabaru",
-      "kecamatan": "",
+      "cluster_id": 1,
       "province": "Kalimantan Selatan",
+      "kabupaten": "Kabupaten Kotabaru",
+      "kabupaten_list": [
+        "Kabupaten Kotabaru"
+      ],
+      "kecamatan": "Kecamatan Pulau Laut Utara",
+      "hotspots": [
+        {
+          "latitude": -3.42868,
+          "longitude": 116.25512,
+          "frp_mw": 9.81,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.43617,
+          "longitude": 116.26364,
+          "frp_mw": 4.73,
+          "confidence": "low",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.43429,
+          "longitude": 116.26314,
+          "frp_mw": 3.63,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.43095,
+          "longitude": 116.26263,
+          "frp_mw": 3.63,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": -2.69785,
-        "longitude": 115.9232
+        "latitude": -3.43252,
+        "longitude": 116.26113
       },
       "bounding_box": {
-        "min_lat": -2.73396,
-        "max_lat": -2.65279,
-        "min_lon": 115.89278,
-        "max_lon": 115.94532
+        "min_lat": -3.45117,
+        "max_lat": -3.41368,
+        "min_lon": 116.24012,
+        "max_lon": 116.27864
       },
       "hotspot_count_24h": 4,
-      "days_detected_7d": 3,
-      "median_frp_mw": 1.26,
-      "risk_score": 33.1,
+      "days_detected_7d": 2,
+      "median_frp_mw": 4.18,
+      "max_frp_mw": 9.81,
+      "base_risk_score": 33.8,
+      "risk_score": 33.8,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (2 dari 7 hari)",
       "nearest_settlement": "Kecamatan Pulau Laut Utara (Kabupaten Kotabaru)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 33.1,
+      "distance_to_settlement_km": 15.9,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (4 catatan)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 14",
+      "id": "area_pantau_14"
     },
     {
-      "id": "area_pantau_74",
-      "code": "Area Pantau 74",
-      "kabupaten": "Kabupaten Kotabaru",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -2.44047,
-        "longitude": 116.26001
-      },
-      "bounding_box": {
-        "min_lat": -2.45864,
-        "max_lat": -2.42378,
-        "min_lon": 116.24009,
-        "max_lon": 116.27818
-      },
-      "hotspot_count_24h": 4,
-      "days_detected_7d": 3,
-      "median_frp_mw": 1.07,
-      "risk_score": 33.0,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Tanah Grogot (Kabupaten Paser)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 33.0,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (4 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_75",
-      "code": "Area Pantau 75",
-      "kabupaten": "Kabupaten Kotawaringin Timur",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -1.39002,
-        "longitude": 112.80376
-      },
-      "bounding_box": {
-        "min_lat": -1.45975,
-        "max_lat": -1.32389,
-        "min_lon": 112.78043,
-        "max_lon": 112.82948
-      },
-      "hotspot_count_24h": 4,
-      "days_detected_7d": 3,
-      "median_frp_mw": 0.85,
-      "risk_score": 33.0,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Katingan Hilir (Kabupaten Katingan)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 33.0,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (4 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_76",
-      "code": "Area Pantau 76",
-      "kabupaten": "Kabupaten Barito Kuala",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -2.81317,
-        "longitude": 114.66716
-      },
-      "bounding_box": {
-        "min_lat": -2.86356,
-        "max_lat": -2.77829,
-        "min_lon": 114.64022,
-        "max_lon": 114.69354
-      },
-      "hotspot_count_24h": 4,
-      "days_detected_7d": 3,
-      "median_frp_mw": 0.73,
-      "risk_score": 32.9,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Selat (Kabupaten Kapuas)",
-      "distance_to_settlement_km": 38.3,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 32.9,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (4 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_77",
-      "code": "Area Pantau 77",
-      "kabupaten": "Kabupaten Kotawaringin Timur",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -1.70152,
-        "longitude": 112.47203
-      },
-      "bounding_box": {
-        "min_lat": -1.71783,
-        "max_lat": -1.68447,
-        "min_lon": 112.4545,
-        "max_lon": 112.48856
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 3,
-      "median_frp_mw": 1.38,
-      "risk_score": 31.8,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Katingan Hilir (Kabupaten Katingan)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 31.8,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_78",
-      "code": "Area Pantau 78",
-      "kabupaten": "Kabupaten Lamandau",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -2.01901,
-        "longitude": 111.41947
-      },
-      "bounding_box": {
-        "min_lat": -2.03496,
-        "max_lat": -2.00272,
-        "min_lon": 111.40208,
-        "max_lon": 111.43582
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 3,
-      "median_frp_mw": 1.1,
-      "risk_score": 31.7,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Hulu Sungai (Kabupaten Ketapang)",
-      "distance_to_settlement_km": 32.7,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 31.7,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_79",
-      "code": "Area Pantau 79",
-      "kabupaten": "Kabupaten Kutai Timur",
-      "kecamatan": "Kecamatan Sangatta Utara",
+      "cluster_id": 6,
       "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara",
+        "Kota Samarinda"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": -0.35379,
+          "longitude": 117.25703,
+          "frp_mw": 3.54,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.35045,
+          "longitude": 117.25652,
+          "frp_mw": 3.54,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.33936,
+          "longitude": 117.262,
+          "frp_mw": 3.35,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.38322,
+          "longitude": 117.21512,
+          "frp_mw": 3.32,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": 0.61231,
-        "longitude": 117.44641
+        "latitude": -0.3567,
+        "longitude": 117.24767
       },
       "bounding_box": {
-        "min_lat": 0.55555,
-        "max_lat": 0.67242,
-        "min_lon": 117.42598,
-        "max_lon": 117.46932
+        "min_lat": -0.39822,
+        "max_lat": -0.32436,
+        "min_lon": 117.20012,
+        "max_lon": 117.277
       },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 3,
-      "median_frp_mw": 0.8,
-      "risk_score": 31.5,
+      "hotspot_count_24h": 4,
+      "days_detected_7d": 2,
+      "median_frp_mw": 3.45,
+      "max_frp_mw": 3.54,
+      "base_risk_score": 33.5,
+      "risk_score": 33.5,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
-      "distance_to_settlement_km": 17.5,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 31.5,
+      "primary_factor": "Persistensi kebakaran tinggi (2 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Samarinda Kota (Kota Samarinda)",
+      "distance_to_settlement_km": 19.3,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 15",
+      "id": "area_pantau_15"
     },
     {
-      "id": "area_pantau_80",
-      "code": "Area Pantau 80",
-      "kabupaten": "Kabupaten Seruyan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
+      "cluster_id": 5,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kota Samarinda",
+      "kabupaten_list": [
+        "Kota Samarinda"
+      ],
+      "kecamatan": "Kecamatan Samarinda Kota",
+      "hotspots": [
+        {
+          "latitude": -0.47596,
+          "longitude": 117.24786,
+          "frp_mw": 30.04,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.47542,
+          "longitude": 117.25134,
+          "frp_mw": 30.04,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.48264,
+          "longitude": 117.24887,
+          "frp_mw": 16.64,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.4793,
+          "longitude": 117.24837,
+          "frp_mw": 16.64,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.47876,
+          "longitude": 117.25186,
+          "frp_mw": 16.64,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.47822,
+          "longitude": 117.25535,
+          "frp_mw": 4.97,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": -3.45233,
-        "longitude": 111.99369
+        "latitude": -0.47838,
+        "longitude": 117.25061
       },
       "bounding_box": {
-        "min_lat": -3.46864,
-        "max_lat": -3.43528,
-        "min_lon": 111.97615,
-        "max_lon": 112.01023
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 3,
-      "median_frp_mw": 0.55,
-      "risk_score": 31.4,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Arut Selatan (Kabupaten Kotawaringin Barat)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 31.4,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_81",
-      "code": "Area Pantau 81",
-      "kabupaten": "Kabupaten Kotabaru",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -3.06661,
-        "longitude": 115.85217
-      },
-      "bounding_box": {
-        "min_lat": -3.0864,
-        "max_lat": -3.04711,
-        "min_lon": 115.83117,
-        "max_lon": 115.87432
+        "min_lat": -0.49764,
+        "max_lat": -0.46042,
+        "min_lon": 117.23286,
+        "max_lon": 117.27035
       },
       "hotspot_count_24h": 6,
-      "days_detected_7d": 2,
-      "median_frp_mw": 1.42,
-      "risk_score": 31.0,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Pulau Laut Utara (Kabupaten Kotabaru)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 31.0,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (6 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_82",
-      "code": "Area Pantau 82",
-      "kabupaten": "Kabupaten Kutai Barat",
-      "kecamatan": "",
-      "province": "Kalimantan Timur",
-      "centroid": {
-        "latitude": -0.53688,
-        "longitude": 116.22957
-      },
-      "bounding_box": {
-        "min_lat": -0.55586,
-        "max_lat": -0.51885,
-        "min_lon": 116.21053,
-        "max_lon": 116.24938
-      },
-      "hotspot_count_24h": 7,
       "days_detected_7d": 1,
-      "median_frp_mw": 9.32,
-      "risk_score": 30.7,
+      "median_frp_mw": 16.64,
+      "max_frp_mw": 30.04,
+      "base_risk_score": 32.4,
+      "risk_score": 32.4,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Tenggarong (Kabupaten Kutai Kartanegara)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 30.7,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (7 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_83",
-      "code": "Area Pantau 83",
-      "kabupaten": "Kabupaten Kotabaru",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -2.57768,
-        "longitude": 115.97204
-      },
-      "bounding_box": {
-        "min_lat": -2.59592,
-        "max_lat": -2.56098,
-        "min_lon": 115.94616,
-        "max_lon": 116.00771
-      },
-      "hotspot_count_24h": 4,
-      "days_detected_7d": 2,
-      "median_frp_mw": 0.82,
-      "risk_score": 27.9,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Tanah Grogot (Kabupaten Paser)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 27.9,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (4 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_84",
-      "code": "Area Pantau 84",
-      "kabupaten": "Kabupaten Kutai Kartanegara",
-      "kecamatan": "",
-      "province": "Kalimantan Timur",
-      "centroid": {
-        "latitude": -0.14982,
-        "longitude": 117.39973
-      },
-      "bounding_box": {
-        "min_lat": -0.16861,
-        "max_lat": -0.12905,
-        "min_lon": 117.36501,
-        "max_lon": 117.45187
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 2,
-      "median_frp_mw": 1.35,
-      "risk_score": 26.8,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
+      "primary_factor": "Kerapatan deteksi tinggi (6 titik panas satelit)",
       "nearest_settlement": "Kecamatan Samarinda Kota (Kota Samarinda)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 26.8,
+      "distance_to_settlement_km": 11.1,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 16",
+      "id": "area_pantau_16"
     },
     {
-      "id": "area_pantau_85",
-      "code": "Area Pantau 85",
-      "kabupaten": "Kabupaten Kotawaringin Timur",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -1.5701,
-        "longitude": 112.44063
-      },
-      "bounding_box": {
-        "min_lat": -1.58715,
-        "max_lat": -1.55379,
-        "min_lon": 112.4241,
-        "max_lon": 112.45815
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 2,
-      "median_frp_mw": 1.1,
-      "risk_score": 26.7,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Katingan Hilir (Kabupaten Katingan)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 26.7,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_86",
-      "code": "Area Pantau 86",
-      "kabupaten": "Kabupaten Katingan",
-      "kecamatan": "",
-      "province": "Kalimantan Tengah",
-      "centroid": {
-        "latitude": -1.25329,
-        "longitude": 113.17081
-      },
-      "bounding_box": {
-        "min_lat": -1.27976,
-        "max_lat": -1.23089,
-        "min_lon": 113.14927,
-        "max_lon": 113.18934
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 2,
-      "median_frp_mw": 1.01,
-      "risk_score": 26.6,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Katingan Hilir (Kabupaten Katingan)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 26.6,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_87",
-      "code": "Area Pantau 87",
-      "kabupaten": "Kabupaten Paser",
-      "kecamatan": "",
+      "cluster_id": 15,
       "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": 0.42512,
+          "longitude": 116.64442,
+          "frp_mw": 9.8,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.42506,
+          "longitude": 116.57738,
+          "frp_mw": 8.21,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.42559,
+          "longitude": 116.58084,
+          "frp_mw": 6.74,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": -1.45197,
-        "longitude": 115.89614
+        "latitude": 0.42526,
+        "longitude": 116.60088
       },
       "bounding_box": {
-        "min_lat": -1.46757,
-        "max_lat": -1.43638,
-        "min_lon": 115.87734,
-        "max_lon": 115.91496
+        "min_lat": 0.41006,
+        "max_lat": 0.44059,
+        "min_lon": 116.56238,
+        "max_lon": 116.65942
       },
       "hotspot_count_24h": 3,
-      "days_detected_7d": 2,
-      "median_frp_mw": 0.64,
+      "days_detected_7d": 1,
+      "median_frp_mw": 8.21,
+      "max_frp_mw": 9.8,
+      "base_risk_score": 26.5,
       "risk_score": 26.5,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Tanah Grogot (Kabupaten Paser)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 26.5,
+      "primary_factor": "Kerapatan deteksi tinggi (3 titik panas satelit)",
+      "nearest_settlement": "Kecamatan Tenggarong (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 103.4,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 17",
+      "id": "area_pantau_17"
     },
     {
-      "id": "area_pantau_88",
-      "code": "Area Pantau 88",
-      "kabupaten": "Kabupaten Kutai Kartanegara",
-      "kecamatan": "",
+      "cluster_id": 18,
       "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": 0.66906,
+          "longitude": 117.1544,
+          "frp_mw": 22.33,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.66648,
+          "longitude": 117.11527,
+          "frp_mw": 8.56,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.67155,
+          "longitude": 117.10376,
+          "frp_mw": 5.76,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.7394,
+          "longitude": 117.10728,
+          "frp_mw": 4.61,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.64737,
+          "longitude": 117.14687,
+          "frp_mw": 3.29,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": -0.05238,
-        "longitude": 117.4005
+        "latitude": 0.67877,
+        "longitude": 117.12552
       },
       "bounding_box": {
-        "min_lat": -0.06957,
-        "max_lat": -0.0352,
-        "min_lon": 117.38302,
-        "max_lon": 117.41796
+        "min_lat": 0.63237,
+        "max_lat": 0.7544,
+        "min_lon": 117.08876,
+        "max_lon": 117.1694
+      },
+      "hotspot_count_24h": 5,
+      "days_detected_7d": 1,
+      "median_frp_mw": 5.76,
+      "max_frp_mw": 22.33,
+      "base_risk_score": 26.4,
+      "risk_score": 26.4,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Kerapatan deteksi tinggi (5 titik panas satelit)",
+      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 51.6,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 18",
+      "id": "area_pantau_18"
+    },
+    {
+      "cluster_id": 17,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": 0.58512,
+          "longitude": 116.65115,
+          "frp_mw": 14.77,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.63973,
+          "longitude": 116.67758,
+          "frp_mw": 5.94,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.64305,
+          "longitude": 116.67708,
+          "frp_mw": 5.94,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.54003,
+          "longitude": 116.6898,
+          "frp_mw": 3.99,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": 0.60198,
+        "longitude": 116.6739
+      },
+      "bounding_box": {
+        "min_lat": 0.52503,
+        "max_lat": 0.65805,
+        "min_lon": 116.63615,
+        "max_lon": 116.7048
       },
       "hotspot_count_24h": 4,
       "days_detected_7d": 1,
-      "median_frp_mw": 1.3,
-      "risk_score": 23.1,
+      "median_frp_mw": 5.94,
+      "max_frp_mw": 14.77,
+      "base_risk_score": 26.0,
+      "risk_score": 26.0,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Samarinda Kota (Kota Samarinda)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 23.1,
+      "primary_factor": "Kerapatan deteksi tinggi (4 titik panas satelit)",
+      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 98.3,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (4 catatan)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 19",
+      "id": "area_pantau_19"
     },
     {
-      "id": "area_pantau_89",
-      "code": "Area Pantau 89",
-      "kabupaten": "Kabupaten Kotawaringin Timur",
+      "cluster_id": 20,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
       "kecamatan": "",
-      "province": "Kalimantan Tengah",
+      "hotspots": [
+        {
+          "latitude": 0.98465,
+          "longitude": 117.0724,
+          "frp_mw": 6.59,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.98799,
+          "longitude": 117.0719,
+          "frp_mw": 6.59,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 1.0213,
+          "longitude": 117.03089,
+          "frp_mw": 3.95,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:55",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": -2.9458,
-        "longitude": 112.91903
+        "latitude": 0.99798,
+        "longitude": 117.0584
       },
       "bounding_box": {
-        "min_lat": -2.9632,
-        "max_lat": -2.92932,
-        "min_lon": 112.9019,
-        "max_lon": 112.93536
+        "min_lat": 0.96965,
+        "max_lat": 1.0363,
+        "min_lon": 117.01589,
+        "max_lon": 117.0874
       },
       "hotspot_count_24h": 3,
       "days_detected_7d": 1,
-      "median_frp_mw": 1.19,
-      "risk_score": 21.7,
+      "median_frp_mw": 6.59,
+      "max_frp_mw": 6.59,
+      "base_risk_score": 25.7,
+      "risk_score": 25.7,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Mentawa Baru (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 21.7,
+      "primary_factor": "Kerapatan deteksi tinggi (3 titik panas satelit)",
+      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 78.3,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 20",
+      "id": "area_pantau_20"
     },
     {
-      "id": "area_pantau_90",
-      "code": "Area Pantau 90",
-      "kabupaten": "Kabupaten Tanah Bumbu",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
+      "cluster_id": 3,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Paser",
+      "kabupaten_list": [
+        "Kabupaten Paser"
+      ],
+      "kecamatan": "Kecamatan Tanah Grogot",
+      "hotspots": [
+        {
+          "latitude": -1.85003,
+          "longitude": 116.36041,
+          "frp_mw": 10.18,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -1.85441,
+          "longitude": 116.354,
+          "frp_mw": 4.74,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": -1.88114,
+          "longitude": 116.37926,
+          "frp_mw": 2.42,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
       "centroid": {
-        "latitude": -3.84576,
-        "longitude": 115.39979
+        "latitude": -1.86186,
+        "longitude": 116.36456
       },
       "bounding_box": {
-        "min_lat": -3.86212,
-        "max_lat": -3.82863,
-        "min_lon": 115.38204,
-        "max_lon": 115.41644
+        "min_lat": -1.89614,
+        "max_lat": -1.83503,
+        "min_lon": 116.339,
+        "max_lon": 116.39426
       },
       "hotspot_count_24h": 3,
       "days_detected_7d": 1,
-      "median_frp_mw": 0.8,
-      "risk_score": 21.5,
+      "median_frp_mw": 4.74,
+      "max_frp_mw": 10.18,
+      "base_risk_score": 24.8,
+      "risk_score": 24.8,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Pelaihari (Kabupaten Tanah Laut)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 21.5,
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
-    },
-    {
-      "id": "area_pantau_91",
-      "code": "Area Pantau 91",
-      "kabupaten": "Kabupaten Tabalong",
-      "kecamatan": "",
-      "province": "Kalimantan Selatan",
-      "centroid": {
-        "latitude": -1.74388,
-        "longitude": 115.59097
-      },
-      "bounding_box": {
-        "min_lat": -1.76138,
-        "max_lat": -1.72734,
-        "min_lon": 115.5737,
-        "max_lon": 115.60736
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 1,
-      "median_frp_mw": 0.53,
-      "risk_score": 21.4,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
+      "primary_factor": "Kerapatan deteksi tinggi (3 titik panas satelit)",
       "nearest_settlement": "Kecamatan Tanah Grogot (Kabupaten Paser)",
-      "distance_to_settlement_km": 45.0,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir/Gambut)",
-      "base_risk_score": 21.4,
+      "distance_to_settlement_km": 18.8,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (3 catatan)",
-      "last_updated": "01.00 WIB"
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 21",
+      "id": "area_pantau_21"
+    },
+    {
+      "cluster_id": 14,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": 0.25544,
+          "longitude": 116.41718,
+          "frp_mw": 5.86,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.25213,
+          "longitude": 116.41769,
+          "frp_mw": 3.83,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.25492,
+          "longitude": 116.41374,
+          "frp_mw": 3.07,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.2516,
+          "longitude": 116.41425,
+          "frp_mw": 2.97,
+          "confidence": "nominal",
+          "acq_date": "2026-10-25",
+          "acq_time_utc": "05:53",
+          "satellite": "VIIRS S-NPP 375m",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": 0.25352,
+        "longitude": 116.41572
+      },
+      "bounding_box": {
+        "min_lat": 0.2366,
+        "max_lat": 0.27044,
+        "min_lon": 116.39874,
+        "max_lon": 116.43269
+      },
+      "hotspot_count_24h": 4,
+      "days_detected_7d": 1,
+      "median_frp_mw": 3.45,
+      "max_frp_mw": 5.86,
+      "base_risk_score": 24.7,
+      "risk_score": 24.7,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Kerapatan deteksi tinggi (4 titik panas satelit)",
+      "nearest_settlement": "Kecamatan Tenggarong (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 98.2,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "19.00 WIB",
+      "code": "Area Pantau 22",
+      "id": "area_pantau_22"
     }
   ]
 }

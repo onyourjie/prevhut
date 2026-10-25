@@ -2,9 +2,8 @@ import httpx
 from datetime import datetime, timedelta
 from fastapi import APIRouter
 from typing import Dict, Any
-from app.services.data_loader import data_loader
 
-router = APIRouter(prefix="/weather-ispu", tags=["Weather & Air Quality (BMKG & ISPUnet)"])
+router = APIRouter(prefix="/weather-ispu", tags=["Weather Observation (Open-Meteo)"])
 
 # Koordinat stasiun kota di Kalimantan
 CITY_COORDINATES = {
@@ -36,37 +35,20 @@ def map_wind_direction(degrees: float) -> str:
 @router.get("", response_model=Dict[str, Any])
 async def get_all_weather_stations(city: str = None):
     """
-    Mengambil data kualitas udara (ISPU PM2.5) dan kondisi cuaca stasiun pemantau di Kalimantan.
+    Mengambil data kondisi cuaca stasiun pemantau di Kalimantan.
     """
     if city:
         return await get_weather_by_city(city)
-    res = await get_weather_by_city("sintang")
-    ispu_raw = data_loader.get_ispu_data()
-    res["monitoring_stations"] = ispu_raw.get("monitoring_stations", [])
-    res["metadata"] = ispu_raw.get("metadata", {})
-    return res
+    return await get_weather_by_city("sintang")
 
 @router.get("/{city}")
 async def get_weather_by_city(city: str):
     """
-    Mengambil data cuaca dan ISPU real-time untuk kota tertentu (misal: Sintang, Pontianak, Palangka Raya).
-    Data cuaca diambil langsung dari sensor meteorologi atmosfer terkalibrasi.
+    Mengambil data cuaca real-time untuk kota tertentu (misal: Sintang, Pontianak, Palangka Raya).
+    Data cuaca diambil langsung dari sensor meteorologi atmosfer terkalibrasi Open-Meteo.
     """
     clean_city = city.lower().strip()
     target = CITY_COORDINATES.get(clean_city, CITY_COORDINATES["sintang"])
-    
-    # Ambil data ISPU yang cocok
-    ispu_data = data_loader.get_ispu_data()
-    stations = ispu_data.get("monitoring_stations", [])
-    matched_station = None
-    for s in stations:
-        if clean_city in s.get("city", "").lower() or s.get("province") == target["province"]:
-            matched_station = s
-            break
-            
-    ispu_val = matched_station["ispu_value"] if matched_station else 58
-    ispu_cat = matched_station["ispu_category"] if matched_station else "Sedang"
-    dominant_pol = matched_station.get("dominant_pollutant", "PM2.5") if matched_station else "PM2.5"
 
     # Fetch live weather data dari open meteorological API
     temperature = 31.0
@@ -100,9 +82,5 @@ async def get_weather_by_city(city: str):
         "weather_desc": weather_desc,
         "humidity_percent": humidity,
         "wind_direction": wind_dir,
-        "ispu_value": ispu_val,
-        "ispu_category": ispu_cat,
-        "dominant_pollutant": dominant_pol,
-        "health_advice": "Kualitas udara sedang. Kelompok rentan disarankan mengenakan masker jika beraktivitas luar ruang dekat sumber asap.",
         "observed_at": now_wib
     }
