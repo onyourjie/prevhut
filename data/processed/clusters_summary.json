@@ -340,8 +340,8 @@
       "risk_score": 75.4,
       "priority_level": "P2 - Perhatian Meningkat",
       "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Mentaya Hilir Selatan (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 24.2,
+      "nearest_settlement": "Kecamatan Teluk Sampit (Kabupaten Kotawaringin Timur)",
+      "distance_to_settlement_km": 18.5,
       "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir)",
       "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (105 catatan)",
       "last_updated": "01.00 WIB"
@@ -368,8 +368,8 @@
       "risk_score": 75.4,
       "priority_level": "P2 - Perhatian Meningkat",
       "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Teluk Sampit (Kabupaten Kotawaringin Timur)",
-      "distance_to_settlement_km": 13.4,
+      "nearest_settlement": "Kecamatan Seruyan Hilir Timur (Kabupaten Seruyan)",
+      "distance_to_settlement_km": 20.7,
       "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir)",
       "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (36 catatan)",
       "last_updated": "01.00 WIB"
@@ -704,8 +704,8 @@
       "risk_score": 70.4,
       "priority_level": "P2 - Perhatian Meningkat",
       "badge": "Perhatian Meningkat",
-      "nearest_settlement": "Kecamatan Tapin Utara (Kabupaten Tapin)",
-      "distance_to_settlement_km": 14.8,
+      "nearest_settlement": "Kecamatan Binuang (Kabupaten Tapin)",
+      "distance_to_settlement_km": 8.1,
       "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir)",
       "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (19 catatan)",
       "last_updated": "01.00 WIB"
@@ -845,7 +845,7 @@
       "priority_level": "P2 - Perhatian Meningkat",
       "badge": "Perhatian Meningkat",
       "nearest_settlement": "Kecamatan Pamukan Utara (Kabupaten Kotabaru)",
-      "distance_to_settlement_km": 19.2,
+      "distance_to_settlement_km": 24.1,
       "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir)",
       "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (32 catatan)",
       "last_updated": "01.00 WIB"
@@ -1041,8 +1041,8 @@
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
       "nearest_settlement": "Kecamatan Jelai (Kabupaten Sukamara)",
-      "distance_to_settlement_km": 10.2,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir)",
+      "distance_to_settlement_km": 6.3,
+      "threat_level": "\u26a0\ufe0f Waspada (3 - 7 km - Paparan Asap)",
       "primary_factor": "Konsistensi deteksi tinggi (7 dari 7 hari)",
       "last_updated": "01.00 WIB"
     },
@@ -1544,8 +1544,8 @@
       "risk_score": 48.3,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Kelumpang Hulu (Kabupaten Kotabaru)",
-      "distance_to_settlement_km": 26.0,
+      "nearest_settlement": "Kecamatan Pamukan Utara (Kabupaten Kotabaru)",
+      "distance_to_settlement_km": 19.3,
       "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir)",
       "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (8 catatan)",
       "last_updated": "01.00 WIB"
@@ -1880,8 +1880,8 @@
       "risk_score": 38.4,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "nearest_settlement": "Kecamatan Binuang (Kabupaten Tapin)",
-      "distance_to_settlement_km": 13.6,
+      "nearest_settlement": "Kecamatan Simpang Empat (Kabupaten Banjar)",
+      "distance_to_settlement_km": 13.9,
       "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir)",
       "primary_factor": "Konsistensi deteksi tinggi (4 dari 7 hari)",
       "last_updated": "01.00 WIB"
@@ -2077,7 +2077,7 @@
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
       "nearest_settlement": "Kecamatan Pamukan Utara (Kabupaten Kotabaru)",
-      "distance_to_settlement_km": 28.5,
+      "distance_to_settlement_km": 16.9,
       "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Terisolir)",
       "primary_factor": "Jumlah deteksi tinggi pada tanggal ini (4 catatan)",
       "last_updated": "01.00 WIB"
