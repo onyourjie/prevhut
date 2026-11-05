@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "source": "Sistem Informasi Pemantau Kualitas Udara (ISPUnet KLHK & BMKG)",
+    "index_standard": "Peraturan Menteri LHK No. 14 Tahun 2020",
+    "categories": {
+      "0-50": {
+        "label": "Baik",
+        "color": "#10b981",
+        "desc": "Tingkat mutu udara sangat baik, tidak berpengaruh negatif."
+      },
+      "51-100": {
+        "label": "Sedang",
+        "color": "#3b82f6",
+        "desc": "Tidak berpengaruh pada kesehatan manusia/hewan, tapi berpengaruh pada tumbuhan sensitif."
+      },
+      "101-200": {
+        "label": "Tidak Sehat",
+        "color": "#f59e0b",
+        "desc": "Bersifat merugikan pada manusia atau kelompok hewan yang sensitif."
+      },
+      "201-300": {
+        "label": "Sangat Tidak Sehat",
+        "color": "#ef4444",
+        "desc": "Meningkatkan risiko kesehatan pada sejumlah segmen populasi terpapar."
+      },
+      ">300": {
+        "label": "Berbahaya",
+        "color": "#881337",
+        "desc": "Tingkat mutu udara berbahaya bagi seluruh populasi."
+      }
+    }
+  },
+  "monitoring_stations": [
+    {
+      "city": "Pontianak",
+      "province": "Kalimantan Barat",
+      "latitude": -0.0263,
+      "longitude": 109.3425,
+      "pm25_ug_m3": 48.5,
+      "ispu_value": 78,
+      "ispu_category": "Sedang",
+      "dominant_pollutant": "PM2.5",
+      "visibility_km": 6.5,
+      "wind_direction": "Tenggara (135\u00b0)",
+      "wind_speed_kmh": 12.0
+    },
+    {
+      "city": "Palangka Raya",
+      "province": "Kalimantan Tengah",
+      "latitude": -2.2161,
+      "longitude": 113.9139,
+      "pm25_ug_m3": 68.2,
+      "ispu_value": 112,
+      "ispu_category": "Tidak Sehat",
+      "dominant_pollutant": "PM2.5",
+      "visibility_km": 4.2,
+      "wind_direction": "Selatan (180\u00b0)",
+      "wind_speed_kmh": 9.5
+    },
+    {
+      "city": "Banjarmasin",
+      "province": "Kalimantan Selatan",
+      "latitude": -3.3194,
+      "longitude": 114.5908,
+      "pm25_ug_m3": 54.1,
+      "ispu_value": 85,
+      "ispu_category": "Sedang",
+      "dominant_pollutant": "PM2.5",
+      "visibility_km": 5.8,
+      "wind_direction": "Tenggara (140\u00b0)",
+      "wind_speed_kmh": 14.2
+    },
+    {
+      "city": "Samarinda",
+      "province": "Kalimantan Timur",
+      "latitude": -0.5016,
+      "longitude": 117.1265,
+      "pm25_ug_m3": 32.4,
+      "ispu_value": 45,
+      "ispu_category": "Baik",
+      "dominant_pollutant": "PM2.5",
+      "visibility_km": 9.0,
+      "wind_direction": "Timur (90\u00b0)",
+      "wind_speed_kmh": 8.0
+    },
+    {
+      "city": "Tanjung Selor",
+      "province": "Kalimantan Utara",
+      "latitude": 2.8375,
+      "longitude": 117.3653,
+      "pm25_ug_m3": 22.0,
+      "ispu_value": 32,
+      "ispu_category": "Baik",
+      "dominant_pollutant": "PM2.5",
+      "visibility_km": 10.0,
+      "wind_direction": "Utara (0\u00b0)",
+      "wind_speed_kmh": 7.5
+    }
+  ]
+}
