@@ -1,4 +1,4 @@
-# PREVHUT — FIREZONE Data & Hazard Intelligence Service
+# FIREZONE Data & Hazard Intelligence Service
 
 [![FastAPI](https://img.shields.io/badge/Microservice-FastAPI%200.110+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
