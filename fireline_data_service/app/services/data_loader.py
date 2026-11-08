@@ -22,41 +22,55 @@ class DataLoader:
             cls._instance = DataLoader()
         return cls._instance
 
+    def _resolve_file(self, filename: str) -> Optional[str]:
+        candidate_paths = [
+            os.path.join(self.data_dir, filename),
+            os.path.join(self.data_dir, "processed", filename),
+            os.path.join(settings.BASE_DIR, "data", filename),
+            os.path.join(settings.BASE_DIR, "data", "processed", filename),
+            os.path.join(os.path.dirname(settings.BASE_DIR), "data", filename),
+            os.path.join(os.path.dirname(settings.BASE_DIR), "data", "processed", filename),
+        ]
+        for p in candidate_paths:
+            if os.path.exists(p):
+                return p
+        return None
+
     def reload_all(self):
         """Load or reload all cached JSON datasets into memory"""
         # 1. Clusters Summary
-        clusters_path = os.path.join(self.data_dir, "clusters_summary.json")
-        if os.path.exists(clusters_path):
+        clusters_path = self._resolve_file("clusters_summary.json")
+        if clusters_path and os.path.exists(clusters_path):
             with open(clusters_path, "r", encoding="utf-8") as f:
                 self._clusters_data = json.load(f)
                 
         # 2. Hotspots 24h
-        h24_path = os.path.join(self.data_dir, "hotspots_kalimantan_24h.json")
-        if os.path.exists(h24_path):
+        h24_path = self._resolve_file("hotspots_kalimantan_24h.json")
+        if h24_path and os.path.exists(h24_path):
             with open(h24_path, "r", encoding="utf-8") as f:
                 self._hotspots_24h = json.load(f)
                 
         # 3. Hotspots 7d
-        h7_path = os.path.join(self.data_dir, "hotspots_kalimantan_7d.json")
-        if os.path.exists(h7_path):
+        h7_path = self._resolve_file("hotspots_kalimantan_7d.json")
+        if h7_path and os.path.exists(h7_path):
             with open(h7_path, "r", encoding="utf-8") as f:
                 self._hotspots_7d = json.load(f)
                 
         # 4. ISPU & Weather
-        ispu_path = os.path.join(self.data_dir, "ispu_aqi_kalimantan.json")
-        if os.path.exists(ispu_path):
+        ispu_path = self._resolve_file("ispu_aqi_kalimantan.json")
+        if ispu_path and os.path.exists(ispu_path):
             with open(ispu_path, "r", encoding="utf-8") as f:
                 self._ispu_data = json.load(f)
                 
         # 5. Community Reports
-        comm_path = os.path.join(self.data_dir, "community_reports.json")
-        if os.path.exists(comm_path):
+        comm_path = self._resolve_file("community_reports.json")
+        if comm_path and os.path.exists(comm_path):
             with open(comm_path, "r", encoding="utf-8") as f:
                 self._community_reports = json.load(f)
                 
         # 6. Provinces GeoJSON
-        geo_path = os.path.join(self.data_dir, "kalimantan_provinces.geojson")
-        if os.path.exists(geo_path):
+        geo_path = self._resolve_file("kalimantan_provinces.geojson")
+        if geo_path and os.path.exists(geo_path):
             with open(geo_path, "r", encoding="utf-8") as f:
                 self._provinces_geojson = json.load(f)
 

@@ -1,5 +1,6 @@
+import time
 from fastapi import APIRouter, HTTPException, Query
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Tuple
 from app.services.data_loader import data_loader
 from app.services.firms_client import firms_client
 from app.services.clustering import run_clustering_and_scoring
@@ -7,8 +8,25 @@ from app.schemas.models import ClusterItem
 
 router = APIRouter(prefix="/clusters", tags=["Clusters & Priority Areas"])
 
-# Cache in-memory untuk klaster berbasis tanggal agar kueri berulang super cepat (< 10ms)
-_date_clusters_cache: Dict[str, List[Dict[str, Any]]] = {}
+# Cache in-memory untuk klaster berbasis tanggal dengan TTL 3 Jam (10.800 detik)
+CLUSTER_CACHE_TTL_SECONDS = 3 * 3600
+_date_clusters_cache: Dict[str, Tuple[float, List[Dict[str, Any]]]] = {}
+
+def clear_clusters_cache():
+    """Bersihkan seluruh cache klaster saat sinkronisasi 3 jam berlangsung."""
+    _date_clusters_cache.clear()
+
+def set_clusters_cache(key: str, clusters: List[Dict[str, Any]]):
+    """Simpan daftar klaster ke dalam cache beserta timestamp saat ini."""
+    if clusters:
+        _date_clusters_cache[key] = (time.time(), list(clusters))
+
+def _get_valid_cached_clusters(key: str) -> Optional[List[Dict[str, Any]]]:
+    if key in _date_clusters_cache:
+        cached_time, cached_list = _date_clusters_cache[key]
+        if (time.time() - cached_time) < CLUSTER_CACHE_TTL_SECONDS and cached_list:
+            return list(cached_list)
+    return None
 
 @router.get("", response_model=List[ClusterItem])
 async def get_clusters(
@@ -22,33 +40,42 @@ async def get_clusters(
     """
     Mengambil daftar Area Pantauan hasil pengelompokan spasial DBSCAN dan Explainable Risk Score.
     Jika parameter 'date' diberikan, klaster dihitung secara dinamis dari observasi satelit pada tanggal tersebut.
+    Cache diperbarui otomatis setiap 3 jam.
     """
     clusters: List[Dict[str, Any]] = []
 
     if date:
         clean_date = date.strip()
-        if clean_date in _date_clusters_cache:
-            clusters = list(_date_clusters_cache[clean_date])
+        cached = _get_valid_cached_clusters(clean_date)
+        if cached is not None:
+            clusters = cached
         else:
             try:
                 df_daily, df_history, _ = await firms_client.fetch_latest_hotspots(clean_date)
                 if not df_daily.empty:
                     clusters = run_clustering_and_scoring(df_daily, df_history)
-                    _date_clusters_cache[clean_date] = clusters
+                    if clusters:
+                        set_clusters_cache(clean_date, clusters)
+                    else:
+                        clusters = data_loader.get_clusters()
                 else:
                     clusters = data_loader.get_clusters()
             except Exception:
                 clusters = data_loader.get_clusters()
     else:
         cache_key = "_latest"
-        if cache_key in _date_clusters_cache:
-            clusters = list(_date_clusters_cache[cache_key])
+        cached = _get_valid_cached_clusters(cache_key)
+        if cached is not None:
+            clusters = cached
         else:
             try:
                 df_daily, df_history, _ = await firms_client.fetch_latest_hotspots(None)
                 if not df_daily.empty:
                     clusters = run_clustering_and_scoring(df_daily, df_history)
-                    _date_clusters_cache[cache_key] = clusters
+                    if clusters:
+                        set_clusters_cache(cache_key, clusters)
+                    else:
+                        clusters = data_loader.get_clusters()
                 else:
                     clusters = data_loader.get_clusters()
             except Exception:
@@ -91,8 +118,9 @@ def get_clusters_statistics(date: Optional[str] = Query(None)):
     """
     Statistik ringkasan jumlah klaster P1, P2, P3 dan total titik panas dalam klaster.
     """
-    if date and date in _date_clusters_cache:
-        clusters = _date_clusters_cache[date]
+    cached = _get_valid_cached_clusters(date.strip()) if date else _get_valid_cached_clusters("_latest")
+    if cached is not None:
+        clusters = cached
     else:
         clusters = data_loader.get_clusters()
 
@@ -117,7 +145,7 @@ def get_cluster_detail(cluster_id: str):
     """
     # Cek di cache tanggal terlebih dahulu
     clean_id = cluster_id.lower().replace("-", "_")
-    for date_clusters in _date_clusters_cache.values():
+    for _, date_clusters in _date_clusters_cache.values():
         for c in date_clusters:
             if c["id"] == clean_id or c["code"].lower().replace(" ", "_") == clean_id:
                 return c
