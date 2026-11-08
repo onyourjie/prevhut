@@ -1,7 +1,7 @@
 {
   "source": "NASA FIRMS VIIRS (2026-11-08 - 374 Titik)",
   "sensor": "VIIRS 375m (NOAA-20 / NOAA-21 / S-NPP)",
-  "extracted_at": "2026-11-08T23:13:09.219953",
+  "extracted_at": "2026-11-08T23:18:04.533293",
   "region": "Pulau Kalimantan",
   "total_hotspots": 374,
   "hotspots": [

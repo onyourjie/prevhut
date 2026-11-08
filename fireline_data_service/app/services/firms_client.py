@@ -79,19 +79,13 @@ class FirmsClient:
         if map_key != "DEMO_KEY" and map_key:
             try:
                 async with httpx.AsyncClient(timeout=25.0) as client:
-                    # Ambil paralel dari satelit NOAA-20 dan NOAA-21
+                    # Ambil paralel dari seluruh konstelasi satelit VIIRS 375m (NOAA-20, NOAA-21, dan Suomi-NPP)
                     tasks = [
                         self._fetch_single_source(client, src, days=5)
-                        for src in ["VIIRS_NOAA20_NRT", "VIIRS_NOAA21_NRT"]
+                        for src in self.satellite_sources
                     ]
                     results = await asyncio.gather(*tasks)
                     valid_dfs = [df for df in results if not df.empty]
-
-                    # Jika NOAA-20 & NOAA-21 keduanya kosong, coba Suomi-NPP sebagai fallback
-                    if not valid_dfs:
-                        df_snpp = await self._fetch_single_source(client, "VIIRS_SNPP_NRT", days=5)
-                        if not df_snpp.empty:
-                            valid_dfs.append(df_snpp)
 
                     if valid_dfs:
                         df_combined = pd.concat(valid_dfs, ignore_index=True)

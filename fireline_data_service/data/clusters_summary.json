@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "PREVHUT / FIRELINE Explainable Risk Clusters",
-    "synced_at": "2026-11-08T23:13:09.211108",
+    "synced_at": "2026-11-08T23:18:04.523311",
     "source": "NASA FIRMS VIIRS (2026-11-08 - 374 Titik)",
     "total_clusters": 25
   },
@@ -341,7 +341,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 01",
       "id": "area_pantau_01"
     },
@@ -570,7 +570,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 02",
       "id": "area_pantau_02"
     },
@@ -779,7 +779,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 03",
       "id": "area_pantau_03"
     },
@@ -938,7 +938,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 04",
       "id": "area_pantau_04"
     },
@@ -1087,7 +1087,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 05",
       "id": "area_pantau_05"
     },
@@ -1156,7 +1156,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 06",
       "id": "area_pantau_06"
     },
@@ -1245,7 +1245,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 07",
       "id": "area_pantau_07"
     },
@@ -1324,7 +1324,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 08",
       "id": "area_pantau_08"
     },
@@ -1414,7 +1414,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 09",
       "id": "area_pantau_09"
     },
@@ -1533,7 +1533,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 10",
       "id": "area_pantau_10"
     },
@@ -1602,7 +1602,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 11",
       "id": "area_pantau_11"
     },
@@ -1671,7 +1671,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 12",
       "id": "area_pantau_12"
     },
@@ -1790,7 +1790,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 13",
       "id": "area_pantau_13"
     },
@@ -1859,7 +1859,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 14",
       "id": "area_pantau_14"
     },
@@ -1978,7 +1978,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 15",
       "id": "area_pantau_15"
     },
@@ -2047,7 +2047,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 16",
       "id": "area_pantau_16"
     },
@@ -2166,7 +2166,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 17",
       "id": "area_pantau_17"
     },
@@ -2245,7 +2245,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 18",
       "id": "area_pantau_18"
     },
@@ -2334,7 +2334,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 19",
       "id": "area_pantau_19"
     },
@@ -2413,7 +2413,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 20",
       "id": "area_pantau_20"
     },
@@ -2562,7 +2562,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 21",
       "id": "area_pantau_21"
     },
@@ -2661,7 +2661,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 22",
       "id": "area_pantau_22"
     },
@@ -2730,7 +2730,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 23",
       "id": "area_pantau_23"
     },
@@ -2799,7 +2799,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 24",
       "id": "area_pantau_24"
     },
@@ -2869,7 +2869,7 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.13 WIB",
+      "last_updated": "23.18 WIB",
       "code": "Area Pantau 25",
       "id": "area_pantau_25"
     }
