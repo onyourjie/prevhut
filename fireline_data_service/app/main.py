@@ -1,7 +1,29 @@
+import asyncio
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
 from app.routers import clusters, hotspots, weather, community, transparency, sync
+
+SYNC_INTERVAL_SECONDS = 3 * 3600  # Otomatis sinkronisasi setiap 3 jam (10.800 detik)
+
+async def _auto_sync_loop():
+    """Background task otomatis untuk menyinkronkan data satelit NASA FIRMS setiap 3 jam."""
+    await asyncio.sleep(2)  # Beri jeda singkat saat startup agar server siap menerima koneksi
+    while True:
+        try:
+            await sync.sync_live_data()
+        except Exception:
+            pass
+        await asyncio.sleep(SYNC_INTERVAL_SECONDS)
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    sync_task = asyncio.create_task(_auto_sync_loop())
+    try:
+        yield
+    finally:
+        sync_task.cancel()
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -9,7 +31,8 @@ app = FastAPI(
     description=settings.DESCRIPTION,
     docs_url="/docs",
     redoc_url="/redoc",
-    openapi_url="/openapi.json"
+    openapi_url="/openapi.json",
+    lifespan=lifespan,
 )
 
 # Konfigurasi CORS agar React Vite (port 5173) dan NestJS (port 3000) bisa mengakses langsung
