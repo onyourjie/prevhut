@@ -1,9 +1,9 @@
 {
-  "source": "NASA FIRMS VIIRS (2026-11-08 - 374 Titik)",
+  "source": "NASA FIRMS VIIRS (2026-11-08 - 544 Titik)",
   "sensor": "VIIRS 375m (NOAA-20 / NOAA-21 / S-NPP)",
-  "extracted_at": "2026-11-08T23:18:04.533293",
+  "extracted_at": "2026-11-09T10:00:03.513928",
   "region": "Pulau Kalimantan",
-  "total_hotspots": 374,
+  "total_hotspots": 544,
   "hotspots": [
     {
       "id": "hotspot_1",
@@ -1554,6 +1554,1683 @@
     },
     {
       "id": "hotspot_120",
+      "latitude": -0.4404,
+      "longitude": 117.41981,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 305.63,
+      "confidence": "nominal",
+      "frp_mw": 0.76,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_121",
+      "latitude": -0.38515,
+      "longitude": 117.05024,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 302.2,
+      "confidence": "nominal",
+      "frp_mw": 0.45,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_122",
+      "latitude": -0.24292,
+      "longitude": 117.32645,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 314.22,
+      "confidence": "nominal",
+      "frp_mw": 0.71,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_123",
+      "latitude": -0.24041,
+      "longitude": 117.32989,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 304.53,
+      "confidence": "nominal",
+      "frp_mw": 0.47,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_124",
+      "latitude": -0.20839,
+      "longitude": 117.35019,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 309.56,
+      "confidence": "nominal",
+      "frp_mw": 1.42,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_125",
+      "latitude": -0.0698,
+      "longitude": 117.40588,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 306.06,
+      "confidence": "nominal",
+      "frp_mw": 0.53,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_126",
+      "latitude": 0.00659,
+      "longitude": 117.41006,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 303.04,
+      "confidence": "nominal",
+      "frp_mw": 0.47,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_127",
+      "latitude": 0.00944,
+      "longitude": 117.41434,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 306.22,
+      "confidence": "nominal",
+      "frp_mw": 0.99,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_128",
+      "latitude": 0.01003,
+      "longitude": 117.4106,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 311.83,
+      "confidence": "nominal",
+      "frp_mw": 1.07,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_129",
+      "latitude": 0.30098,
+      "longitude": 117.45403,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 309.88,
+      "confidence": "nominal",
+      "frp_mw": 1.31,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_130",
+      "latitude": 0.38259,
+      "longitude": 117.53587,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 310.83,
+      "confidence": "nominal",
+      "frp_mw": 0.99,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_131",
+      "latitude": 0.50014,
+      "longitude": 116.16354,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 296.84,
+      "confidence": "nominal",
+      "frp_mw": 0.55,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_132",
+      "latitude": 0.57132,
+      "longitude": 117.45348,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 308.08,
+      "confidence": "nominal",
+      "frp_mw": 1.14,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_133",
+      "latitude": 0.64321,
+      "longitude": 117.46452,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 304.41,
+      "confidence": "nominal",
+      "frp_mw": 0.75,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_134",
+      "latitude": 0.65707,
+      "longitude": 117.44371,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 319.9,
+      "confidence": "nominal",
+      "frp_mw": 2.08,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_135",
+      "latitude": 0.67601,
+      "longitude": 117.54629,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 303.94,
+      "confidence": "nominal",
+      "frp_mw": 0.69,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_136",
+      "latitude": 0.67649,
+      "longitude": 117.5656,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 335.77,
+      "confidence": "nominal",
+      "frp_mw": 4.84,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_137",
+      "latitude": 0.68171,
+      "longitude": 117.55488,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 306.62,
+      "confidence": "nominal",
+      "frp_mw": 1.55,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_138",
+      "latitude": 0.68396,
+      "longitude": 117.56297,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 306.43,
+      "confidence": "nominal",
+      "frp_mw": 1.4,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_139",
+      "latitude": 0.68554,
+      "longitude": 117.46358,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 306.45,
+      "confidence": "nominal",
+      "frp_mw": 1.11,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_140",
+      "latitude": 0.68731,
+      "longitude": 117.45235,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 306.15,
+      "confidence": "nominal",
+      "frp_mw": 1.01,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_141",
+      "latitude": 0.68838,
+      "longitude": 117.46787,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 311.08,
+      "confidence": "nominal",
+      "frp_mw": 1.03,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_142",
+      "latitude": 0.68859,
+      "longitude": 117.556,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 313.1,
+      "confidence": "nominal",
+      "frp_mw": 1.55,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_143",
+      "latitude": 0.68897,
+      "longitude": 117.46414,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 308.49,
+      "confidence": "nominal",
+      "frp_mw": 1.03,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_144",
+      "latitude": 0.6932,
+      "longitude": 117.54906,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 306.21,
+      "confidence": "nominal",
+      "frp_mw": 1.31,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_145",
+      "latitude": 0.70328,
+      "longitude": 117.46253,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 304.9,
+      "confidence": "nominal",
+      "frp_mw": 1.46,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_146",
+      "latitude": 0.76553,
+      "longitude": 117.75723,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 308.6,
+      "confidence": "nominal",
+      "frp_mw": 1.36,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_147",
+      "latitude": 0.95668,
+      "longitude": 117.9465,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 314.52,
+      "confidence": "nominal",
+      "frp_mw": 1.31,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_148",
+      "latitude": 1.05402,
+      "longitude": 117.63777,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 311.77,
+      "confidence": "nominal",
+      "frp_mw": 1.35,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_149",
+      "latitude": 1.05731,
+      "longitude": 117.66136,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 303.88,
+      "confidence": "nominal",
+      "frp_mw": 1.46,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_150",
+      "latitude": 1.06016,
+      "longitude": 117.66566,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 339.87,
+      "confidence": "nominal",
+      "frp_mw": 4.48,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_151",
+      "latitude": 1.0624,
+      "longitude": 117.67374,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 303.89,
+      "confidence": "nominal",
+      "frp_mw": 1.47,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_152",
+      "latitude": 1.06808,
+      "longitude": 117.68241,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 307.6,
+      "confidence": "nominal",
+      "frp_mw": 0.85,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_153",
+      "latitude": 1.07346,
+      "longitude": 117.64857,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 306.62,
+      "confidence": "nominal",
+      "frp_mw": 1.08,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_154",
+      "latitude": 1.08366,
+      "longitude": 117.67327,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 308.28,
+      "confidence": "nominal",
+      "frp_mw": 0.87,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_155",
+      "latitude": 1.18266,
+      "longitude": 117.20135,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 315.15,
+      "confidence": "nominal",
+      "frp_mw": 1.27,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_156",
+      "latitude": 1.18604,
+      "longitude": 117.20187,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 336.78,
+      "confidence": "nominal",
+      "frp_mw": 3.82,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_157",
+      "latitude": 1.60155,
+      "longitude": 118.11428,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 312.29,
+      "confidence": "nominal",
+      "frp_mw": 2.1,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_158",
+      "latitude": 1.77128,
+      "longitude": 117.95586,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 306.49,
+      "confidence": "nominal",
+      "frp_mw": 0.48,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_159",
+      "latitude": 1.92941,
+      "longitude": 117.29119,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 304.5,
+      "confidence": "nominal",
+      "frp_mw": 0.64,
+      "date": "2026-11-08",
+      "time_utc": "17:49",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_160",
+      "latitude": -3.91011,
+      "longitude": 114.65355,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 307.92,
+      "confidence": "nominal",
+      "frp_mw": 0.42,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_161",
+      "latitude": -3.8427,
+      "longitude": 115.2597,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 311.14,
+      "confidence": "nominal",
+      "frp_mw": 2.43,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_162",
+      "latitude": -3.84215,
+      "longitude": 115.25622,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 325.15,
+      "confidence": "nominal",
+      "frp_mw": 1.63,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_163",
+      "latitude": -3.84161,
+      "longitude": 115.25272,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 311.24,
+      "confidence": "nominal",
+      "frp_mw": 1.63,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_164",
+      "latitude": -3.76066,
+      "longitude": 115.4304,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 313.4,
+      "confidence": "nominal",
+      "frp_mw": 1.42,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_165",
+      "latitude": -3.40913,
+      "longitude": 111.96732,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 303.86,
+      "confidence": "nominal",
+      "frp_mw": 1.3,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_166",
+      "latitude": -3.38247,
+      "longitude": 112.04721,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 305.61,
+      "confidence": "nominal",
+      "frp_mw": 0.51,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_167",
+      "latitude": -3.37649,
+      "longitude": 112.0323,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 306.98,
+      "confidence": "nominal",
+      "frp_mw": 1.08,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_168",
+      "latitude": -3.37587,
+      "longitude": 112.02843,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 306.75,
+      "confidence": "nominal",
+      "frp_mw": 1.08,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_169",
+      "latitude": -3.37176,
+      "longitude": 112.02512,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 312.91,
+      "confidence": "nominal",
+      "frp_mw": 1.24,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_170",
+      "latitude": -3.37113,
+      "longitude": 112.02124,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 304.19,
+      "confidence": "nominal",
+      "frp_mw": 1.24,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_171",
+      "latitude": -3.36914,
+      "longitude": 112.05331,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 304.78,
+      "confidence": "nominal",
+      "frp_mw": 1.06,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_172",
+      "latitude": -3.36889,
+      "longitude": 112.02955,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 305.94,
+      "confidence": "nominal",
+      "frp_mw": 2.04,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_173",
+      "latitude": -3.36827,
+      "longitude": 112.02567,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 334.54,
+      "confidence": "nominal",
+      "frp_mw": 2.65,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_174",
+      "latitude": -3.36764,
+      "longitude": 112.0218,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 321.12,
+      "confidence": "nominal",
+      "frp_mw": 2.65,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_175",
+      "latitude": -3.3669,
+      "longitude": 112.0616,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 307.22,
+      "confidence": "nominal",
+      "frp_mw": 1.11,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_176",
+      "latitude": -3.36515,
+      "longitude": 112.00629,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 312.64,
+      "confidence": "nominal",
+      "frp_mw": 1.53,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_177",
+      "latitude": -3.36477,
+      "longitude": 112.02624,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 304.18,
+      "confidence": "nominal",
+      "frp_mw": 2.65,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_178",
+      "latitude": -3.36353,
+      "longitude": 112.01849,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 317.38,
+      "confidence": "nominal",
+      "frp_mw": 1.74,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_179",
+      "latitude": -3.3629,
+      "longitude": 112.01462,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 308.36,
+      "confidence": "nominal",
+      "frp_mw": 1.74,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_180",
+      "latitude": -3.36228,
+      "longitude": 112.01073,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 307.66,
+      "confidence": "nominal",
+      "frp_mw": 1.53,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_181",
+      "latitude": -3.36102,
+      "longitude": 112.00298,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 308.42,
+      "confidence": "nominal",
+      "frp_mw": 1.1,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_182",
+      "latitude": -3.3604,
+      "longitude": 111.99909,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 308.16,
+      "confidence": "nominal",
+      "frp_mw": 1.1,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_183",
+      "latitude": -3.35977,
+      "longitude": 111.99521,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 305.41,
+      "confidence": "nominal",
+      "frp_mw": 1.76,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_184",
+      "latitude": -3.3569,
+      "longitude": 111.99965,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 304.65,
+      "confidence": "nominal",
+      "frp_mw": 1.67,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_185",
+      "latitude": -3.3535,
+      "longitude": 111.95628,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 325.08,
+      "confidence": "nominal",
+      "frp_mw": 3.07,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_186",
+      "latitude": -3.35,
+      "longitude": 111.95684,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 322.59,
+      "confidence": "nominal",
+      "frp_mw": 2.83,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_187",
+      "latitude": -3.32584,
+      "longitude": 114.37607,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 304.88,
+      "confidence": "nominal",
+      "frp_mw": 0.63,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_188",
+      "latitude": -3.32254,
+      "longitude": 114.37659,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 311.07,
+      "confidence": "nominal",
+      "frp_mw": 0.93,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_189",
+      "latitude": -3.31392,
+      "longitude": 112.69079,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 304.24,
+      "confidence": "nominal",
+      "frp_mw": 1.08,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_190",
+      "latitude": -3.29986,
+      "longitude": 112.69259,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 303.36,
+      "confidence": "nominal",
+      "frp_mw": 1.03,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_191",
+      "latitude": -3.29646,
+      "longitude": 112.69313,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 306.16,
+      "confidence": "nominal",
+      "frp_mw": 1.03,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_192",
+      "latitude": -3.09878,
+      "longitude": 115.11012,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 304.53,
+      "confidence": "nominal",
+      "frp_mw": 0.79,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_193",
+      "latitude": -3.09823,
+      "longitude": 115.10667,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 317.24,
+      "confidence": "nominal",
+      "frp_mw": 0.79,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_194",
+      "latitude": -3.09547,
+      "longitude": 115.11064,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 304.32,
+      "confidence": "nominal",
+      "frp_mw": 0.79,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_195",
+      "latitude": -3.08663,
+      "longitude": 115.11909,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 318.21,
+      "confidence": "nominal",
+      "frp_mw": 1.73,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_196",
+      "latitude": -3.04977,
+      "longitude": 115.0789,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 315.02,
+      "confidence": "nominal",
+      "frp_mw": 1.32,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_197",
+      "latitude": -3.04646,
+      "longitude": 115.07942,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 314.98,
+      "confidence": "nominal",
+      "frp_mw": 1.75,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_198",
+      "latitude": -3.03784,
+      "longitude": 115.15449,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 325.92,
+      "confidence": "nominal",
+      "frp_mw": 1.85,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_199",
+      "latitude": -3.03453,
+      "longitude": 115.15501,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 324.43,
+      "confidence": "nominal",
+      "frp_mw": 1.85,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_200",
+      "latitude": -3.03398,
+      "longitude": 115.15155,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 310.54,
+      "confidence": "nominal",
+      "frp_mw": 1.85,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_201",
+      "latitude": -3.03176,
+      "longitude": 115.15897,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 312.62,
+      "confidence": "nominal",
+      "frp_mw": 1.26,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_202",
+      "latitude": -3.03122,
+      "longitude": 115.15552,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 308.22,
+      "confidence": "nominal",
+      "frp_mw": 0.99,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_203",
+      "latitude": -3.029,
+      "longitude": 115.16295,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 313.51,
+      "confidence": "nominal",
+      "frp_mw": 1.26,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_204",
+      "latitude": -3.02845,
+      "longitude": 115.15949,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 316.97,
+      "confidence": "nominal",
+      "frp_mw": 1.26,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_205",
+      "latitude": -2.99803,
+      "longitude": 115.2032,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 321.51,
+      "confidence": "nominal",
+      "frp_mw": 2.15,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_206",
+      "latitude": -2.97371,
+      "longitude": 115.22115,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 307.05,
+      "confidence": "nominal",
+      "frp_mw": 0.86,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_207",
+      "latitude": -2.961,
+      "longitude": 115.22668,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 317.17,
+      "confidence": "nominal",
+      "frp_mw": 1.4,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_208",
+      "latitude": -2.95992,
+      "longitude": 115.21977,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 304.81,
+      "confidence": "nominal",
+      "frp_mw": 0.87,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_209",
+      "latitude": -2.94485,
+      "longitude": 115.23312,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 317.7,
+      "confidence": "nominal",
+      "frp_mw": 1.18,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_210",
+      "latitude": -2.9443,
+      "longitude": 115.22966,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 305.25,
+      "confidence": "nominal",
+      "frp_mw": 1.18,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_211",
+      "latitude": -2.94208,
+      "longitude": 115.23708,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 320.55,
+      "confidence": "nominal",
+      "frp_mw": 1.57,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_212",
+      "latitude": -2.94153,
+      "longitude": 115.23363,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 316.6,
+      "confidence": "nominal",
+      "frp_mw": 1.15,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_213",
+      "latitude": -2.93877,
+      "longitude": 115.2376,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 310.05,
+      "confidence": "nominal",
+      "frp_mw": 1.57,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_214",
+      "latitude": -2.92883,
+      "longitude": 115.23914,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 312.36,
+      "confidence": "nominal",
+      "frp_mw": 0.91,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_215",
+      "latitude": -2.92828,
+      "longitude": 115.2357,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 312.65,
+      "confidence": "nominal",
+      "frp_mw": 1.43,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_216",
+      "latitude": -2.92551,
+      "longitude": 115.23966,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 304.71,
+      "confidence": "nominal",
+      "frp_mw": 0.91,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_217",
+      "latitude": -2.9222,
+      "longitude": 115.24018,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 306.88,
+      "confidence": "nominal",
+      "frp_mw": 1.37,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_218",
+      "latitude": -2.91889,
+      "longitude": 115.2407,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 322.7,
+      "confidence": "nominal",
+      "frp_mw": 1.37,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_219",
+      "latitude": -2.91558,
+      "longitude": 115.24123,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 307.49,
+      "confidence": "nominal",
+      "frp_mw": 1.2,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_220",
+      "latitude": -2.89141,
+      "longitude": 115.17422,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 302.49,
+      "confidence": "nominal",
+      "frp_mw": 0.41,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_221",
+      "latitude": -2.87854,
+      "longitude": 115.26474,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 304.32,
+      "confidence": "nominal",
+      "frp_mw": 1.19,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_222",
+      "latitude": -2.80683,
+      "longitude": 112.87475,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 311.09,
+      "confidence": "nominal",
+      "frp_mw": 1.58,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_223",
+      "latitude": -2.80402,
+      "longitude": 112.87893,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 302.45,
+      "confidence": "nominal",
+      "frp_mw": 0.99,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_224",
+      "latitude": -2.79786,
+      "longitude": 115.31283,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 307.88,
+      "confidence": "nominal",
+      "frp_mw": 2.59,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_225",
+      "latitude": -2.2296,
+      "longitude": 115.48016,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 303.21,
+      "confidence": "nominal",
+      "frp_mw": 0.64,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_226",
+      "latitude": -2.22462,
+      "longitude": 115.49158,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 304.15,
+      "confidence": "nominal",
+      "frp_mw": 0.65,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_227",
+      "latitude": -2.22406,
+      "longitude": 115.48811,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 303.04,
+      "confidence": "nominal",
+      "frp_mw": 0.9,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_228",
+      "latitude": -2.2119,
+      "longitude": 115.49713,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 319.46,
+      "confidence": "nominal",
+      "frp_mw": 1.38,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_229",
+      "latitude": -2.21188,
+      "longitude": 115.51846,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 303.55,
+      "confidence": "nominal",
+      "frp_mw": 0.68,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_230",
+      "latitude": -2.21135,
+      "longitude": 115.49368,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 303.97,
+      "confidence": "nominal",
+      "frp_mw": 1.38,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_231",
+      "latitude": -2.20858,
+      "longitude": 115.49765,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 321.79,
+      "confidence": "nominal",
+      "frp_mw": 1.25,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_232",
+      "latitude": -2.20803,
+      "longitude": 115.49418,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 301.81,
+      "confidence": "nominal",
+      "frp_mw": 1.25,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_233",
+      "latitude": -2.20522,
+      "longitude": 115.54083,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 305.66,
+      "confidence": "nominal",
+      "frp_mw": 1.42,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_234",
+      "latitude": -2.06032,
+      "longitude": 115.57085,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 314.35,
+      "confidence": "nominal",
+      "frp_mw": 1.76,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_235",
+      "latitude": -1.97867,
+      "longitude": 115.8724,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 305.09,
+      "confidence": "nominal",
+      "frp_mw": 1.0,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_236",
+      "latitude": -1.91308,
+      "longitude": 115.88648,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 316.57,
+      "confidence": "nominal",
+      "frp_mw": 1.21,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_237",
+      "latitude": -1.91252,
+      "longitude": 115.88297,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 302.46,
+      "confidence": "nominal",
+      "frp_mw": 1.21,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_238",
+      "latitude": -1.89588,
+      "longitude": 115.86404,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 319.89,
+      "confidence": "nominal",
+      "frp_mw": 2.51,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_239",
+      "latitude": -1.89254,
+      "longitude": 115.86456,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 302.82,
+      "confidence": "nominal",
+      "frp_mw": 1.05,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_240",
+      "latitude": -1.88477,
+      "longitude": 115.8586,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 308.73,
+      "confidence": "nominal",
+      "frp_mw": 1.06,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_241",
+      "latitude": -1.88312,
+      "longitude": 115.8481,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 320.0,
+      "confidence": "nominal",
+      "frp_mw": 2.19,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_242",
+      "latitude": -1.85426,
+      "longitude": 115.85607,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 308.25,
+      "confidence": "nominal",
+      "frp_mw": 1.68,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_243",
+      "latitude": -0.73408,
+      "longitude": 117.03846,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 336.94,
+      "confidence": "nominal",
+      "frp_mw": 4.43,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_244",
+      "latitude": -0.73118,
+      "longitude": 116.21436,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 324.14,
+      "confidence": "nominal",
+      "frp_mw": 2.61,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_245",
+      "latitude": -0.6945,
+      "longitude": 117.25447,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 304.33,
+      "confidence": "nominal",
+      "frp_mw": 0.75,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_246",
+      "latitude": -0.6351,
+      "longitude": 116.14342,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 302.4,
+      "confidence": "nominal",
+      "frp_mw": 0.4,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_247",
+      "latitude": -0.30007,
+      "longitude": 115.65919,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 303.84,
+      "confidence": "nominal",
+      "frp_mw": 0.63,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_248",
+      "latitude": -0.29676,
+      "longitude": 115.65969,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 326.77,
+      "confidence": "nominal",
+      "frp_mw": 2.35,
+      "date": "2026-11-08",
+      "time_utc": "17:51",
+      "satellite": "VIIRS (NOAA-20)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_249",
       "latitude": -4.16098,
       "longitude": 114.72282,
       "province": "Kalimantan Selatan",
@@ -1566,7 +3243,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_121",
+      "id": "hotspot_250",
       "latitude": -4.16044,
       "longitude": 114.72636,
       "province": "Kalimantan Selatan",
@@ -1579,7 +3256,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_122",
+      "id": "hotspot_251",
       "latitude": -4.15299,
       "longitude": 114.66404,
       "province": "Kalimantan Selatan",
@@ -1592,7 +3269,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_123",
+      "id": "hotspot_252",
       "latitude": -4.15027,
       "longitude": 114.66304,
       "province": "Kalimantan Selatan",
@@ -1605,7 +3282,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_124",
+      "id": "hotspot_253",
       "latitude": -4.1365,
       "longitude": 114.6861,
       "province": "Kalimantan Selatan",
@@ -1618,7 +3295,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_125",
+      "id": "hotspot_254",
       "latitude": -4.08924,
       "longitude": 114.68246,
       "province": "Kalimantan Selatan",
@@ -1631,7 +3308,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_126",
+      "id": "hotspot_255",
       "latitude": -4.08645,
       "longitude": 114.67843,
       "province": "Kalimantan Selatan",
@@ -1644,7 +3321,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_127",
+      "id": "hotspot_256",
       "latitude": -4.08591,
       "longitude": 114.68194,
       "province": "Kalimantan Selatan",
@@ -1657,7 +3334,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_128",
+      "id": "hotspot_257",
       "latitude": -4.0396,
       "longitude": 114.80472,
       "province": "Kalimantan Selatan",
@@ -1670,7 +3347,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_129",
+      "id": "hotspot_258",
       "latitude": -4.03906,
       "longitude": 114.80825,
       "province": "Kalimantan Selatan",
@@ -1683,7 +3360,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_130",
+      "id": "hotspot_259",
       "latitude": -4.03626,
       "longitude": 114.8042,
       "province": "Kalimantan Selatan",
@@ -1696,7 +3373,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_131",
+      "id": "hotspot_260",
       "latitude": -4.02287,
       "longitude": 114.74009,
       "province": "Kalimantan Selatan",
@@ -1709,7 +3386,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_132",
+      "id": "hotspot_261",
       "latitude": -4.01651,
       "longitude": 114.80422,
       "province": "Kalimantan Selatan",
@@ -1722,7 +3399,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_133",
+      "id": "hotspot_262",
       "latitude": -3.84314,
       "longitude": 115.25779,
       "province": "Kalimantan Selatan",
@@ -1735,7 +3412,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_134",
+      "id": "hotspot_263",
       "latitude": -3.84199,
       "longitude": 115.25783,
       "province": "Kalimantan Selatan",
@@ -1748,7 +3425,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_135",
+      "id": "hotspot_264",
       "latitude": -3.84144,
       "longitude": 115.26145,
       "province": "Kalimantan Selatan",
@@ -1761,7 +3438,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_136",
+      "id": "hotspot_265",
       "latitude": -3.80854,
       "longitude": 115.18214,
       "province": "Kalimantan Selatan",
@@ -1774,7 +3451,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_137",
+      "id": "hotspot_266",
       "latitude": -3.71021,
       "longitude": 115.61443,
       "province": "Kalimantan Selatan",
@@ -1787,7 +3464,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_138",
+      "id": "hotspot_267",
       "latitude": -3.46563,
       "longitude": 111.9747,
       "province": "Kalimantan Tengah",
@@ -1800,7 +3477,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_139",
+      "id": "hotspot_268",
       "latitude": -3.4609,
       "longitude": 111.91486,
       "province": "Kalimantan Tengah",
@@ -1813,7 +3490,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_140",
+      "id": "hotspot_269",
       "latitude": -3.44718,
       "longitude": 112.00513,
       "province": "Kalimantan Tengah",
@@ -1826,7 +3503,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_141",
+      "id": "hotspot_270",
       "latitude": -3.44435,
       "longitude": 112.00103,
       "province": "Kalimantan Tengah",
@@ -1839,7 +3516,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_142",
+      "id": "hotspot_271",
       "latitude": -3.41208,
       "longitude": 111.96306,
       "province": "Kalimantan Tengah",
@@ -1852,7 +3529,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_143",
+      "id": "hotspot_272",
       "latitude": -3.41154,
       "longitude": 111.96666,
       "province": "Kalimantan Tengah",
@@ -1865,7 +3542,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_144",
+      "id": "hotspot_273",
       "latitude": -3.41099,
       "longitude": 111.97027,
       "province": "Kalimantan Tengah",
@@ -1878,7 +3555,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_145",
+      "id": "hotspot_274",
       "latitude": -3.41045,
       "longitude": 111.97388,
       "province": "Kalimantan Tengah",
@@ -1891,7 +3568,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_146",
+      "id": "hotspot_275",
       "latitude": -3.40815,
       "longitude": 111.96616,
       "province": "Kalimantan Tengah",
@@ -1904,7 +3581,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_147",
+      "id": "hotspot_276",
       "latitude": -3.40206,
       "longitude": 114.61795,
       "province": "Kalimantan Selatan",
@@ -1917,7 +3594,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_148",
+      "id": "hotspot_277",
       "latitude": -3.39988,
       "longitude": 114.63205,
       "province": "Kalimantan Selatan",
@@ -1930,7 +3607,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_149",
+      "id": "hotspot_278",
       "latitude": -3.38764,
       "longitude": 113.89205,
       "province": "Kalimantan Tengah",
@@ -1943,7 +3620,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_150",
+      "id": "hotspot_279",
       "latitude": -3.38317,
       "longitude": 114.18869,
       "province": "Kalimantan Tengah",
@@ -1956,7 +3633,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_151",
+      "id": "hotspot_280",
       "latitude": -3.38273,
       "longitude": 112.04336,
       "province": "Kalimantan Tengah",
@@ -1969,7 +3646,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_152",
+      "id": "hotspot_281",
       "latitude": -3.38219,
       "longitude": 112.04694,
       "province": "Kalimantan Tengah",
@@ -1982,7 +3659,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_153",
+      "id": "hotspot_282",
       "latitude": -3.38043,
       "longitude": 112.03567,
       "province": "Kalimantan Tengah",
@@ -1995,7 +3672,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_154",
+      "id": "hotspot_283",
       "latitude": -3.37989,
       "longitude": 112.03926,
       "province": "Kalimantan Tengah",
@@ -2008,7 +3685,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_155",
+      "id": "hotspot_284",
       "latitude": -3.37935,
       "longitude": 112.04285,
       "province": "Kalimantan Tengah",
@@ -2021,7 +3698,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_156",
+      "id": "hotspot_285",
       "latitude": -3.37882,
       "longitude": 112.04645,
       "province": "Kalimantan Tengah",
@@ -2034,7 +3711,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_157",
+      "id": "hotspot_286",
       "latitude": -3.37828,
       "longitude": 112.05004,
       "province": "Kalimantan Tengah",
@@ -2047,7 +3724,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_158",
+      "id": "hotspot_287",
       "latitude": -3.37774,
       "longitude": 112.05363,
       "province": "Kalimantan Tengah",
@@ -2060,7 +3737,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_159",
+      "id": "hotspot_288",
       "latitude": -3.3776,
       "longitude": 112.03158,
       "province": "Kalimantan Tengah",
@@ -2073,7 +3750,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_160",
+      "id": "hotspot_289",
       "latitude": -3.3772,
       "longitude": 112.05721,
       "province": "Kalimantan Tengah",
@@ -2086,7 +3763,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_161",
+      "id": "hotspot_290",
       "latitude": -3.37706,
       "longitude": 112.03516,
       "province": "Kalimantan Tengah",
@@ -2099,7 +3776,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_162",
+      "id": "hotspot_291",
       "latitude": -3.37652,
       "longitude": 112.03876,
       "province": "Kalimantan Tengah",
@@ -2112,7 +3789,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_163",
+      "id": "hotspot_292",
       "latitude": -3.37544,
       "longitude": 112.04594,
       "province": "Kalimantan Tengah",
@@ -2125,7 +3802,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_164",
+      "id": "hotspot_293",
       "latitude": -3.3749,
       "longitude": 112.04954,
       "province": "Kalimantan Tengah",
@@ -2138,7 +3815,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_165",
+      "id": "hotspot_294",
       "latitude": -3.37436,
       "longitude": 112.05312,
       "province": "Kalimantan Tengah",
@@ -2151,7 +3828,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_166",
+      "id": "hotspot_295",
       "latitude": -3.37423,
       "longitude": 112.03107,
       "province": "Kalimantan Tengah",
@@ -2164,7 +3841,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_167",
+      "id": "hotspot_296",
       "latitude": -3.37369,
       "longitude": 112.03467,
       "province": "Kalimantan Tengah",
@@ -2177,7 +3854,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_168",
+      "id": "hotspot_297",
       "latitude": -3.37261,
       "longitude": 112.04185,
       "province": "Kalimantan Tengah",
@@ -2190,7 +3867,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_169",
+      "id": "hotspot_298",
       "latitude": -3.37207,
       "longitude": 112.04545,
       "province": "Kalimantan Tengah",
@@ -2203,7 +3880,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_170",
+      "id": "hotspot_299",
       "latitude": -3.37153,
       "longitude": 112.04903,
       "province": "Kalimantan Tengah",
@@ -2216,7 +3893,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_171",
+      "id": "hotspot_300",
       "latitude": -3.37139,
       "longitude": 112.02698,
       "province": "Kalimantan Tengah",
@@ -2229,7 +3906,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_172",
+      "id": "hotspot_301",
       "latitude": -3.37099,
       "longitude": 112.05263,
       "province": "Kalimantan Tengah",
@@ -2242,7 +3919,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_173",
+      "id": "hotspot_302",
       "latitude": -3.37085,
       "longitude": 112.03057,
       "province": "Kalimantan Tengah",
@@ -2255,7 +3932,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_174",
+      "id": "hotspot_303",
       "latitude": -3.37045,
       "longitude": 112.05621,
       "province": "Kalimantan Tengah",
@@ -2268,7 +3945,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_175",
+      "id": "hotspot_304",
       "latitude": -3.36992,
       "longitude": 112.0598,
       "province": "Kalimantan Tengah",
@@ -2281,7 +3958,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_176",
+      "id": "hotspot_305",
       "latitude": -3.36938,
       "longitude": 112.06339,
       "province": "Kalimantan Tengah",
@@ -2294,7 +3971,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_177",
+      "id": "hotspot_306",
       "latitude": -3.3687,
       "longitude": 112.04494,
       "province": "Kalimantan Tengah",
@@ -2307,7 +3984,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_178",
+      "id": "hotspot_307",
       "latitude": -3.36816,
       "longitude": 112.04854,
       "province": "Kalimantan Tengah",
@@ -2320,7 +3997,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_179",
+      "id": "hotspot_308",
       "latitude": -3.36802,
       "longitude": 112.02647,
       "province": "Kalimantan Tengah",
@@ -2333,7 +4010,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_180",
+      "id": "hotspot_309",
       "latitude": -3.36762,
       "longitude": 112.05212,
       "province": "Kalimantan Tengah",
@@ -2346,7 +4023,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_181",
+      "id": "hotspot_310",
       "latitude": -3.36748,
       "longitude": 112.03007,
       "province": "Kalimantan Tengah",
@@ -2359,7 +4036,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_182",
+      "id": "hotspot_311",
       "latitude": -3.36708,
       "longitude": 112.05572,
       "province": "Kalimantan Tengah",
@@ -2372,7 +4049,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_183",
+      "id": "hotspot_312",
       "latitude": -3.36654,
       "longitude": 112.0593,
       "province": "Kalimantan Tengah",
@@ -2385,7 +4062,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_184",
+      "id": "hotspot_313",
       "latitude": -3.36572,
       "longitude": 112.01878,
       "province": "Kalimantan Tengah",
@@ -2398,7 +4075,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_185",
+      "id": "hotspot_314",
       "latitude": -3.36532,
       "longitude": 112.04444,
       "province": "Kalimantan Tengah",
@@ -2411,7 +4088,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_186",
+      "id": "hotspot_315",
       "latitude": -3.36518,
       "longitude": 112.02238,
       "province": "Kalimantan Tengah",
@@ -2424,7 +4101,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_187",
+      "id": "hotspot_316",
       "latitude": -3.36479,
       "longitude": 112.04803,
       "province": "Kalimantan Tengah",
@@ -2437,7 +4114,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_188",
+      "id": "hotspot_317",
       "latitude": -3.36464,
       "longitude": 112.02597,
       "province": "Kalimantan Tengah",
@@ -2450,7 +4127,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_189",
+      "id": "hotspot_318",
       "latitude": -3.36396,
       "longitude": 112.00748,
       "province": "Kalimantan Tengah",
@@ -2463,7 +4140,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_190",
+      "id": "hotspot_319",
       "latitude": -3.36342,
       "longitude": 112.01109,
       "province": "Kalimantan Tengah",
@@ -2476,7 +4153,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_191",
+      "id": "hotspot_320",
       "latitude": -3.36288,
       "longitude": 112.01469,
       "province": "Kalimantan Tengah",
@@ -2489,7 +4166,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_192",
+      "id": "hotspot_321",
       "latitude": -3.36273,
       "longitude": 111.99258,
       "province": "Kalimantan Tengah",
@@ -2502,7 +4179,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_193",
+      "id": "hotspot_322",
       "latitude": -3.36264,
       "longitude": 112.06238,
       "province": "Kalimantan Tengah",
@@ -2515,7 +4192,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_194",
+      "id": "hotspot_323",
       "latitude": -3.36195,
       "longitude": 112.04394,
       "province": "Kalimantan Tengah",
@@ -2528,7 +4205,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_195",
+      "id": "hotspot_324",
       "latitude": -3.36141,
       "longitude": 112.04752,
       "province": "Kalimantan Tengah",
@@ -2541,7 +4218,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_196",
+      "id": "hotspot_325",
       "latitude": -3.36112,
       "longitude": 112.00337,
       "province": "Kalimantan Tengah",
@@ -2554,7 +4231,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_197",
+      "id": "hotspot_326",
       "latitude": -3.36094,
       "longitude": 113.93388,
       "province": "Kalimantan Tengah",
@@ -2567,7 +4244,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_198",
+      "id": "hotspot_327",
       "latitude": -3.36058,
       "longitude": 112.00699,
       "province": "Kalimantan Tengah",
@@ -2580,7 +4257,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_199",
+      "id": "hotspot_328",
       "latitude": -3.3598,
       "longitude": 112.0583,
       "province": "Kalimantan Tengah",
@@ -2593,7 +4270,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_200",
+      "id": "hotspot_329",
       "latitude": -3.35942,
       "longitude": 112.00309,
       "province": "Kalimantan Tengah",
@@ -2606,7 +4283,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_201",
+      "id": "hotspot_330",
       "latitude": -3.35763,
       "longitude": 113.93338,
       "province": "Kalimantan Tengah",
@@ -2619,7 +4296,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_202",
+      "id": "hotspot_331",
       "latitude": -3.3571,
       "longitude": 113.93684,
       "province": "Kalimantan Tengah",
@@ -2632,7 +4309,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_203",
+      "id": "hotspot_332",
       "latitude": -3.35659,
       "longitude": 111.999,
       "province": "Kalimantan Tengah",
@@ -2645,7 +4322,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_204",
+      "id": "hotspot_333",
       "latitude": -3.34856,
       "longitude": 111.96098,
       "province": "Kalimantan Tengah",
@@ -2658,7 +4335,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_205",
+      "id": "hotspot_334",
       "latitude": -3.31802,
       "longitude": 112.69807,
       "province": "Kalimantan Tengah",
@@ -2671,7 +4348,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_206",
+      "id": "hotspot_335",
       "latitude": -3.31575,
       "longitude": 112.69061,
       "province": "Kalimantan Tengah",
@@ -2684,7 +4361,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_207",
+      "id": "hotspot_336",
       "latitude": -3.31522,
       "longitude": 112.69408,
       "province": "Kalimantan Tengah",
@@ -2697,7 +4374,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_208",
+      "id": "hotspot_337",
       "latitude": -3.31469,
       "longitude": 112.69757,
       "province": "Kalimantan Tengah",
@@ -2710,7 +4387,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_209",
+      "id": "hotspot_338",
       "latitude": -3.31242,
       "longitude": 112.69011,
       "province": "Kalimantan Tengah",
@@ -2723,7 +4400,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_210",
+      "id": "hotspot_339",
       "latitude": -3.31189,
       "longitude": 112.69359,
       "province": "Kalimantan Tengah",
@@ -2736,7 +4413,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_211",
+      "id": "hotspot_340",
       "latitude": -3.31137,
       "longitude": 112.69707,
       "province": "Kalimantan Tengah",
@@ -2749,7 +4426,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_212",
+      "id": "hotspot_341",
       "latitude": -3.3091,
       "longitude": 112.68961,
       "province": "Kalimantan Tengah",
@@ -2762,7 +4439,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_213",
+      "id": "hotspot_342",
       "latitude": -3.30857,
       "longitude": 112.69308,
       "province": "Kalimantan Tengah",
@@ -2775,7 +4452,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_214",
+      "id": "hotspot_343",
       "latitude": -3.30804,
       "longitude": 112.69657,
       "province": "Kalimantan Tengah",
@@ -2788,7 +4465,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_215",
+      "id": "hotspot_344",
       "latitude": -3.30577,
       "longitude": 112.68911,
       "province": "Kalimantan Tengah",
@@ -2801,7 +4478,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_216",
+      "id": "hotspot_345",
       "latitude": -3.30524,
       "longitude": 112.69259,
       "province": "Kalimantan Tengah",
@@ -2814,7 +4491,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_217",
+      "id": "hotspot_346",
       "latitude": -3.30245,
       "longitude": 112.68861,
       "province": "Kalimantan Tengah",
@@ -2827,7 +4504,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_218",
+      "id": "hotspot_347",
       "latitude": -3.30192,
       "longitude": 112.69209,
       "province": "Kalimantan Tengah",
@@ -2840,7 +4517,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_219",
+      "id": "hotspot_348",
       "latitude": -3.29912,
       "longitude": 112.68812,
       "province": "Kalimantan Tengah",
@@ -2853,7 +4530,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_220",
+      "id": "hotspot_349",
       "latitude": -3.27716,
       "longitude": 114.69945,
       "province": "Kalimantan Selatan",
@@ -2866,7 +4543,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_221",
+      "id": "hotspot_350",
       "latitude": -3.03409,
       "longitude": 115.15449,
       "province": "Kalimantan Selatan",
@@ -2879,7 +4556,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_222",
+      "id": "hotspot_351",
       "latitude": -3.02957,
       "longitude": 115.16125,
       "province": "Kalimantan Selatan",
@@ -2892,7 +4569,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_223",
+      "id": "hotspot_352",
       "latitude": -2.99797,
       "longitude": 112.92471,
       "province": "Kalimantan Tengah",
@@ -2905,7 +4582,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_224",
+      "id": "hotspot_353",
       "latitude": -2.97983,
       "longitude": 112.93257,
       "province": "Kalimantan Tengah",
@@ -2918,7 +4595,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_225",
+      "id": "hotspot_354",
       "latitude": -2.95318,
       "longitude": 113.19639,
       "province": "Kalimantan Tengah",
@@ -2931,7 +4608,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_226",
+      "id": "hotspot_355",
       "latitude": -2.89052,
       "longitude": 116.31553,
       "province": "Kalimantan Selatan",
@@ -2944,7 +4621,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_227",
+      "id": "hotspot_356",
       "latitude": -2.8303,
       "longitude": 116.3269,
       "province": "Kalimantan Selatan",
@@ -2957,7 +4634,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_228",
+      "id": "hotspot_357",
       "latitude": -2.76407,
       "longitude": 116.24224,
       "province": "Kalimantan Selatan",
@@ -2970,7 +4647,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_229",
+      "id": "hotspot_358",
       "latitude": -2.61827,
       "longitude": 116.24591,
       "province": "Kalimantan Selatan",
@@ -2983,7 +4660,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_230",
+      "id": "hotspot_359",
       "latitude": -2.61535,
       "longitude": 116.24131,
       "province": "Kalimantan Selatan",
@@ -2996,7 +4673,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_231",
+      "id": "hotspot_360",
       "latitude": -2.61471,
       "longitude": 116.24535,
       "province": "Kalimantan Selatan",
@@ -3009,7 +4686,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_232",
+      "id": "hotspot_361",
       "latitude": -2.61242,
       "longitude": 116.23673,
       "province": "Kalimantan Selatan",
@@ -3022,7 +4699,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_233",
+      "id": "hotspot_362",
       "latitude": -2.61179,
       "longitude": 116.24075,
       "province": "Kalimantan Selatan",
@@ -3035,7 +4712,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_234",
+      "id": "hotspot_363",
       "latitude": -2.61115,
       "longitude": 116.24479,
       "province": "Kalimantan Selatan",
@@ -3048,7 +4725,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_235",
+      "id": "hotspot_364",
       "latitude": -2.55998,
       "longitude": 115.94759,
       "province": "Kalimantan Selatan",
@@ -3061,7 +4738,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_236",
+      "id": "hotspot_365",
       "latitude": -2.52415,
       "longitude": 116.08389,
       "province": "Kalimantan Selatan",
@@ -3074,7 +4751,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_237",
+      "id": "hotspot_366",
       "latitude": -2.51849,
       "longitude": 114.1529,
       "province": "Kalimantan Tengah",
@@ -3087,7 +4764,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_238",
+      "id": "hotspot_367",
       "latitude": -2.50831,
       "longitude": 116.37119,
       "province": "Kalimantan Selatan",
@@ -3100,7 +4777,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_239",
+      "id": "hotspot_368",
       "latitude": -2.47178,
       "longitude": 116.40408,
       "province": "Kalimantan Selatan",
@@ -3113,7 +4790,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_240",
+      "id": "hotspot_369",
       "latitude": -2.4594,
       "longitude": 114.96494,
       "province": "Kalimantan Selatan",
@@ -3126,7 +4803,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_241",
+      "id": "hotspot_370",
       "latitude": -2.45846,
       "longitude": 116.41891,
       "province": "Kalimantan Selatan",
@@ -3139,7 +4816,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_242",
+      "id": "hotspot_371",
       "latitude": -2.4352,
       "longitude": 115.00965,
       "province": "Kalimantan Selatan",
@@ -3152,7 +4829,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_243",
+      "id": "hotspot_372",
       "latitude": -2.43474,
       "longitude": 115.05816,
       "province": "Kalimantan Selatan",
@@ -3165,7 +4842,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_244",
+      "id": "hotspot_373",
       "latitude": -2.42601,
       "longitude": 116.48604,
       "province": "Kalimantan Selatan",
@@ -3178,7 +4855,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_245",
+      "id": "hotspot_374",
       "latitude": -2.33504,
       "longitude": 114.68358,
       "province": "Kalimantan Tengah",
@@ -3191,7 +4868,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_246",
+      "id": "hotspot_375",
       "latitude": -2.33449,
       "longitude": 114.68716,
       "province": "Kalimantan Tengah",
@@ -3204,7 +4881,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_247",
+      "id": "hotspot_376",
       "latitude": -2.32659,
       "longitude": 116.09573,
       "province": "Kalimantan Selatan",
@@ -3217,7 +4894,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_248",
+      "id": "hotspot_377",
       "latitude": -2.26731,
       "longitude": 115.61792,
       "province": "Kalimantan Selatan",
@@ -3230,7 +4907,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_249",
+      "id": "hotspot_378",
       "latitude": -2.21719,
       "longitude": 116.2405,
       "province": "Kalimantan Timur",
@@ -3243,7 +4920,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_250",
+      "id": "hotspot_379",
       "latitude": -2.15287,
       "longitude": 114.81376,
       "province": "Kalimantan Tengah",
@@ -3256,7 +4933,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_251",
+      "id": "hotspot_380",
       "latitude": -2.11359,
       "longitude": 114.88934,
       "province": "Kalimantan Tengah",
@@ -3269,7 +4946,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_252",
+      "id": "hotspot_381",
       "latitude": -2.10727,
       "longitude": 114.84013,
       "province": "Kalimantan Tengah",
@@ -3282,7 +4959,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_253",
+      "id": "hotspot_382",
       "latitude": -2.08733,
       "longitude": 116.14197,
       "province": "Kalimantan Timur",
@@ -3295,7 +4972,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_254",
+      "id": "hotspot_383",
       "latitude": -2.08669,
       "longitude": 116.14601,
       "province": "Kalimantan Timur",
@@ -3308,7 +4985,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_255",
+      "id": "hotspot_384",
       "latitude": -2.0616,
       "longitude": 116.17239,
       "province": "Kalimantan Timur",
@@ -3321,7 +4998,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_256",
+      "id": "hotspot_385",
       "latitude": -2.05064,
       "longitude": 114.81618,
       "province": "Kalimantan Tengah",
@@ -3334,7 +5011,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_257",
+      "id": "hotspot_386",
       "latitude": -2.04946,
       "longitude": 114.80116,
       "province": "Kalimantan Tengah",
@@ -3347,7 +5024,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_258",
+      "id": "hotspot_387",
       "latitude": -1.98093,
       "longitude": 116.12675,
       "province": "Kalimantan Timur",
@@ -3360,7 +5037,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_259",
+      "id": "hotspot_388",
       "latitude": -1.97049,
       "longitude": 116.21676,
       "province": "Kalimantan Timur",
@@ -3373,7 +5050,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_260",
+      "id": "hotspot_389",
       "latitude": -1.93043,
       "longitude": 116.32094,
       "province": "Kalimantan Timur",
@@ -3386,7 +5063,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_261",
+      "id": "hotspot_390",
       "latitude": -1.9298,
       "longitude": 116.32507,
       "province": "Kalimantan Timur",
@@ -3399,7 +5076,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_262",
+      "id": "hotspot_391",
       "latitude": -1.92917,
       "longitude": 116.3292,
       "province": "Kalimantan Timur",
@@ -3412,7 +5089,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_263",
+      "id": "hotspot_392",
       "latitude": -2.20439,
       "longitude": 110.74559,
       "province": "Kalimantan Barat",
@@ -3425,7 +5102,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_264",
+      "id": "hotspot_393",
       "latitude": -1.90007,
       "longitude": 114.4597,
       "province": "Kalimantan Tengah",
@@ -3438,7 +5115,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_265",
+      "id": "hotspot_394",
       "latitude": -1.89451,
       "longitude": 114.45821,
       "province": "Kalimantan Tengah",
@@ -3451,7 +5128,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_266",
+      "id": "hotspot_395",
       "latitude": -1.88324,
       "longitude": 114.44196,
       "province": "Kalimantan Tengah",
@@ -3464,7 +5141,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_267",
+      "id": "hotspot_396",
       "latitude": -1.87935,
       "longitude": 114.445,
       "province": "Kalimantan Tengah",
@@ -3477,7 +5154,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_268",
+      "id": "hotspot_397",
       "latitude": -1.7339,
       "longitude": 116.23331,
       "province": "Kalimantan Timur",
@@ -3490,7 +5167,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_269",
+      "id": "hotspot_398",
       "latitude": -1.73358,
       "longitude": 116.22351,
       "province": "Kalimantan Timur",
@@ -3503,7 +5180,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_270",
+      "id": "hotspot_399",
       "latitude": -1.73229,
       "longitude": 116.23176,
       "province": "Kalimantan Timur",
@@ -3516,7 +5193,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_271",
+      "id": "hotspot_400",
       "latitude": -1.73155,
       "longitude": 116.22451,
       "province": "Kalimantan Timur",
@@ -3529,7 +5206,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_272",
+      "id": "hotspot_401",
       "latitude": -1.71434,
       "longitude": 115.25055,
       "province": "Kalimantan Tengah",
@@ -3542,7 +5219,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_273",
+      "id": "hotspot_402",
       "latitude": -1.68068,
       "longitude": 116.07822,
       "province": "Kalimantan Timur",
@@ -3555,7 +5232,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_274",
+      "id": "hotspot_403",
       "latitude": -1.6706,
       "longitude": 116.2616,
       "province": "Kalimantan Timur",
@@ -3568,7 +5245,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_275",
+      "id": "hotspot_404",
       "latitude": -1.63799,
       "longitude": 115.15479,
       "province": "Kalimantan Tengah",
@@ -3581,7 +5258,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_276",
+      "id": "hotspot_405",
       "latitude": -1.59608,
       "longitude": 116.47758,
       "province": "Kalimantan Timur",
@@ -3594,7 +5271,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_277",
+      "id": "hotspot_406",
       "latitude": -1.50644,
       "longitude": 113.14616,
       "province": "Kalimantan Tengah",
@@ -3607,7 +5284,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_278",
+      "id": "hotspot_407",
       "latitude": -1.42969,
       "longitude": 113.47199,
       "province": "Kalimantan Tengah",
@@ -3620,7 +5297,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_279",
+      "id": "hotspot_408",
       "latitude": -1.3184,
       "longitude": 111.77142,
       "province": "Kalimantan Tengah",
@@ -3633,7 +5310,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_280",
+      "id": "hotspot_409",
       "latitude": -1.29556,
       "longitude": 110.81877,
       "province": "Kalimantan Barat",
@@ -3646,7 +5323,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_281",
+      "id": "hotspot_410",
       "latitude": -1.1928,
       "longitude": 112.08007,
       "province": "Kalimantan Tengah",
@@ -3659,7 +5336,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_282",
+      "id": "hotspot_411",
       "latitude": -1.15983,
       "longitude": 109.70928,
       "province": "Kalimantan Barat",
@@ -3672,7 +5349,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_283",
+      "id": "hotspot_412",
       "latitude": -1.12698,
       "longitude": 115.24279,
       "province": "Kalimantan Tengah",
@@ -3685,7 +5362,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_284",
+      "id": "hotspot_413",
       "latitude": -1.12601,
       "longitude": 115.24269,
       "province": "Kalimantan Tengah",
@@ -3698,7 +5375,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_285",
+      "id": "hotspot_414",
       "latitude": -1.12524,
       "longitude": 115.2309,
       "province": "Kalimantan Tengah",
@@ -3711,7 +5388,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_286",
+      "id": "hotspot_415",
       "latitude": -1.1178,
       "longitude": 115.30362,
       "province": "Kalimantan Tengah",
@@ -3724,7 +5401,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_287",
+      "id": "hotspot_416",
       "latitude": -1.11656,
       "longitude": 115.30344,
       "province": "Kalimantan Tengah",
@@ -3737,7 +5414,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_288",
+      "id": "hotspot_417",
       "latitude": -1.11144,
       "longitude": 115.29871,
       "province": "Kalimantan Tengah",
@@ -3750,7 +5427,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_289",
+      "id": "hotspot_418",
       "latitude": -1.10623,
       "longitude": 115.35667,
       "province": "Kalimantan Tengah",
@@ -3763,7 +5440,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_290",
+      "id": "hotspot_419",
       "latitude": -1.09758,
       "longitude": 115.18028,
       "province": "Kalimantan Tengah",
@@ -3776,7 +5453,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_291",
+      "id": "hotspot_420",
       "latitude": -1.06449,
       "longitude": 109.67056,
       "province": "Kalimantan Barat",
@@ -3789,7 +5466,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_292",
+      "id": "hotspot_421",
       "latitude": -0.96152,
       "longitude": 115.10572,
       "province": "Kalimantan Tengah",
@@ -3802,7 +5479,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_293",
+      "id": "hotspot_422",
       "latitude": -0.95006,
       "longitude": 115.08862,
       "province": "Kalimantan Tengah",
@@ -3815,7 +5492,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_294",
+      "id": "hotspot_423",
       "latitude": -0.91515,
       "longitude": 117.05861,
       "province": "Kalimantan Timur",
@@ -3828,7 +5505,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_295",
+      "id": "hotspot_424",
       "latitude": -0.90625,
       "longitude": 115.07845,
       "province": "Kalimantan Tengah",
@@ -3841,7 +5518,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_296",
+      "id": "hotspot_425",
       "latitude": -0.90573,
       "longitude": 115.1516,
       "province": "Kalimantan Tengah",
@@ -3854,7 +5531,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_297",
+      "id": "hotspot_426",
       "latitude": -0.90281,
       "longitude": 115.07793,
       "province": "Kalimantan Tengah",
@@ -3867,7 +5544,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_298",
+      "id": "hotspot_427",
       "latitude": -0.83276,
       "longitude": 115.56168,
       "province": "Kalimantan Timur",
@@ -3880,7 +5557,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_299",
+      "id": "hotspot_428",
       "latitude": -0.77212,
       "longitude": 116.0088,
       "province": "Kalimantan Timur",
@@ -3893,7 +5570,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_300",
+      "id": "hotspot_429",
       "latitude": -0.65641,
       "longitude": 115.98335,
       "province": "Kalimantan Timur",
@@ -3906,7 +5583,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_301",
+      "id": "hotspot_430",
       "latitude": -0.64389,
       "longitude": 116.13873,
       "province": "Kalimantan Timur",
@@ -3919,7 +5596,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_302",
+      "id": "hotspot_431",
       "latitude": -0.60554,
       "longitude": 116.09867,
       "province": "Kalimantan Timur",
@@ -3932,7 +5609,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_303",
+      "id": "hotspot_432",
       "latitude": -0.55167,
       "longitude": 116.79822,
       "province": "Kalimantan Timur",
@@ -3945,7 +5622,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_304",
+      "id": "hotspot_433",
       "latitude": -0.49388,
       "longitude": 117.25979,
       "province": "Kalimantan Timur",
@@ -3958,7 +5635,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_305",
+      "id": "hotspot_434",
       "latitude": -0.47793,
       "longitude": 115.98203,
       "province": "Kalimantan Timur",
@@ -3971,7 +5648,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_306",
+      "id": "hotspot_435",
       "latitude": -0.47335,
       "longitude": 116.13062,
       "province": "Kalimantan Timur",
@@ -3984,7 +5661,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_307",
+      "id": "hotspot_436",
       "latitude": -0.40697,
       "longitude": 115.97697,
       "province": "Kalimantan Timur",
@@ -3997,7 +5674,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_308",
+      "id": "hotspot_437",
       "latitude": -0.40218,
       "longitude": 116.25146,
       "province": "Kalimantan Timur",
@@ -4010,7 +5687,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_309",
+      "id": "hotspot_438",
       "latitude": -0.37698,
       "longitude": 116.02763,
       "province": "Kalimantan Timur",
@@ -4023,7 +5700,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_310",
+      "id": "hotspot_439",
       "latitude": -0.37205,
       "longitude": 116.15558,
       "province": "Kalimantan Timur",
@@ -4036,7 +5713,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_311",
+      "id": "hotspot_440",
       "latitude": -0.36842,
       "longitude": 116.15503,
       "province": "Kalimantan Timur",
@@ -4049,7 +5726,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_312",
+      "id": "hotspot_441",
       "latitude": -0.36759,
       "longitude": 116.23306,
       "province": "Kalimantan Timur",
@@ -4062,7 +5739,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_313",
+      "id": "hotspot_442",
       "latitude": -0.35721,
       "longitude": 116.17929,
       "province": "Kalimantan Timur",
@@ -4075,7 +5752,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_314",
+      "id": "hotspot_443",
       "latitude": -0.35571,
       "longitude": 116.01231,
       "province": "Kalimantan Timur",
@@ -4088,7 +5765,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_315",
+      "id": "hotspot_444",
       "latitude": -0.35532,
       "longitude": 117.40887,
       "province": "Kalimantan Timur",
@@ -4101,7 +5778,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_316",
+      "id": "hotspot_445",
       "latitude": -0.3547,
       "longitude": 117.41106,
       "province": "Kalimantan Timur",
@@ -4114,7 +5791,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_317",
+      "id": "hotspot_446",
       "latitude": -0.35298,
       "longitude": 116.01546,
       "province": "Kalimantan Timur",
@@ -4127,7 +5804,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_318",
+      "id": "hotspot_447",
       "latitude": -0.35267,
       "longitude": 116.25699,
       "province": "Kalimantan Timur",
@@ -4140,7 +5817,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_319",
+      "id": "hotspot_448",
       "latitude": -0.34849,
       "longitude": 116.0112,
       "province": "Kalimantan Timur",
@@ -4153,7 +5830,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_320",
+      "id": "hotspot_449",
       "latitude": -0.34786,
       "longitude": 116.01537,
       "province": "Kalimantan Timur",
@@ -4166,7 +5843,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_321",
+      "id": "hotspot_450",
       "latitude": -0.34723,
       "longitude": 116.01953,
       "province": "Kalimantan Timur",
@@ -4179,7 +5856,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_322",
+      "id": "hotspot_451",
       "latitude": -0.34487,
       "longitude": 116.01064,
       "province": "Kalimantan Timur",
@@ -4192,7 +5869,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_323",
+      "id": "hotspot_452",
       "latitude": -0.34425,
       "longitude": 116.01481,
       "province": "Kalimantan Timur",
@@ -4205,7 +5882,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_324",
+      "id": "hotspot_453",
       "latitude": -0.34371,
       "longitude": 116.29072,
       "province": "Kalimantan Timur",
@@ -4218,7 +5895,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_325",
+      "id": "hotspot_454",
       "latitude": -0.34362,
       "longitude": 116.01897,
       "province": "Kalimantan Timur",
@@ -4231,7 +5908,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_326",
+      "id": "hotspot_455",
       "latitude": -0.34,
       "longitude": 116.01841,
       "province": "Kalimantan Timur",
@@ -4244,7 +5921,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_327",
+      "id": "hotspot_456",
       "latitude": -0.33937,
       "longitude": 116.29445,
       "province": "Kalimantan Timur",
@@ -4257,7 +5934,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_328",
+      "id": "hotspot_457",
       "latitude": -0.33437,
       "longitude": 116.25422,
       "province": "Kalimantan Timur",
@@ -4270,7 +5947,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_329",
+      "id": "hotspot_458",
       "latitude": -0.3337,
       "longitude": 116.25849,
       "province": "Kalimantan Timur",
@@ -4283,7 +5960,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_330",
+      "id": "hotspot_459",
       "latitude": -0.33237,
       "longitude": 116.26704,
       "province": "Kalimantan Timur",
@@ -4296,7 +5973,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_331",
+      "id": "hotspot_460",
       "latitude": -0.23115,
       "longitude": 116.94181,
       "province": "Kalimantan Timur",
@@ -4309,7 +5986,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_332",
+      "id": "hotspot_461",
       "latitude": -0.20738,
       "longitude": 117.35098,
       "province": "Kalimantan Timur",
@@ -4322,7 +5999,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_333",
+      "id": "hotspot_462",
       "latitude": -0.17786,
       "longitude": 117.43837,
       "province": "Kalimantan Timur",
@@ -4335,7 +6012,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_334",
+      "id": "hotspot_463",
       "latitude": -0.11963,
       "longitude": 117.45238,
       "province": "Kalimantan Timur",
@@ -4348,7 +6025,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_335",
+      "id": "hotspot_464",
       "latitude": -0.10615,
       "longitude": 116.17908,
       "province": "Kalimantan Timur",
@@ -4361,7 +6038,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_336",
+      "id": "hotspot_465",
       "latitude": -0.10551,
       "longitude": 116.18335,
       "province": "Kalimantan Timur",
@@ -4374,7 +6051,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_337",
+      "id": "hotspot_466",
       "latitude": -0.01353,
       "longitude": 111.12781,
       "province": "Kalimantan Barat",
@@ -4387,7 +6064,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_338",
+      "id": "hotspot_467",
       "latitude": -0.01015,
       "longitude": 111.1273,
       "province": "Kalimantan Barat",
@@ -4400,7 +6077,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_339",
+      "id": "hotspot_468",
       "latitude": 0.00582,
       "longitude": 116.27737,
       "province": "Kalimantan Timur",
@@ -4413,7 +6090,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_340",
+      "id": "hotspot_469",
       "latitude": 0.01109,
       "longitude": 117.41422,
       "province": "Kalimantan Timur",
@@ -4426,7 +6103,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_341",
+      "id": "hotspot_470",
       "latitude": 0.03029,
       "longitude": 117.30395,
       "province": "Kalimantan Timur",
@@ -4439,7 +6116,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_342",
+      "id": "hotspot_471",
       "latitude": 0.03101,
       "longitude": 117.30863,
       "province": "Kalimantan Timur",
@@ -4452,7 +6129,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_343",
+      "id": "hotspot_472",
       "latitude": 0.03325,
       "longitude": 117.37495,
       "province": "Kalimantan Timur",
@@ -4465,7 +6142,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_344",
+      "id": "hotspot_473",
       "latitude": 0.09768,
       "longitude": 115.86974,
       "province": "Kalimantan Timur",
@@ -4478,7 +6155,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_345",
+      "id": "hotspot_474",
       "latitude": 0.23464,
       "longitude": 115.43639,
       "province": "Kalimantan Timur",
@@ -4491,7 +6168,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_346",
+      "id": "hotspot_475",
       "latitude": 0.37035,
       "longitude": 117.45012,
       "province": "Kalimantan Timur",
@@ -4504,7 +6181,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_347",
+      "id": "hotspot_476",
       "latitude": 0.37947,
       "longitude": 117.53582,
       "province": "Kalimantan Timur",
@@ -4517,7 +6194,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_348",
+      "id": "hotspot_477",
       "latitude": 0.38,
       "longitude": 117.53928,
       "province": "Kalimantan Timur",
@@ -4530,7 +6207,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_349",
+      "id": "hotspot_478",
       "latitude": 0.38399,
       "longitude": 117.53862,
       "province": "Kalimantan Timur",
@@ -4543,7 +6220,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_350",
+      "id": "hotspot_479",
       "latitude": 0.43478,
       "longitude": 116.24364,
       "province": "Kalimantan Timur",
@@ -4556,7 +6233,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_351",
+      "id": "hotspot_480",
       "latitude": 0.43566,
       "longitude": 116.24233,
       "province": "Kalimantan Timur",
@@ -4569,7 +6246,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_352",
+      "id": "hotspot_481",
       "latitude": 0.45017,
       "longitude": 117.55723,
       "province": "Kalimantan Timur",
@@ -4582,7 +6259,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_353",
+      "id": "hotspot_482",
       "latitude": 0.4526,
       "longitude": 117.54619,
       "province": "Kalimantan Timur",
@@ -4595,7 +6272,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_354",
+      "id": "hotspot_483",
       "latitude": 0.45312,
       "longitude": 117.54967,
       "province": "Kalimantan Timur",
@@ -4608,7 +6285,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_355",
+      "id": "hotspot_484",
       "latitude": 0.48217,
       "longitude": 117.55232,
       "province": "Kalimantan Timur",
@@ -4621,7 +6298,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_356",
+      "id": "hotspot_485",
       "latitude": 0.48883,
       "longitude": 117.56907,
       "province": "Kalimantan Timur",
@@ -4634,7 +6311,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_357",
+      "id": "hotspot_486",
       "latitude": 0.49177,
       "longitude": 117.56152,
       "province": "Kalimantan Timur",
@@ -4647,7 +6324,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_358",
+      "id": "hotspot_487",
       "latitude": 0.49231,
       "longitude": 117.56497,
       "province": "Kalimantan Timur",
@@ -4660,7 +6337,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_359",
+      "id": "hotspot_488",
       "latitude": 0.50374,
       "longitude": 109.71629,
       "province": "Kalimantan Barat",
@@ -4673,7 +6350,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_360",
+      "id": "hotspot_489",
       "latitude": 0.57212,
       "longitude": 116.10918,
       "province": "Kalimantan Timur",
@@ -4686,7 +6363,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_361",
+      "id": "hotspot_490",
       "latitude": 0.57579,
       "longitude": 116.10861,
       "province": "Kalimantan Timur",
@@ -4699,7 +6376,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_362",
+      "id": "hotspot_491",
       "latitude": 0.62434,
       "longitude": 116.65788,
       "province": "Kalimantan Timur",
@@ -4712,7 +6389,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_363",
+      "id": "hotspot_492",
       "latitude": 0.66039,
       "longitude": 116.74242,
       "province": "Kalimantan Timur",
@@ -4725,7 +6402,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_364",
+      "id": "hotspot_493",
       "latitude": 0.73007,
       "longitude": 116.78913,
       "province": "Kalimantan Timur",
@@ -4738,7 +6415,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_365",
+      "id": "hotspot_494",
       "latitude": 1.03042,
       "longitude": 116.80389,
       "province": "Kalimantan Timur",
@@ -4751,7 +6428,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_366",
+      "id": "hotspot_495",
       "latitude": 1.0619,
       "longitude": 116.76189,
       "province": "Kalimantan Timur",
@@ -4764,7 +6441,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_367",
+      "id": "hotspot_496",
       "latitude": 1.34034,
       "longitude": 116.67561,
       "province": "Kalimantan Timur",
@@ -4777,7 +6454,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_368",
+      "id": "hotspot_497",
       "latitude": 1.34106,
       "longitude": 116.68034,
       "province": "Kalimantan Timur",
@@ -4790,7 +6467,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_369",
+      "id": "hotspot_498",
       "latitude": 1.44144,
       "longitude": 118.21664,
       "province": "Kalimantan Timur",
@@ -4803,7 +6480,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_370",
+      "id": "hotspot_499",
       "latitude": 1.59613,
       "longitude": 117.94898,
       "province": "Kalimantan Timur",
@@ -4816,7 +6493,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_371",
+      "id": "hotspot_500",
       "latitude": 1.6934,
       "longitude": 117.17738,
       "province": "Kalimantan Timur",
@@ -4829,7 +6506,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_372",
+      "id": "hotspot_501",
       "latitude": 3.28812,
       "longitude": 117.06032,
       "province": "Kalimantan Utara",
@@ -4842,7 +6519,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_373",
+      "id": "hotspot_502",
       "latitude": 3.80628,
       "longitude": 116.81806,
       "province": "Kalimantan Utara",
@@ -4855,7 +6532,7 @@
       "daynight": "D"
     },
     {
-      "id": "hotspot_374",
+      "id": "hotspot_503",
       "latitude": 3.87538,
       "longitude": 116.89708,
       "province": "Kalimantan Utara",
@@ -4866,6 +6543,539 @@
       "time_utc": "05:54",
       "satellite": "VIIRS (NOAA-21)",
       "daynight": "D"
+    },
+    {
+      "id": "hotspot_504",
+      "latitude": -3.26177,
+      "longitude": 114.9682,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 303.27,
+      "confidence": "nominal",
+      "frp_mw": 1.31,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_505",
+      "latitude": -3.03456,
+      "longitude": 115.15997,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 318.3,
+      "confidence": "nominal",
+      "frp_mw": 5.32,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_506",
+      "latitude": -3.03367,
+      "longitude": 115.15478,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 319.06,
+      "confidence": "nominal",
+      "frp_mw": 5.32,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_507",
+      "latitude": -3.03317,
+      "longitude": 115.16219,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 303.35,
+      "confidence": "nominal",
+      "frp_mw": 2.78,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_508",
+      "latitude": -3.03232,
+      "longitude": 115.15701,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 320.51,
+      "confidence": "nominal",
+      "frp_mw": 5.9,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_509",
+      "latitude": -3.02907,
+      "longitude": 115.16624,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 310.53,
+      "confidence": "nominal",
+      "frp_mw": 3.32,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_510",
+      "latitude": -3.02678,
+      "longitude": 115.16328,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 304.08,
+      "confidence": "nominal",
+      "frp_mw": 2.78,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_511",
+      "latitude": -2.94081,
+      "longitude": 115.23695,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 304.18,
+      "confidence": "nominal",
+      "frp_mw": 2.39,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_512",
+      "latitude": -2.92806,
+      "longitude": 115.23902,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 302.51,
+      "confidence": "nominal",
+      "frp_mw": 1.31,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_513",
+      "latitude": -2.92169,
+      "longitude": 115.24007,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 298.18,
+      "confidence": "nominal",
+      "frp_mw": 1.31,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_514",
+      "latitude": -2.21419,
+      "longitude": 115.50074,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 295.48,
+      "confidence": "nominal",
+      "frp_mw": 0.9,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_515",
+      "latitude": -2.21094,
+      "longitude": 115.50425,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 299.53,
+      "confidence": "nominal",
+      "frp_mw": 1.87,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_516",
+      "latitude": -2.21005,
+      "longitude": 115.49905,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 298.31,
+      "confidence": "nominal",
+      "frp_mw": 2.11,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_517",
+      "latitude": -2.20787,
+      "longitude": 115.50188,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 306.46,
+      "confidence": "nominal",
+      "frp_mw": 1.69,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_518",
+      "latitude": -0.73563,
+      "longitude": 117.03899,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 298.17,
+      "confidence": "nominal",
+      "frp_mw": 0.35,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_519",
+      "latitude": -0.73444,
+      "longitude": 117.04057,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 303.5,
+      "confidence": "nominal",
+      "frp_mw": 0.57,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_520",
+      "latitude": -0.73149,
+      "longitude": 116.21426,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 297.41,
+      "confidence": "nominal",
+      "frp_mw": 3.8,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_521",
+      "latitude": -0.73067,
+      "longitude": 116.21499,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 295.72,
+      "confidence": "nominal",
+      "frp_mw": 2.53,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_522",
+      "latitude": -0.23888,
+      "longitude": 117.32705,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 315.29,
+      "confidence": "nominal",
+      "frp_mw": 2.26,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_523",
+      "latitude": 0.43525,
+      "longitude": 116.24081,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 310.22,
+      "confidence": "nominal",
+      "frp_mw": 4.62,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_524",
+      "latitude": 0.43829,
+      "longitude": 116.24342,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 316.72,
+      "confidence": "nominal",
+      "frp_mw": 4.47,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_525",
+      "latitude": 0.6858,
+      "longitude": 117.46748,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 303.73,
+      "confidence": "nominal",
+      "frp_mw": 1.46,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_526",
+      "latitude": 0.68664,
+      "longitude": 117.46675,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 306.62,
+      "confidence": "nominal",
+      "frp_mw": 1.6,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_527",
+      "latitude": 0.69068,
+      "longitude": 117.55283,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 305.18,
+      "confidence": "nominal",
+      "frp_mw": 2.31,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_528",
+      "latitude": 1.06448,
+      "longitude": 117.67664,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 304.91,
+      "confidence": "nominal",
+      "frp_mw": 1.88,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_529",
+      "latitude": 1.18417,
+      "longitude": 117.20454,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 303.49,
+      "confidence": "nominal",
+      "frp_mw": 2.95,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_530",
+      "latitude": 1.18477,
+      "longitude": 117.20061,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 323.97,
+      "confidence": "nominal",
+      "frp_mw": 2.95,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_531",
+      "latitude": 1.59885,
+      "longitude": 118.11637,
+      "province": "Kalimantan Timur",
+      "brightness_kelvin": 317.94,
+      "confidence": "nominal",
+      "frp_mw": 1.87,
+      "date": "2026-11-08",
+      "time_utc": "16:54",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_532",
+      "latitude": -3.8404,
+      "longitude": 115.25948,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 307.44,
+      "confidence": "nominal",
+      "frp_mw": 2.61,
+      "date": "2026-11-08",
+      "time_utc": "16:56",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_533",
+      "latitude": -3.35643,
+      "longitude": 113.93633,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 304.58,
+      "confidence": "nominal",
+      "frp_mw": 2.79,
+      "date": "2026-11-08",
+      "time_utc": "16:56",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_534",
+      "latitude": -3.35604,
+      "longitude": 113.94002,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 308.01,
+      "confidence": "nominal",
+      "frp_mw": 3.77,
+      "date": "2026-11-08",
+      "time_utc": "16:56",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_535",
+      "latitude": -3.37182,
+      "longitude": 112.02531,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 311.27,
+      "confidence": "nominal",
+      "frp_mw": 3.36,
+      "date": "2026-11-08",
+      "time_utc": "18:36",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_536",
+      "latitude": -3.36605,
+      "longitude": 112.02619,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 306.71,
+      "confidence": "nominal",
+      "frp_mw": 2.23,
+      "date": "2026-11-08",
+      "time_utc": "18:36",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_537",
+      "latitude": -3.36546,
+      "longitude": 112.02213,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 302.56,
+      "confidence": "nominal",
+      "frp_mw": 2.51,
+      "date": "2026-11-08",
+      "time_utc": "18:36",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_538",
+      "latitude": -3.36308,
+      "longitude": 112.00594,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 300.8,
+      "confidence": "nominal",
+      "frp_mw": 2.29,
+      "date": "2026-11-08",
+      "time_utc": "18:36",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_539",
+      "latitude": -3.35024,
+      "longitude": 111.95857,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 308.66,
+      "confidence": "nominal",
+      "frp_mw": 2.79,
+      "date": "2026-11-08",
+      "time_utc": "18:36",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_540",
+      "latitude": -3.29529,
+      "longitude": 112.69259,
+      "province": "Kalimantan Tengah",
+      "brightness_kelvin": 299.85,
+      "confidence": "nominal",
+      "frp_mw": 1.64,
+      "date": "2026-11-08",
+      "time_utc": "18:36",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_541",
+      "latitude": -3.10058,
+      "longitude": 115.10577,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 295.9,
+      "confidence": "nominal",
+      "frp_mw": 1.43,
+      "date": "2026-11-08",
+      "time_utc": "18:36",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_542",
+      "latitude": -3.10029,
+      "longitude": 115.10766,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 297.56,
+      "confidence": "nominal",
+      "frp_mw": 1.1,
+      "date": "2026-11-08",
+      "time_utc": "18:36",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_543",
+      "latitude": -2.96306,
+      "longitude": 115.22947,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 296.41,
+      "confidence": "nominal",
+      "frp_mw": 1.02,
+      "date": "2026-11-08",
+      "time_utc": "18:36",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
+    },
+    {
+      "id": "hotspot_544",
+      "latitude": -2.9431,
+      "longitude": 115.23963,
+      "province": "Kalimantan Selatan",
+      "brightness_kelvin": 295.11,
+      "confidence": "nominal",
+      "frp_mw": 2.22,
+      "date": "2026-11-08",
+      "time_utc": "18:36",
+      "satellite": "VIIRS (NOAA-21)",
+      "daynight": "N"
     }
   ]
 }

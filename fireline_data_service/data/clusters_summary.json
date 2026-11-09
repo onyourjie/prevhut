@@ -1,13 +1,13 @@
 {
   "metadata": {
     "title": "PREVHUT / FIRELINE Explainable Risk Clusters",
-    "synced_at": "2026-11-08T23:18:04.523311",
-    "source": "NASA FIRMS VIIRS (2026-11-08 - 374 Titik)",
-    "total_clusters": 25
+    "synced_at": "2026-11-09T10:00:03.487892",
+    "source": "NASA FIRMS VIIRS (2026-11-08 - 544 Titik)",
+    "total_clusters": 37
   },
   "clusters": [
     {
-      "cluster_id": 13,
+      "cluster_id": 14,
       "province": "Kalimantan Tengah",
       "kabupaten": "Kabupaten Seruyan",
       "kabupaten_list": [
@@ -26,8 +26,8 @@
           "daynight": "D"
         },
         {
-          "latitude": -3.36802,
-          "longitude": 112.02647,
+          "latitude": -3.36518,
+          "longitude": 112.02238,
           "frp_mw": 33.91,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
@@ -36,8 +36,8 @@
           "daynight": "D"
         },
         {
-          "latitude": -3.36518,
-          "longitude": 112.02238,
+          "latitude": -3.36802,
+          "longitude": 112.02647,
           "frp_mw": 33.91,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
@@ -136,6 +136,16 @@
           "daynight": "D"
         },
         {
+          "latitude": -3.37464,
+          "longitude": 112.03516,
+          "frp_mw": 21.74,
+          "confidence": "high",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "06:50",
+          "satellite": "VIIRS N20",
+          "daynight": "D"
+        },
+        {
           "latitude": -3.37542,
           "longitude": 112.03062,
           "frp_mw": 21.74,
@@ -148,16 +158,6 @@
         {
           "latitude": -3.38069,
           "longitude": 112.03613,
-          "frp_mw": 21.74,
-          "confidence": "high",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "06:50",
-          "satellite": "VIIRS N20",
-          "daynight": "D"
-        },
-        {
-          "latitude": -3.37464,
-          "longitude": 112.03516,
           "frp_mw": 21.74,
           "confidence": "high",
           "acq_date": "2026-11-08",
@@ -186,8 +186,8 @@
           "daynight": "D"
         },
         {
-          "latitude": -3.36195,
-          "longitude": 112.04394,
+          "latitude": -3.36141,
+          "longitude": 112.04752,
           "frp_mw": 18.75,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
@@ -196,8 +196,8 @@
           "daynight": "D"
         },
         {
-          "latitude": -3.36141,
-          "longitude": 112.04752,
+          "latitude": -3.36195,
+          "longitude": 112.04394,
           "frp_mw": 18.75,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
@@ -226,18 +226,8 @@
           "daynight": "D"
         },
         {
-          "latitude": -3.37069,
-          "longitude": 112.05788,
-          "frp_mw": 18.72,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "06:50",
-          "satellite": "VIIRS N20",
-          "daynight": "D"
-        },
-        {
-          "latitude": -3.3776,
-          "longitude": 112.03158,
+          "latitude": -3.37706,
+          "longitude": 112.03516,
           "frp_mw": 18.72,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
@@ -256,8 +246,8 @@
           "daynight": "D"
         },
         {
-          "latitude": -3.37706,
-          "longitude": 112.03516,
+          "latitude": -3.3776,
+          "longitude": 112.03158,
           "frp_mw": 18.72,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
@@ -273,6 +263,16 @@
           "acq_date": "2026-11-08",
           "acq_time_utc": "05:52",
           "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.37069,
+          "longitude": 112.05788,
+          "frp_mw": 18.72,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "06:50",
+          "satellite": "VIIRS N20",
           "daynight": "D"
         },
         {
@@ -306,10 +306,10 @@
           "daynight": "D"
         },
         {
-          "latitude": -3.37207,
-          "longitude": 112.04545,
+          "latitude": -3.37153,
+          "longitude": 112.04903,
           "frp_mw": 18.09,
-          "confidence": "high",
+          "confidence": "nominal",
           "acq_date": "2026-11-08",
           "acq_time_utc": "05:52",
           "satellite": "VIIRS N21",
@@ -317,8 +317,8 @@
         }
       ],
       "centroid": {
-        "latitude": -3.37759,
-        "longitude": 112.03121
+        "latitude": -3.37562,
+        "longitude": 112.0278
       },
       "bounding_box": {
         "min_lat": -3.48063,
@@ -326,27 +326,775 @@
         "min_lon": 111.89986,
         "max_lon": 112.08298
       },
-      "hotspot_count_24h": 121,
-      "days_detected_7d": 5,
-      "median_frp_mw": 10.42,
+      "hotspot_count_24h": 148,
+      "days_detected_7d": 4,
+      "median_frp_mw": 9.32,
       "max_frp_mw": 36.09,
-      "base_risk_score": 80.2,
-      "risk_score": 80.2,
-      "priority_level": "P1 - Prioritas Tinggi",
-      "badge": "Prioritas Tinggi",
-      "primary_factor": "Kerapatan deteksi tinggi (121 titik panas satelit)",
+      "base_risk_score": 79.7,
+      "risk_score": 79.7,
+      "priority_level": "P2 - Perhatian Meningkat",
+      "badge": "Perhatian Meningkat",
+      "primary_factor": "Kerapatan deteksi tinggi (148 titik panas satelit)",
       "nearest_settlement": "Kecamatan Seruyan Hilir (Kabupaten Seruyan)",
-      "distance_to_settlement_km": 57.7,
+      "distance_to_settlement_km": 58.1,
       "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
+      "last_updated": "10.00 WIB",
       "code": "Area Pantau 01",
       "id": "area_pantau_01"
     },
     {
-      "cluster_id": 10,
+      "cluster_id": 20,
+      "province": "Kalimantan Selatan",
+      "kabupaten": "Kabupaten Tapin",
+      "kabupaten_list": [
+        "Kabupaten Tapin",
+        "Kabupaten Hulu Sungai Selatan"
+      ],
+      "kecamatan": "Kecamatan Tapin Utara",
+      "hotspots": [
+        {
+          "latitude": -3.03232,
+          "longitude": 115.15701,
+          "frp_mw": 5.9,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.03367,
+          "longitude": 115.15478,
+          "frp_mw": 5.32,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.03456,
+          "longitude": 115.15997,
+          "frp_mw": 5.32,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.02907,
+          "longitude": 115.16624,
+          "frp_mw": 3.32,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.03409,
+          "longitude": 115.15449,
+          "frp_mw": 3.25,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.02957,
+          "longitude": 115.16125,
+          "frp_mw": 2.96,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.02678,
+          "longitude": 115.16328,
+          "frp_mw": 2.78,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.03317,
+          "longitude": 115.16219,
+          "frp_mw": 2.78,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.94081,
+          "longitude": 115.23695,
+          "frp_mw": 2.39,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.9431,
+          "longitude": 115.23963,
+          "frp_mw": 2.22,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "18:36",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.99803,
+          "longitude": 115.2032,
+          "frp_mw": 2.15,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.03453,
+          "longitude": 115.15501,
+          "frp_mw": 1.85,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.03784,
+          "longitude": 115.15449,
+          "frp_mw": 1.85,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.03398,
+          "longitude": 115.15155,
+          "frp_mw": 1.85,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.04646,
+          "longitude": 115.07942,
+          "frp_mw": 1.75,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.08663,
+          "longitude": 115.11909,
+          "frp_mw": 1.73,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.94208,
+          "longitude": 115.23708,
+          "frp_mw": 1.57,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.93877,
+          "longitude": 115.2376,
+          "frp_mw": 1.57,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.10058,
+          "longitude": 115.10577,
+          "frp_mw": 1.43,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "18:36",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.92828,
+          "longitude": 115.2357,
+          "frp_mw": 1.43,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.961,
+          "longitude": 115.22668,
+          "frp_mw": 1.4,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.9222,
+          "longitude": 115.24018,
+          "frp_mw": 1.37,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.91889,
+          "longitude": 115.2407,
+          "frp_mw": 1.37,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.04977,
+          "longitude": 115.0789,
+          "frp_mw": 1.32,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.92169,
+          "longitude": 115.24007,
+          "frp_mw": 1.31,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.92806,
+          "longitude": 115.23902,
+          "frp_mw": 1.31,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.03176,
+          "longitude": 115.15897,
+          "frp_mw": 1.26,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.029,
+          "longitude": 115.16295,
+          "frp_mw": 1.26,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.02845,
+          "longitude": 115.15949,
+          "frp_mw": 1.26,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.91558,
+          "longitude": 115.24123,
+          "frp_mw": 1.2,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": -2.99481,
+        "longitude": 115.1844
+      },
+      "bounding_box": {
+        "min_lat": -3.11558,
+        "max_lat": -2.86354,
+        "min_lon": 115.0639,
+        "max_lon": 115.27974
+      },
+      "hotspot_count_24h": 45,
+      "days_detected_7d": 4,
+      "median_frp_mw": 1.37,
+      "max_frp_mw": 5.9,
+      "base_risk_score": 72.9,
+      "risk_score": 72.9,
+      "priority_level": "P2 - Perhatian Meningkat",
+      "badge": "Perhatian Meningkat",
+      "primary_factor": "Kerapatan deteksi tinggi (45 titik panas satelit)",
+      "nearest_settlement": "Kecamatan Tapin Utara (Kabupaten Tapin)",
+      "distance_to_settlement_km": 9.2,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 02",
+      "id": "area_pantau_02"
+    },
+    {
+      "cluster_id": 34,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Barat",
+      "kabupaten_list": [
+        "Kabupaten Kutai Barat"
+      ],
+      "kecamatan": "Kecamatan Melak",
+      "hotspots": [
+        {
+          "latitude": -0.34849,
+          "longitude": 116.0112,
+          "frp_mw": 16.6,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.35571,
+          "longitude": 116.01231,
+          "frp_mw": 14.46,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.35298,
+          "longitude": 116.01546,
+          "frp_mw": 13.23,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.47793,
+          "longitude": 115.98203,
+          "frp_mw": 11.03,
+          "confidence": "low",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.34786,
+          "longitude": 116.01537,
+          "frp_mw": 8.36,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.34723,
+          "longitude": 116.01953,
+          "frp_mw": 8.36,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.34425,
+          "longitude": 116.01481,
+          "frp_mw": 7.04,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.34362,
+          "longitude": 116.01897,
+          "frp_mw": 7.04,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.34,
+          "longitude": 116.01841,
+          "frp_mw": 7.04,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.37698,
+          "longitude": 116.02763,
+          "frp_mw": 6.43,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.34487,
+          "longitude": 116.01064,
+          "frp_mw": 5.65,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.40697,
+          "longitude": 115.97697,
+          "frp_mw": 4.85,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": -0.36557,
+        "longitude": 116.01028
+      },
+      "bounding_box": {
+        "min_lat": -0.49293,
+        "max_lat": -0.325,
+        "min_lon": 115.96197,
+        "max_lon": 116.04263
+      },
+      "hotspot_count_24h": 12,
+      "days_detected_7d": 4,
+      "median_frp_mw": 7.7,
+      "max_frp_mw": 16.6,
+      "base_risk_score": 57.6,
+      "risk_score": 57.6,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Melak (Kabupaten Kutai Barat)",
+      "distance_to_settlement_km": 24.1,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 03",
+      "id": "area_pantau_03"
+    },
+    {
+      "cluster_id": 2,
+      "province": "Kalimantan Tengah",
+      "kabupaten": "Kabupaten Seruyan",
+      "kabupaten_list": [
+        "Kabupaten Seruyan"
+      ],
+      "kecamatan": "Kecamatan Seruyan Hilir Timur",
+      "hotspots": [
+        {
+          "latitude": -3.30192,
+          "longitude": 112.69209,
+          "frp_mw": 15.56,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.30577,
+          "longitude": 112.68911,
+          "frp_mw": 14.39,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.3091,
+          "longitude": 112.68961,
+          "frp_mw": 14.39,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.31802,
+          "longitude": 112.69807,
+          "frp_mw": 7.66,
+          "confidence": "low",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.30476,
+          "longitude": 112.69044,
+          "frp_mw": 7.66,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:10",
+          "satellite": "VIIRS N20",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.30746,
+          "longitude": 112.69372,
+          "frp_mw": 6.79,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:10",
+          "satellite": "VIIRS N20",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.29912,
+          "longitude": 112.68812,
+          "frp_mw": 5.67,
+          "confidence": "low",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.30245,
+          "longitude": 112.68861,
+          "frp_mw": 5.67,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.30857,
+          "longitude": 112.69308,
+          "frp_mw": 5.08,
+          "confidence": "low",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.30524,
+          "longitude": 112.69259,
+          "frp_mw": 5.08,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.30804,
+          "longitude": 112.69657,
+          "frp_mw": 5.08,
+          "confidence": "low",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.31575,
+          "longitude": 112.69061,
+          "frp_mw": 3.45,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.31242,
+          "longitude": 112.69011,
+          "frp_mw": 3.45,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.31189,
+          "longitude": 112.69359,
+          "frp_mw": 3.32,
+          "confidence": "low",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.31137,
+          "longitude": 112.69707,
+          "frp_mw": 3.32,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.31469,
+          "longitude": 112.69757,
+          "frp_mw": 3.32,
+          "confidence": "low",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.31522,
+          "longitude": 112.69408,
+          "frp_mw": 3.32,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -3.29529,
+          "longitude": 112.69259,
+          "frp_mw": 1.64,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "18:36",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.31392,
+          "longitude": 112.69079,
+          "frp_mw": 1.08,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.29646,
+          "longitude": 112.69313,
+          "frp_mw": 1.03,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.29986,
+          "longitude": 112.69259,
+          "frp_mw": 1.03,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": -3.30749,
+        "longitude": 112.69258
+      },
+      "bounding_box": {
+        "min_lat": -3.33302,
+        "max_lat": -3.28029,
+        "min_lon": 112.67312,
+        "max_lon": 112.71307
+      },
+      "hotspot_count_24h": 21,
+      "days_detected_7d": 3,
+      "median_frp_mw": 5.08,
+      "max_frp_mw": 15.56,
+      "base_risk_score": 52.6,
+      "risk_score": 56.6,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Titik api sangat dekat dengan permukiman warga (3.4 km)",
+      "nearest_settlement": "Kecamatan Seruyan Hilir Timur (Kabupaten Seruyan)",
+      "distance_to_settlement_km": 3.4,
+      "threat_level": "\u26a0\ufe0f Waspada (3 - 7 km - Bahaya Paparan Asap)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 04",
+      "id": "area_pantau_04"
+    },
+    {
+      "cluster_id": 11,
       "province": "Kalimantan Timur",
       "kabupaten": "Kabupaten Kutai Timur",
       "kabupaten_list": [
@@ -543,11 +1291,21 @@
           "acq_time_utc": "05:54",
           "satellite": "VIIRS N21",
           "daynight": "D"
+        },
+        {
+          "latitude": 0.38259,
+          "longitude": 117.53587,
+          "frp_mw": 0.99,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
         }
       ],
       "centroid": {
-        "latitude": 0.44405,
-        "longitude": 117.55189
+        "latitude": 0.44097,
+        "longitude": 117.55108
       },
       "bounding_box": {
         "min_lat": 0.35277,
@@ -555,395 +1313,999 @@
         "min_lon": 117.52082,
         "max_lon": 117.58493
       },
-      "hotspot_count_24h": 19,
-      "days_detected_7d": 4,
-      "median_frp_mw": 6.17,
+      "hotspot_count_24h": 20,
+      "days_detected_7d": 3,
+      "median_frp_mw": 5.83,
       "max_frp_mw": 19.07,
-      "base_risk_score": 60.7,
-      "risk_score": 64.7,
+      "base_risk_score": 52.4,
+      "risk_score": 56.4,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Titik api sangat dekat dengan permukiman warga (6.0 km)",
+      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 6.0,
+      "threat_level": "\u26a0\ufe0f Waspada (3 - 7 km - Bahaya Paparan Asap)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 05",
+      "id": "area_pantau_05"
+    },
+    {
+      "cluster_id": 22,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Paser",
+      "kabupaten_list": [
+        "Kabupaten Paser"
+      ],
+      "kecamatan": "Kecamatan Batu Sopang",
+      "hotspots": [
+        {
+          "latitude": -1.89588,
+          "longitude": 115.86404,
+          "frp_mw": 2.51,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -1.88312,
+          "longitude": 115.8481,
+          "frp_mw": 2.19,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -1.85426,
+          "longitude": 115.85607,
+          "frp_mw": 1.68,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -1.91308,
+          "longitude": 115.88648,
+          "frp_mw": 1.21,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -1.91252,
+          "longitude": 115.88297,
+          "frp_mw": 1.21,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -1.88477,
+          "longitude": 115.8586,
+          "frp_mw": 1.06,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -1.89254,
+          "longitude": 115.86456,
+          "frp_mw": 1.05,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -1.97867,
+          "longitude": 115.8724,
+          "frp_mw": 1.0,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": -1.90185,
+        "longitude": 115.86665
+      },
+      "bounding_box": {
+        "min_lat": -1.99367,
+        "max_lat": -1.83926,
+        "min_lon": 115.8331,
+        "max_lon": 115.90148
+      },
+      "hotspot_count_24h": 8,
+      "days_detected_7d": 4,
+      "median_frp_mw": 1.21,
+      "max_frp_mw": 2.51,
+      "base_risk_score": 52.1,
+      "risk_score": 56.1,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
       "primary_factor": "Titik api sangat dekat dengan permukiman warga (5.7 km)",
-      "nearest_settlement": "Kecamatan Sangatta Utara (Kabupaten Kutai Timur)",
+      "nearest_settlement": "Kecamatan Batu Sopang (Kabupaten Paser)",
       "distance_to_settlement_km": 5.7,
       "threat_level": "\u26a0\ufe0f Waspada (3 - 7 km - Bahaya Paparan Asap)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 02",
-      "id": "area_pantau_02"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 06",
+      "id": "area_pantau_06"
     },
     {
-      "cluster_id": 2,
-      "province": "Kalimantan Tengah",
-      "kabupaten": "Kabupaten Seruyan",
+      "cluster_id": 21,
+      "province": "Kalimantan Selatan",
+      "kabupaten": "Kabupaten Tabalong",
       "kabupaten_list": [
-        "Kabupaten Seruyan"
+        "Kabupaten Tabalong",
+        "Kabupaten Balangan"
       ],
-      "kecamatan": "Kecamatan Seruyan Hilir Timur",
+      "kecamatan": "Kecamatan Murung Pudak",
       "hotspots": [
         {
-          "latitude": -3.30192,
-          "longitude": 112.69209,
-          "frp_mw": 15.56,
+          "latitude": -2.21005,
+          "longitude": 115.49905,
+          "frp_mw": 2.11,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
+          "acq_time_utc": "16:54",
           "satellite": "VIIRS N21",
-          "daynight": "D"
+          "daynight": "N"
         },
         {
-          "latitude": -3.30577,
-          "longitude": 112.68911,
-          "frp_mw": 14.39,
+          "latitude": -2.21094,
+          "longitude": 115.50425,
+          "frp_mw": 1.87,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
+          "acq_time_utc": "16:54",
           "satellite": "VIIRS N21",
-          "daynight": "D"
+          "daynight": "N"
         },
         {
-          "latitude": -3.3091,
-          "longitude": 112.68961,
-          "frp_mw": 14.39,
+          "latitude": -2.20787,
+          "longitude": 115.50188,
+          "frp_mw": 1.69,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
+          "acq_time_utc": "16:54",
           "satellite": "VIIRS N21",
-          "daynight": "D"
+          "daynight": "N"
         },
         {
-          "latitude": -3.30476,
-          "longitude": 112.69044,
-          "frp_mw": 7.66,
+          "latitude": -2.20522,
+          "longitude": 115.54083,
+          "frp_mw": 1.42,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
-          "acq_time_utc": "05:10",
+          "acq_time_utc": "17:51",
           "satellite": "VIIRS N20",
-          "daynight": "D"
+          "daynight": "N"
         },
         {
-          "latitude": -3.31802,
-          "longitude": 112.69807,
-          "frp_mw": 7.66,
-          "confidence": "low",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -3.30746,
-          "longitude": 112.69372,
-          "frp_mw": 6.79,
+          "latitude": -2.2119,
+          "longitude": 115.49713,
+          "frp_mw": 1.38,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
-          "acq_time_utc": "05:10",
+          "acq_time_utc": "17:51",
           "satellite": "VIIRS N20",
-          "daynight": "D"
+          "daynight": "N"
         },
         {
-          "latitude": -3.30245,
-          "longitude": 112.68861,
-          "frp_mw": 5.67,
+          "latitude": -2.21135,
+          "longitude": 115.49368,
+          "frp_mw": 1.38,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
         },
         {
-          "latitude": -3.29912,
-          "longitude": 112.68812,
-          "frp_mw": 5.67,
-          "confidence": "low",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -3.30857,
-          "longitude": 112.69308,
-          "frp_mw": 5.08,
-          "confidence": "low",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -3.30804,
-          "longitude": 112.69657,
-          "frp_mw": 5.08,
-          "confidence": "low",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -3.30524,
-          "longitude": 112.69259,
-          "frp_mw": 5.08,
+          "latitude": -2.20858,
+          "longitude": 115.49765,
+          "frp_mw": 1.25,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
         },
         {
-          "latitude": -3.31242,
-          "longitude": 112.69011,
-          "frp_mw": 3.45,
+          "latitude": -2.20803,
+          "longitude": 115.49418,
+          "frp_mw": 1.25,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
         },
         {
-          "latitude": -3.31575,
-          "longitude": 112.69061,
-          "frp_mw": 3.45,
+          "latitude": -2.22406,
+          "longitude": 115.48811,
+          "frp_mw": 0.9,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
         },
         {
-          "latitude": -3.31189,
-          "longitude": 112.69359,
-          "frp_mw": 3.32,
-          "confidence": "low",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -3.31469,
-          "longitude": 112.69757,
-          "frp_mw": 3.32,
-          "confidence": "low",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -3.31522,
-          "longitude": 112.69408,
-          "frp_mw": 3.32,
+          "latitude": -2.21419,
+          "longitude": 115.50074,
+          "frp_mw": 0.9,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
+          "acq_time_utc": "16:54",
           "satellite": "VIIRS N21",
-          "daynight": "D"
+          "daynight": "N"
         },
         {
-          "latitude": -3.31137,
-          "longitude": 112.69707,
-          "frp_mw": 3.32,
+          "latitude": -2.21188,
+          "longitude": 115.51846,
+          "frp_mw": 0.68,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.22462,
+          "longitude": 115.49158,
+          "frp_mw": 0.65,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -2.2296,
+          "longitude": 115.48016,
+          "frp_mw": 0.64,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
         }
       ],
       "centroid": {
-        "latitude": -3.30893,
-        "longitude": 112.69265
+        "latitude": -2.21371,
+        "longitude": 115.50059
       },
       "bounding_box": {
-        "min_lat": -3.33302,
-        "max_lat": -3.28412,
-        "min_lon": 112.67312,
-        "max_lon": 112.71307
+        "min_lat": -2.2446,
+        "max_lat": -2.19022,
+        "min_lon": 115.46516,
+        "max_lon": 115.55583
       },
-      "hotspot_count_24h": 17,
+      "hotspot_count_24h": 13,
       "days_detected_7d": 4,
-      "median_frp_mw": 5.08,
-      "max_frp_mw": 15.56,
-      "base_risk_score": 59.1,
-      "risk_score": 63.1,
+      "median_frp_mw": 1.25,
+      "max_frp_mw": 2.11,
+      "base_risk_score": 54.9,
+      "risk_score": 54.9,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "primary_factor": "Titik api sangat dekat dengan permukiman warga (3.5 km)",
-      "nearest_settlement": "Kecamatan Seruyan Hilir Timur (Kabupaten Seruyan)",
-      "distance_to_settlement_km": 3.5,
-      "threat_level": "\u26a0\ufe0f Waspada (3 - 7 km - Bahaya Paparan Asap)",
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 03",
-      "id": "area_pantau_03"
-    },
-    {
-      "cluster_id": 23,
-      "province": "Kalimantan Timur",
-      "kabupaten": "Kabupaten Kutai Barat",
-      "kabupaten_list": [
-        "Kabupaten Kutai Barat"
-      ],
-      "kecamatan": "Kecamatan Melak",
-      "hotspots": [
-        {
-          "latitude": -0.34849,
-          "longitude": 116.0112,
-          "frp_mw": 16.6,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -0.35571,
-          "longitude": 116.01231,
-          "frp_mw": 14.46,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -0.35298,
-          "longitude": 116.01546,
-          "frp_mw": 13.23,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -0.47793,
-          "longitude": 115.98203,
-          "frp_mw": 11.03,
-          "confidence": "low",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -0.34786,
-          "longitude": 116.01537,
-          "frp_mw": 8.36,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -0.34723,
-          "longitude": 116.01953,
-          "frp_mw": 8.36,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -0.34425,
-          "longitude": 116.01481,
-          "frp_mw": 7.04,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -0.34362,
-          "longitude": 116.01897,
-          "frp_mw": 7.04,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -0.34,
-          "longitude": 116.01841,
-          "frp_mw": 7.04,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -0.37698,
-          "longitude": 116.02763,
-          "frp_mw": 6.43,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -0.34487,
-          "longitude": 116.01064,
-          "frp_mw": 5.65,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -0.40697,
-          "longitude": 115.97697,
-          "frp_mw": 4.85,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        }
-      ],
-      "centroid": {
-        "latitude": -0.36557,
-        "longitude": 116.01028
-      },
-      "bounding_box": {
-        "min_lat": -0.49293,
-        "max_lat": -0.325,
-        "min_lon": 115.96197,
-        "max_lon": 116.04263
-      },
-      "hotspot_count_24h": 12,
-      "days_detected_7d": 5,
-      "median_frp_mw": 7.7,
-      "max_frp_mw": 16.6,
-      "base_risk_score": 57.6,
-      "risk_score": 57.6,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "primary_factor": "Persistensi kebakaran tinggi (5 dari 7 hari)",
-      "nearest_settlement": "Kecamatan Melak (Kabupaten Kutai Barat)",
-      "distance_to_settlement_km": 24.1,
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Murung Pudak (Kabupaten Tabalong)",
+      "distance_to_settlement_km": 10.8,
       "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 04",
-      "id": "area_pantau_04"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 07",
+      "id": "area_pantau_07"
     },
     {
-      "cluster_id": 24,
+      "cluster_id": 29,
+      "province": "Kalimantan Tengah",
+      "kabupaten": "Kabupaten Barito Selatan",
+      "kabupaten_list": [
+        "Kabupaten Barito Selatan"
+      ],
+      "kecamatan": "Kecamatan Jenamas",
+      "hotspots": [
+        {
+          "latitude": -2.10727,
+          "longitude": 114.84013,
+          "frp_mw": 13.54,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.05064,
+          "longitude": 114.81618,
+          "frp_mw": 13.53,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.15287,
+          "longitude": 114.81376,
+          "frp_mw": 8.9,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.11359,
+          "longitude": 114.88934,
+          "frp_mw": 5.23,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.04946,
+          "longitude": 114.80116,
+          "frp_mw": 5.06,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": -2.09477,
+        "longitude": 114.83211
+      },
+      "bounding_box": {
+        "min_lat": -2.16787,
+        "max_lat": -2.03446,
+        "min_lon": 114.78616,
+        "max_lon": 114.90434
+      },
+      "hotspot_count_24h": 5,
+      "days_detected_7d": 4,
+      "median_frp_mw": 8.9,
+      "max_frp_mw": 13.54,
+      "base_risk_score": 54.2,
+      "risk_score": 54.2,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Jenamas (Kabupaten Barito Selatan)",
+      "distance_to_settlement_km": 29.4,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 08",
+      "id": "area_pantau_08"
+    },
+    {
+      "cluster_id": 15,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "Kecamatan Bengalon",
+      "hotspots": [
+        {
+          "latitude": 0.65707,
+          "longitude": 117.44371,
+          "frp_mw": 2.08,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.68664,
+          "longitude": 117.46675,
+          "frp_mw": 1.6,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.70328,
+          "longitude": 117.46253,
+          "frp_mw": 1.46,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.6858,
+          "longitude": 117.46748,
+          "frp_mw": 1.46,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.68554,
+          "longitude": 117.46358,
+          "frp_mw": 1.11,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.68838,
+          "longitude": 117.46787,
+          "frp_mw": 1.03,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.68897,
+          "longitude": 117.46414,
+          "frp_mw": 1.03,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.68731,
+          "longitude": 117.45235,
+          "frp_mw": 1.01,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.64321,
+          "longitude": 117.46452,
+          "frp_mw": 0.75,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": 0.68069,
+        "longitude": 117.46144
+      },
+      "bounding_box": {
+        "min_lat": 0.62821,
+        "max_lat": 0.71828,
+        "min_lon": 117.42871,
+        "max_lon": 117.48287
+      },
+      "hotspot_count_24h": 9,
+      "days_detected_7d": 4,
+      "median_frp_mw": 1.11,
+      "max_frp_mw": 2.08,
+      "base_risk_score": 52.6,
+      "risk_score": 52.6,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Bengalon (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 19.2,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 09",
+      "id": "area_pantau_09"
+    },
+    {
+      "cluster_id": 17,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "Kecamatan Kaliorang",
+      "hotspots": [
+        {
+          "latitude": 1.06016,
+          "longitude": 117.66566,
+          "frp_mw": 4.48,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 1.06448,
+          "longitude": 117.67664,
+          "frp_mw": 1.88,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": 1.0624,
+          "longitude": 117.67374,
+          "frp_mw": 1.47,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 1.05731,
+          "longitude": 117.66136,
+          "frp_mw": 1.46,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 1.05402,
+          "longitude": 117.63777,
+          "frp_mw": 1.35,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 1.07346,
+          "longitude": 117.64857,
+          "frp_mw": 1.08,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 1.08366,
+          "longitude": 117.67327,
+          "frp_mw": 0.87,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 1.06808,
+          "longitude": 117.68241,
+          "frp_mw": 0.85,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": 1.06545,
+        "longitude": 117.66493
+      },
+      "bounding_box": {
+        "min_lat": 1.03902,
+        "max_lat": 1.09866,
+        "min_lon": 117.62277,
+        "max_lon": 117.69741
+      },
+      "hotspot_count_24h": 8,
+      "days_detected_7d": 4,
+      "median_frp_mw": 1.41,
+      "max_frp_mw": 4.48,
+      "base_risk_score": 52.2,
+      "risk_score": 52.2,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Kaliorang (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 25.8,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 10",
+      "id": "area_pantau_10"
+    },
+    {
+      "cluster_id": 31,
+      "province": "Kalimantan Tengah",
+      "kabupaten": "Kabupaten Kapuas",
+      "kabupaten_list": [
+        "Kabupaten Kapuas"
+      ],
+      "kecamatan": "Kecamatan Kapuas Tengah",
+      "hotspots": [
+        {
+          "latitude": -1.87935,
+          "longitude": 114.445,
+          "frp_mw": 10.08,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -1.89451,
+          "longitude": 114.45821,
+          "frp_mw": 6.07,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -1.88324,
+          "longitude": 114.44196,
+          "frp_mw": 5.48,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -1.90007,
+          "longitude": 114.4597,
+          "frp_mw": 3.74,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": -1.88929,
+        "longitude": 114.45122
+      },
+      "bounding_box": {
+        "min_lat": -1.91507,
+        "max_lat": -1.86435,
+        "min_lon": 114.42696,
+        "max_lon": 114.4747
+      },
+      "hotspot_count_24h": 4,
+      "days_detected_7d": 4,
+      "median_frp_mw": 5.78,
+      "max_frp_mw": 10.08,
+      "base_risk_score": 52.1,
+      "risk_score": 52.1,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Kapuas Tengah (Kabupaten Kapuas)",
+      "distance_to_settlement_km": 19.1,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 11",
+      "id": "area_pantau_11"
+    },
+    {
+      "cluster_id": 12,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara"
+      ],
+      "kecamatan": "",
+      "hotspots": [
+        {
+          "latitude": 0.43525,
+          "longitude": 116.24081,
+          "frp_mw": 4.62,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.43829,
+          "longitude": 116.24342,
+          "frp_mw": 4.47,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.43566,
+          "longitude": 116.24233,
+          "frp_mw": 3.9,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.43478,
+          "longitude": 116.24364,
+          "frp_mw": 3.85,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.42486,
+          "longitude": 116.18316,
+          "frp_mw": 2.36,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:10",
+          "satellite": "VIIRS N20",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": 0.43377,
+        "longitude": 116.23067
+      },
+      "bounding_box": {
+        "min_lat": 0.40986,
+        "max_lat": 0.45329,
+        "min_lon": 116.16816,
+        "max_lon": 116.25864
+      },
+      "hotspot_count_24h": 5,
+      "days_detected_7d": 4,
+      "median_frp_mw": 3.9,
+      "max_frp_mw": 4.62,
+      "base_risk_score": 51.8,
+      "risk_score": 51.8,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Melak (Kabupaten Kutai Barat)",
+      "distance_to_settlement_km": 84.1,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 12",
+      "id": "area_pantau_12"
+    },
+    {
+      "cluster_id": 16,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "Kecamatan Bengalon",
+      "hotspots": [
+        {
+          "latitude": 0.67649,
+          "longitude": 117.5656,
+          "frp_mw": 4.84,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.69068,
+          "longitude": 117.55283,
+          "frp_mw": 2.31,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.68171,
+          "longitude": 117.55488,
+          "frp_mw": 1.55,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.68859,
+          "longitude": 117.556,
+          "frp_mw": 1.55,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.68396,
+          "longitude": 117.56297,
+          "frp_mw": 1.4,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.6932,
+          "longitude": 117.54906,
+          "frp_mw": 1.31,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.67601,
+          "longitude": 117.54629,
+          "frp_mw": 0.69,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": 0.68438,
+        "longitude": 117.55538
+      },
+      "bounding_box": {
+        "min_lat": 0.66101,
+        "max_lat": 0.7082,
+        "min_lon": 117.53129,
+        "max_lon": 117.5806
+      },
+      "hotspot_count_24h": 7,
+      "days_detected_7d": 4,
+      "median_frp_mw": 1.55,
+      "max_frp_mw": 4.84,
+      "base_risk_score": 51.7,
+      "risk_score": 51.7,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Bengalon (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 10.2,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 13",
+      "id": "area_pantau_13"
+    },
+    {
+      "cluster_id": 23,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara"
+      ],
+      "kecamatan": "Kecamatan Loa Janan",
+      "hotspots": [
+        {
+          "latitude": -0.73408,
+          "longitude": 117.03846,
+          "frp_mw": 4.43,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -0.73444,
+          "longitude": 117.04057,
+          "frp_mw": 0.57,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -0.73563,
+          "longitude": 117.03899,
+          "frp_mw": 0.35,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": -0.73472,
+        "longitude": 117.03934
+      },
+      "bounding_box": {
+        "min_lat": -0.75063,
+        "max_lat": -0.71908,
+        "min_lon": 117.02346,
+        "max_lon": 117.05557
+      },
+      "hotspot_count_24h": 3,
+      "days_detected_7d": 4,
+      "median_frp_mw": 0.57,
+      "max_frp_mw": 4.43,
+      "base_risk_score": 49.2,
+      "risk_score": 49.2,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Loa Janan (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 15.6,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 14",
+      "id": "area_pantau_14"
+    },
+    {
+      "cluster_id": 35,
       "province": "Kalimantan Timur",
       "kabupaten": "Kabupaten Kutai Barat",
       "kabupaten_list": [
@@ -1073,26 +2435,26 @@
         "max_lon": 116.30945
       },
       "hotspot_count_24h": 11,
-      "days_detected_7d": 4,
+      "days_detected_7d": 3,
       "median_frp_mw": 7.04,
       "max_frp_mw": 8.93,
-      "base_risk_score": 56.7,
-      "risk_score": 56.7,
+      "base_risk_score": 47.9,
+      "risk_score": 47.9,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
+      "primary_factor": "Persistensi kebakaran tinggi (3 dari 7 hari)",
       "nearest_settlement": "Kecamatan Jempang (Kabupaten Kutai Barat)",
       "distance_to_settlement_km": 21.8,
       "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 05",
-      "id": "area_pantau_05"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 15",
+      "id": "area_pantau_15"
     },
     {
-      "cluster_id": 15,
+      "cluster_id": 19,
       "province": "Kalimantan Selatan",
       "kabupaten": "Kabupaten Tanah Laut",
       "kabupaten_list": [
@@ -1129,554 +2491,79 @@
           "acq_time_utc": "05:52",
           "satellite": "VIIRS N21",
           "daynight": "D"
+        },
+        {
+          "latitude": -3.8404,
+          "longitude": 115.25948,
+          "frp_mw": 2.61,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:56",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.8427,
+          "longitude": 115.2597,
+          "frp_mw": 2.43,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.84215,
+          "longitude": 115.25622,
+          "frp_mw": 1.63,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -3.84161,
+          "longitude": 115.25272,
+          "frp_mw": 1.63,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
         }
       ],
       "centroid": {
-        "latitude": -3.84219,
-        "longitude": 115.25902
+        "latitude": -3.84192,
+        "longitude": 115.25788
       },
       "bounding_box": {
         "min_lat": -3.85814,
-        "max_lat": -3.82644,
-        "min_lon": 115.24279,
+        "max_lat": -3.8254,
+        "min_lon": 115.23772,
         "max_lon": 115.27645
       },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 4,
-      "median_frp_mw": 6.36,
+      "hotspot_count_24h": 7,
+      "days_detected_7d": 3,
+      "median_frp_mw": 2.61,
       "max_frp_mw": 6.83,
-      "base_risk_score": 51.9,
-      "risk_score": 55.9,
+      "base_risk_score": 43.5,
+      "risk_score": 47.5,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "primary_factor": "Titik api sangat dekat dengan permukiman warga (3.4 km)",
+      "primary_factor": "Titik api sangat dekat dengan permukiman warga (3.5 km)",
       "nearest_settlement": "Kecamatan Kintap (Kabupaten Tanah Laut)",
-      "distance_to_settlement_km": 3.4,
+      "distance_to_settlement_km": 3.5,
       "threat_level": "\u26a0\ufe0f Waspada (3 - 7 km - Bahaya Paparan Asap)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 06",
-      "id": "area_pantau_06"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 16",
+      "id": "area_pantau_16"
     },
     {
-      "cluster_id": 18,
-      "province": "Kalimantan Tengah",
-      "kabupaten": "Kabupaten Barito Selatan",
-      "kabupaten_list": [
-        "Kabupaten Barito Selatan"
-      ],
-      "kecamatan": "Kecamatan Jenamas",
-      "hotspots": [
-        {
-          "latitude": -2.10727,
-          "longitude": 114.84013,
-          "frp_mw": 13.54,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -2.05064,
-          "longitude": 114.81618,
-          "frp_mw": 13.53,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -2.15287,
-          "longitude": 114.81376,
-          "frp_mw": 8.9,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -2.11359,
-          "longitude": 114.88934,
-          "frp_mw": 5.23,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -2.04946,
-          "longitude": 114.80116,
-          "frp_mw": 5.06,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        }
-      ],
-      "centroid": {
-        "latitude": -2.09477,
-        "longitude": 114.83211
-      },
-      "bounding_box": {
-        "min_lat": -2.16787,
-        "max_lat": -2.03446,
-        "min_lon": 114.78616,
-        "max_lon": 114.90434
-      },
-      "hotspot_count_24h": 5,
-      "days_detected_7d": 5,
-      "median_frp_mw": 8.9,
-      "max_frp_mw": 13.54,
-      "base_risk_score": 54.2,
-      "risk_score": 54.2,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "primary_factor": "Persistensi kebakaran tinggi (5 dari 7 hari)",
-      "nearest_settlement": "Kecamatan Jenamas (Kabupaten Barito Selatan)",
-      "distance_to_settlement_km": 29.4,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 07",
-      "id": "area_pantau_07"
-    },
-    {
-      "cluster_id": 20,
-      "province": "Kalimantan Tengah",
-      "kabupaten": "Kabupaten Kapuas",
-      "kabupaten_list": [
-        "Kabupaten Kapuas"
-      ],
-      "kecamatan": "Kecamatan Kapuas Tengah",
-      "hotspots": [
-        {
-          "latitude": -1.87935,
-          "longitude": 114.445,
-          "frp_mw": 10.08,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -1.89451,
-          "longitude": 114.45821,
-          "frp_mw": 6.07,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -1.88324,
-          "longitude": 114.44196,
-          "frp_mw": 5.48,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -1.90007,
-          "longitude": 114.4597,
-          "frp_mw": 3.74,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        }
-      ],
-      "centroid": {
-        "latitude": -1.88929,
-        "longitude": 114.45122
-      },
-      "bounding_box": {
-        "min_lat": -1.91507,
-        "max_lat": -1.86435,
-        "min_lon": 114.42696,
-        "max_lon": 114.4747
-      },
-      "hotspot_count_24h": 4,
-      "days_detected_7d": 5,
-      "median_frp_mw": 5.78,
-      "max_frp_mw": 10.08,
-      "base_risk_score": 52.1,
-      "risk_score": 52.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "primary_factor": "Persistensi kebakaran tinggi (5 dari 7 hari)",
-      "nearest_settlement": "Kecamatan Kapuas Tengah (Kabupaten Kapuas)",
-      "distance_to_settlement_km": 19.1,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 08",
-      "id": "area_pantau_08"
-    },
-    {
-      "cluster_id": 9,
-      "province": "Kalimantan Timur",
-      "kabupaten": "Kabupaten Kutai Kartanegara",
-      "kabupaten_list": [
-        "Kabupaten Kutai Kartanegara",
-        "Kabupaten Kutai Timur"
-      ],
-      "kecamatan": "Kecamatan Marang Kayu",
-      "hotspots": [
-        {
-          "latitude": 0.03101,
-          "longitude": 117.30863,
-          "frp_mw": 15.27,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": 0.03029,
-          "longitude": 117.30395,
-          "frp_mw": 8.65,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": 0.03325,
-          "longitude": 117.37495,
-          "frp_mw": 4.85,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": 0.03498,
-          "longitude": 117.37642,
-          "frp_mw": 3.37,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:10",
-          "satellite": "VIIRS N20",
-          "daynight": "D"
-        },
-        {
-          "latitude": 0.01109,
-          "longitude": 117.41422,
-          "frp_mw": 2.85,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        }
-      ],
-      "centroid": {
-        "latitude": 0.02812,
-        "longitude": 117.35563
-      },
-      "bounding_box": {
-        "min_lat": -0.00391,
-        "max_lat": 0.04998,
-        "min_lon": 117.28895,
-        "max_lon": 117.42922
-      },
-      "hotspot_count_24h": 5,
-      "days_detected_7d": 3,
-      "median_frp_mw": 4.85,
-      "max_frp_mw": 15.27,
-      "base_risk_score": 43.5,
-      "risk_score": 51.5,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "primary_factor": "Titik api sangat dekat dengan permukiman warga (1.1 km)",
-      "nearest_settlement": "Kecamatan Marang Kayu (Kabupaten Kutai Kartanegara)",
-      "distance_to_settlement_km": 1.1,
-      "threat_level": "\ud83d\udea8 Kritis (< 3 km - Ancaman Langsung Permukiman)",
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 09",
-      "id": "area_pantau_09"
-    },
-    {
-      "cluster_id": 3,
-      "province": "Kalimantan Selatan",
-      "kabupaten": "Kabupaten Kotabaru",
-      "kabupaten_list": [
-        "Kabupaten Kotabaru"
-      ],
-      "kecamatan": "Kecamatan Pamukan Utara",
-      "hotspots": [
-        {
-          "latitude": -2.61535,
-          "longitude": 116.24131,
-          "frp_mw": 38.91,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -2.6169,
-          "longitude": 116.24314,
-          "frp_mw": 20.85,
-          "confidence": "low",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:10",
-          "satellite": "VIIRS N20",
-          "daynight": "D"
-        },
-        {
-          "latitude": -2.61242,
-          "longitude": 116.23673,
-          "frp_mw": 17.33,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -2.61179,
-          "longitude": 116.24075,
-          "frp_mw": 17.33,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -2.61115,
-          "longitude": 116.24479,
-          "frp_mw": 16.3,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -2.61827,
-          "longitude": 116.24591,
-          "frp_mw": 16.1,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -2.61471,
-          "longitude": 116.24535,
-          "frp_mw": 16.1,
-          "confidence": "high",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:52",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": -2.61181,
-          "longitude": 116.23856,
-          "frp_mw": 7.77,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:10",
-          "satellite": "VIIRS N20",
-          "daynight": "D"
-        }
-      ],
-      "centroid": {
-        "latitude": -2.61405,
-        "longitude": 116.24207
-      },
-      "bounding_box": {
-        "min_lat": -2.63327,
-        "max_lat": -2.59615,
-        "min_lon": 116.22173,
-        "max_lon": 116.26091
-      },
-      "hotspot_count_24h": 8,
-      "days_detected_7d": 3,
-      "median_frp_mw": 16.81,
-      "max_frp_mw": 38.91,
-      "base_risk_score": 51.1,
-      "risk_score": 51.1,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "primary_factor": "Persistensi kebakaran tinggi (3 dari 7 hari)",
-      "nearest_settlement": "Kecamatan Pamukan Utara (Kabupaten Kotabaru)",
-      "distance_to_settlement_km": 29.3,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 10",
-      "id": "area_pantau_10"
-    },
-    {
-      "cluster_id": 12,
-      "province": "Kalimantan Timur",
-      "kabupaten": "Kabupaten Kutai Timur",
-      "kabupaten_list": [
-        "Kabupaten Kutai Timur"
-      ],
-      "kecamatan": "Kecamatan Muara Wahau",
-      "hotspots": [
-        {
-          "latitude": 1.34143,
-          "longitude": 116.67904,
-          "frp_mw": 4.15,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:10",
-          "satellite": "VIIRS N20",
-          "daynight": "D"
-        },
-        {
-          "latitude": 1.34034,
-          "longitude": 116.67561,
-          "frp_mw": 3.95,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": 1.34106,
-          "longitude": 116.68034,
-          "frp_mw": 3.95,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        }
-      ],
-      "centroid": {
-        "latitude": 1.34094,
-        "longitude": 116.67833
-      },
-      "bounding_box": {
-        "min_lat": 1.32534,
-        "max_lat": 1.35643,
-        "min_lon": 116.66061,
-        "max_lon": 116.69534
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 4,
-      "median_frp_mw": 3.95,
-      "max_frp_mw": 4.15,
-      "base_risk_score": 50.7,
-      "risk_score": 50.7,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "primary_factor": "Persistensi kebakaran tinggi (4 dari 7 hari)",
-      "nearest_settlement": "Kecamatan Muara Wahau (Kabupaten Kutai Timur)",
-      "distance_to_settlement_km": 28.7,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 11",
-      "id": "area_pantau_11"
-    },
-    {
-      "cluster_id": 11,
-      "province": "Kalimantan Timur",
-      "kabupaten": "Kabupaten Kutai Kartanegara",
-      "kabupaten_list": [
-        "Kabupaten Kutai Kartanegara"
-      ],
-      "kecamatan": "",
-      "hotspots": [
-        {
-          "latitude": 0.43566,
-          "longitude": 116.24233,
-          "frp_mw": 3.9,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": 0.43478,
-          "longitude": 116.24364,
-          "frp_mw": 3.85,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:54",
-          "satellite": "VIIRS N21",
-          "daynight": "D"
-        },
-        {
-          "latitude": 0.42486,
-          "longitude": 116.18316,
-          "frp_mw": 2.36,
-          "confidence": "nominal",
-          "acq_date": "2026-11-08",
-          "acq_time_utc": "05:10",
-          "satellite": "VIIRS N20",
-          "daynight": "D"
-        }
-      ],
-      "centroid": {
-        "latitude": 0.43177,
-        "longitude": 116.22304
-      },
-      "bounding_box": {
-        "min_lat": 0.40986,
-        "max_lat": 0.45066,
-        "min_lon": 116.16816,
-        "max_lon": 116.25864
-      },
-      "hotspot_count_24h": 3,
-      "days_detected_7d": 5,
-      "median_frp_mw": 3.85,
-      "max_frp_mw": 3.9,
-      "base_risk_score": 50.6,
-      "risk_score": 50.6,
-      "priority_level": "P3 - Waspada Ringan",
-      "badge": "Waspada Ringan",
-      "primary_factor": "Persistensi kebakaran tinggi (5 dari 7 hari)",
-      "nearest_settlement": "Kecamatan Melak (Kabupaten Kutai Barat)",
-      "distance_to_settlement_km": 83.5,
-      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
-      "citizen_reports_count": 0,
-      "citizen_urgency_boost": 0.0,
-      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 12",
-      "id": "area_pantau_12"
-    },
-    {
-      "cluster_id": 14,
+      "cluster_id": 26,
       "province": "Kalimantan Selatan",
       "kabupaten": "Kabupaten Tanah Laut",
       "kabupaten_list": [
@@ -1790,23 +2677,23 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 13",
-      "id": "area_pantau_13"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 17",
+      "id": "area_pantau_17"
     },
     {
-      "cluster_id": 17,
+      "cluster_id": 3,
       "province": "Kalimantan Selatan",
-      "kabupaten": "Kabupaten Hulu Sungai Utara",
+      "kabupaten": "Kabupaten Kotabaru",
       "kabupaten_list": [
-        "Kabupaten Hulu Sungai Utara"
+        "Kabupaten Kotabaru"
       ],
-      "kecamatan": "Kecamatan Amuntai Tengah",
+      "kecamatan": "Kecamatan Pamukan Utara",
       "hotspots": [
         {
-          "latitude": -2.43474,
-          "longitude": 115.05816,
-          "frp_mw": 11.09,
+          "latitude": -2.61535,
+          "longitude": 116.24131,
+          "frp_mw": 38.91,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
           "acq_time_utc": "05:52",
@@ -1814,9 +2701,19 @@
           "daynight": "D"
         },
         {
-          "latitude": -2.4352,
-          "longitude": 115.00965,
-          "frp_mw": 6.88,
+          "latitude": -2.6169,
+          "longitude": 116.24314,
+          "frp_mw": 20.85,
+          "confidence": "low",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:10",
+          "satellite": "VIIRS N20",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.61242,
+          "longitude": 116.23673,
+          "frp_mw": 17.33,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
           "acq_time_utc": "05:52",
@@ -1824,44 +2721,252 @@
           "daynight": "D"
         },
         {
-          "latitude": -2.4594,
-          "longitude": 114.96494,
-          "frp_mw": 4.09,
+          "latitude": -2.61179,
+          "longitude": 116.24075,
+          "frp_mw": 17.33,
           "confidence": "nominal",
           "acq_date": "2026-11-08",
           "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.61115,
+          "longitude": 116.24479,
+          "frp_mw": 16.3,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.61827,
+          "longitude": 116.24591,
+          "frp_mw": 16.1,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.61471,
+          "longitude": 116.24535,
+          "frp_mw": 16.1,
+          "confidence": "high",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.61181,
+          "longitude": 116.23856,
+          "frp_mw": 7.77,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:10",
+          "satellite": "VIIRS N20",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": -2.61405,
+        "longitude": 116.24207
+      },
+      "bounding_box": {
+        "min_lat": -2.63327,
+        "max_lat": -2.59615,
+        "min_lon": 116.22173,
+        "max_lon": 116.26091
+      },
+      "hotspot_count_24h": 8,
+      "days_detected_7d": 2,
+      "median_frp_mw": 16.81,
+      "max_frp_mw": 38.91,
+      "base_risk_score": 42.4,
+      "risk_score": 42.4,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (2 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Pamukan Utara (Kabupaten Kotabaru)",
+      "distance_to_settlement_km": 29.3,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 18",
+      "id": "area_pantau_18"
+    },
+    {
+      "cluster_id": 9,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara"
+      ],
+      "kecamatan": "Kecamatan Muara Badak",
+      "hotspots": [
+        {
+          "latitude": -0.20738,
+          "longitude": 117.35098,
+          "frp_mw": 4.86,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.23888,
+          "longitude": 117.32705,
+          "frp_mw": 2.26,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -0.20839,
+          "longitude": 117.35019,
+          "frp_mw": 1.42,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -0.24396,
+          "longitude": 117.32996,
+          "frp_mw": 1.35,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:10",
+          "satellite": "VIIRS N20",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.24292,
+          "longitude": 117.32645,
+          "frp_mw": 0.71,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -0.24041,
+          "longitude": 117.32989,
+          "frp_mw": 0.47,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": -0.23032,
+        "longitude": 117.33575
+      },
+      "bounding_box": {
+        "min_lat": -0.25896,
+        "max_lat": -0.19238,
+        "min_lon": 117.31145,
+        "max_lon": 117.36598
+      },
+      "hotspot_count_24h": 6,
+      "days_detected_7d": 3,
+      "median_frp_mw": 1.39,
+      "max_frp_mw": 4.86,
+      "base_risk_score": 42.3,
+      "risk_score": 42.3,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (3 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Muara Badak (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 11.1,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 19",
+      "id": "area_pantau_19"
+    },
+    {
+      "cluster_id": 13,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "Kecamatan Muara Wahau",
+      "hotspots": [
+        {
+          "latitude": 1.34143,
+          "longitude": 116.67904,
+          "frp_mw": 4.15,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:10",
+          "satellite": "VIIRS N20",
+          "daynight": "D"
+        },
+        {
+          "latitude": 1.34034,
+          "longitude": 116.67561,
+          "frp_mw": 3.95,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": 1.34106,
+          "longitude": 116.68034,
+          "frp_mw": 3.95,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
           "satellite": "VIIRS N21",
           "daynight": "D"
         }
       ],
       "centroid": {
-        "latitude": -2.44311,
-        "longitude": 115.01092
+        "latitude": 1.34094,
+        "longitude": 116.67833
       },
       "bounding_box": {
-        "min_lat": -2.4744,
-        "max_lat": -2.41974,
-        "min_lon": 114.94994,
-        "max_lon": 115.07316
+        "min_lat": 1.32534,
+        "max_lat": 1.35643,
+        "min_lon": 116.66061,
+        "max_lon": 116.69534
       },
       "hotspot_count_24h": 3,
       "days_detected_7d": 3,
-      "median_frp_mw": 6.88,
-      "max_frp_mw": 11.09,
-      "base_risk_score": 43.4,
-      "risk_score": 43.4,
+      "median_frp_mw": 3.95,
+      "max_frp_mw": 4.15,
+      "base_risk_score": 41.9,
+      "risk_score": 41.9,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
       "primary_factor": "Persistensi kebakaran tinggi (3 dari 7 hari)",
-      "nearest_settlement": "Kecamatan Jenamas (Kabupaten Barito Selatan)",
-      "distance_to_settlement_km": 16.1,
+      "nearest_settlement": "Kecamatan Muara Wahau (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 28.7,
       "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 14",
-      "id": "area_pantau_14"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 20",
+      "id": "area_pantau_20"
     },
     {
       "cluster_id": 1,
@@ -1933,6 +3038,16 @@
           "daynight": "D"
         },
         {
+          "latitude": -3.35604,
+          "longitude": 113.94002,
+          "frp_mw": 3.77,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:56",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
           "latitude": -3.35551,
           "longitude": 113.93385,
           "frp_mw": 3.75,
@@ -1941,6 +3056,16 @@
           "acq_time_utc": "05:10",
           "satellite": "VIIRS N20",
           "daynight": "D"
+        },
+        {
+          "latitude": -3.35643,
+          "longitude": 113.93633,
+          "frp_mw": 2.79,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:56",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
         },
         {
           "latitude": -3.38764,
@@ -1954,36 +3079,225 @@
         }
       ],
       "centroid": {
-        "latitude": -3.36214,
-        "longitude": 113.93059
+        "latitude": -3.36096,
+        "longitude": 113.93211
       },
       "bounding_box": {
         "min_lat": -3.40264,
         "max_lat": -3.34051,
         "min_lon": 113.87705,
-        "max_lon": 113.95478
+        "max_lon": 113.95502
       },
-      "hotspot_count_24h": 8,
+      "hotspot_count_24h": 10,
       "days_detected_7d": 2,
-      "median_frp_mw": 7.23,
+      "median_frp_mw": 5.33,
       "max_frp_mw": 17.71,
-      "base_risk_score": 37.6,
-      "risk_score": 41.6,
+      "base_risk_score": 37.8,
+      "risk_score": 41.8,
       "priority_level": "P3 - Waspada Ringan",
       "badge": "Waspada Ringan",
-      "primary_factor": "Titik api sangat dekat dengan permukiman warga (5.4 km)",
+      "primary_factor": "Titik api sangat dekat dengan permukiman warga (5.6 km)",
       "nearest_settlement": "Kecamatan Kahayan Kuala (Kabupaten Pulang Pisau)",
-      "distance_to_settlement_km": 5.4,
+      "distance_to_settlement_km": 5.6,
       "threat_level": "\u26a0\ufe0f Waspada (3 - 7 km - Bahaya Paparan Asap)",
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 15",
-      "id": "area_pantau_15"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 21",
+      "id": "area_pantau_21"
     },
     {
-      "cluster_id": 19,
+      "cluster_id": 10,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara",
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "Kecamatan Marang Kayu",
+      "hotspots": [
+        {
+          "latitude": 0.03101,
+          "longitude": 117.30863,
+          "frp_mw": 15.27,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.03029,
+          "longitude": 117.30395,
+          "frp_mw": 8.65,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.03325,
+          "longitude": 117.37495,
+          "frp_mw": 4.85,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.03498,
+          "longitude": 117.37642,
+          "frp_mw": 3.37,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:10",
+          "satellite": "VIIRS N20",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.01109,
+          "longitude": 117.41422,
+          "frp_mw": 2.85,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": 0.01003,
+          "longitude": 117.4106,
+          "frp_mw": 1.07,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.00944,
+          "longitude": 117.41434,
+          "frp_mw": 0.99,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 0.00659,
+          "longitude": 117.41006,
+          "frp_mw": 0.47,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": 0.02083,
+        "longitude": 117.37665
+      },
+      "bounding_box": {
+        "min_lat": -0.00841,
+        "max_lat": 0.04998,
+        "min_lon": 117.28895,
+        "max_lon": 117.42934
+      },
+      "hotspot_count_24h": 8,
+      "days_detected_7d": 2,
+      "median_frp_mw": 3.11,
+      "max_frp_mw": 15.27,
+      "base_risk_score": 35.9,
+      "risk_score": 39.9,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Titik api sangat dekat dengan permukiman warga (3.0 km)",
+      "nearest_settlement": "Kecamatan Marang Kayu (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 3.0,
+      "threat_level": "\u26a0\ufe0f Waspada (3 - 7 km - Bahaya Paparan Asap)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 22",
+      "id": "area_pantau_22"
+    },
+    {
+      "cluster_id": 25,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Barat",
+      "kabupaten_list": [
+        "Kabupaten Kutai Barat"
+      ],
+      "kecamatan": "Kecamatan Jempang",
+      "hotspots": [
+        {
+          "latitude": -0.60554,
+          "longitude": 116.09867,
+          "frp_mw": 67.92,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.64389,
+          "longitude": 116.13873,
+          "frp_mw": 5.72,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.6351,
+          "longitude": 116.14342,
+          "frp_mw": 0.4,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": -0.62818,
+        "longitude": 116.12694
+      },
+      "bounding_box": {
+        "min_lat": -0.65889,
+        "max_lat": -0.59054,
+        "min_lon": 116.08367,
+        "max_lon": 116.15842
+      },
+      "hotspot_count_24h": 3,
+      "days_detected_7d": 2,
+      "median_frp_mw": 5.72,
+      "max_frp_mw": 67.92,
+      "base_risk_score": 39.7,
+      "risk_score": 39.7,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (2 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Jempang (Kabupaten Kutai Barat)",
+      "distance_to_settlement_km": 16.2,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 23",
+      "id": "area_pantau_23"
+    },
+    {
+      "cluster_id": 30,
       "province": "Kalimantan Timur",
       "kabupaten": "Kabupaten Paser",
       "kabupaten_list": [
@@ -2047,12 +3361,12 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 16",
-      "id": "area_pantau_16"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 24",
+      "id": "area_pantau_24"
     },
     {
-      "cluster_id": 21,
+      "cluster_id": 32,
       "province": "Kalimantan Tengah",
       "kabupaten": "Kabupaten Barito Utara",
       "kabupaten_list": [
@@ -2166,12 +3480,12 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 17",
-      "id": "area_pantau_17"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 25",
+      "id": "area_pantau_25"
     },
     {
-      "cluster_id": 22,
+      "cluster_id": 33,
       "province": "Kalimantan Tengah",
       "kabupaten": "Kabupaten Barito Utara",
       "kabupaten_list": [
@@ -2245,9 +3559,9 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 18",
-      "id": "area_pantau_18"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 26",
+      "id": "area_pantau_26"
     },
     {
       "cluster_id": 5,
@@ -2334,9 +3648,78 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 19",
-      "id": "area_pantau_19"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 27",
+      "id": "area_pantau_27"
+    },
+    {
+      "cluster_id": 28,
+      "province": "Kalimantan Selatan",
+      "kabupaten": "Kabupaten Hulu Sungai Utara",
+      "kabupaten_list": [
+        "Kabupaten Hulu Sungai Utara"
+      ],
+      "kecamatan": "Kecamatan Amuntai Tengah",
+      "hotspots": [
+        {
+          "latitude": -2.43474,
+          "longitude": 115.05816,
+          "frp_mw": 11.09,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.4352,
+          "longitude": 115.00965,
+          "frp_mw": 6.88,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -2.4594,
+          "longitude": 114.96494,
+          "frp_mw": 4.09,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:52",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        }
+      ],
+      "centroid": {
+        "latitude": -2.44311,
+        "longitude": 115.01092
+      },
+      "bounding_box": {
+        "min_lat": -2.4744,
+        "max_lat": -2.41974,
+        "min_lon": 114.94994,
+        "max_lon": 115.07316
+      },
+      "hotspot_count_24h": 3,
+      "days_detected_7d": 2,
+      "median_frp_mw": 6.88,
+      "max_frp_mw": 11.09,
+      "base_risk_score": 34.6,
+      "risk_score": 34.6,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Persistensi kebakaran tinggi (2 dari 7 hari)",
+      "nearest_settlement": "Kecamatan Jenamas (Kabupaten Barito Selatan)",
+      "distance_to_settlement_km": 16.1,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 28",
+      "id": "area_pantau_28"
     },
     {
       "cluster_id": 4,
@@ -2413,9 +3796,9 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 20",
-      "id": "area_pantau_20"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 29",
+      "id": "area_pantau_29"
     },
     {
       "cluster_id": 6,
@@ -2562,9 +3945,9 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 21",
-      "id": "area_pantau_21"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 30",
+      "id": "area_pantau_30"
     },
     {
       "cluster_id": 0,
@@ -2661,9 +4044,9 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 22",
-      "id": "area_pantau_22"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 31",
+      "id": "area_pantau_31"
     },
     {
       "cluster_id": 7,
@@ -2730,12 +4113,12 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 23",
-      "id": "area_pantau_23"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 32",
+      "id": "area_pantau_32"
     },
     {
-      "cluster_id": 16,
+      "cluster_id": 27,
       "province": "Kalimantan Selatan",
       "kabupaten": "Kabupaten Kotabaru",
       "kabupaten_list": [
@@ -2799,9 +4182,157 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 24",
-      "id": "area_pantau_24"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 33",
+      "id": "area_pantau_33"
+    },
+    {
+      "cluster_id": 18,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Timur",
+      "kabupaten_list": [
+        "Kabupaten Kutai Timur"
+      ],
+      "kecamatan": "Kecamatan Muara Wahau",
+      "hotspots": [
+        {
+          "latitude": 1.18604,
+          "longitude": 117.20187,
+          "frp_mw": 3.82,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": 1.18417,
+          "longitude": 117.20454,
+          "frp_mw": 2.95,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": 1.18477,
+          "longitude": 117.20061,
+          "frp_mw": 2.95,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": 1.18266,
+          "longitude": 117.20135,
+          "frp_mw": 1.27,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": 1.18441,
+        "longitude": 117.20209
+      },
+      "bounding_box": {
+        "min_lat": 1.16766,
+        "max_lat": 1.20104,
+        "min_lon": 117.18561,
+        "max_lon": 117.21954
+      },
+      "hotspot_count_24h": 4,
+      "days_detected_7d": 1,
+      "median_frp_mw": 2.95,
+      "max_frp_mw": 3.82,
+      "base_risk_score": 24.5,
+      "risk_score": 24.5,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Kerapatan deteksi tinggi (4 titik panas satelit)",
+      "nearest_settlement": "Kecamatan Muara Wahau (Kabupaten Kutai Timur)",
+      "distance_to_settlement_km": 32.2,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 34",
+      "id": "area_pantau_34"
+    },
+    {
+      "cluster_id": 36,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Kartanegara",
+      "kabupaten_list": [
+        "Kabupaten Kutai Kartanegara"
+      ],
+      "kecamatan": "Kecamatan Marang Kayu",
+      "hotspots": [
+        {
+          "latitude": -0.17786,
+          "longitude": 117.43837,
+          "frp_mw": 3.87,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.11963,
+          "longitude": 117.45238,
+          "frp_mw": 3.81,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "05:54",
+          "satellite": "VIIRS N21",
+          "daynight": "D"
+        },
+        {
+          "latitude": -0.0698,
+          "longitude": 117.40588,
+          "frp_mw": 0.53,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:49",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": -0.12243,
+        "longitude": 117.43221
+      },
+      "bounding_box": {
+        "min_lat": -0.19286,
+        "max_lat": -0.0548,
+        "min_lon": 117.39088,
+        "max_lon": 117.46738
+      },
+      "hotspot_count_24h": 3,
+      "days_detected_7d": 1,
+      "median_frp_mw": 3.81,
+      "max_frp_mw": 3.87,
+      "base_risk_score": 24.3,
+      "risk_score": 24.3,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Kerapatan deteksi tinggi (3 titik panas satelit)",
+      "nearest_settlement": "Kecamatan Marang Kayu (Kabupaten Kutai Kartanegara)",
+      "distance_to_settlement_km": 18.3,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 35",
+      "id": "area_pantau_35"
     },
     {
       "cluster_id": 8,
@@ -2869,9 +4400,78 @@
       "citizen_reports_count": 0,
       "citizen_urgency_boost": 0.0,
       "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
-      "last_updated": "23.18 WIB",
-      "code": "Area Pantau 25",
-      "id": "area_pantau_25"
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 36",
+      "id": "area_pantau_36"
+    },
+    {
+      "cluster_id": 24,
+      "province": "Kalimantan Timur",
+      "kabupaten": "Kabupaten Kutai Barat",
+      "kabupaten_list": [
+        "Kabupaten Kutai Barat"
+      ],
+      "kecamatan": "Kecamatan Jempang",
+      "hotspots": [
+        {
+          "latitude": -0.73149,
+          "longitude": 116.21426,
+          "frp_mw": 3.8,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        },
+        {
+          "latitude": -0.73118,
+          "longitude": 116.21436,
+          "frp_mw": 2.61,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "17:51",
+          "satellite": "VIIRS N20",
+          "daynight": "N"
+        },
+        {
+          "latitude": -0.73067,
+          "longitude": 116.21499,
+          "frp_mw": 2.53,
+          "confidence": "nominal",
+          "acq_date": "2026-11-08",
+          "acq_time_utc": "16:54",
+          "satellite": "VIIRS N21",
+          "daynight": "N"
+        }
+      ],
+      "centroid": {
+        "latitude": -0.73111,
+        "longitude": 116.21454
+      },
+      "bounding_box": {
+        "min_lat": -0.74649,
+        "max_lat": -0.71567,
+        "min_lon": 116.19926,
+        "max_lon": 116.22999
+      },
+      "hotspot_count_24h": 3,
+      "days_detected_7d": 1,
+      "median_frp_mw": 2.61,
+      "max_frp_mw": 3.8,
+      "base_risk_score": 23.7,
+      "risk_score": 23.7,
+      "priority_level": "P3 - Waspada Ringan",
+      "badge": "Waspada Ringan",
+      "primary_factor": "Kerapatan deteksi tinggi (3 titik panas satelit)",
+      "nearest_settlement": "Kecamatan Jempang (Kabupaten Kutai Barat)",
+      "distance_to_settlement_km": 20.5,
+      "threat_level": "\ud83d\udee1\ufe0f Pantauan Luar (> 7 km - Area Hutan/Gambut)",
+      "citizen_reports_count": 0,
+      "citizen_urgency_boost": 0.0,
+      "citizen_validation_status": "\ud83d\udee1\ufe0f Belum Ada Laporan Lapangan",
+      "last_updated": "10.00 WIB",
+      "code": "Area Pantau 37",
+      "id": "area_pantau_37"
     }
   ]
 }
