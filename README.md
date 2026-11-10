@@ -40,7 +40,7 @@ Masalah utama pada pantauan titik panas mentah adalah jumlah titik yang terlalu 
 ```mermaid
 flowchart TD
     subgraph ExternalSources["Sumber Data Eksternal & Geospasial"]
-        FIRMS["NASA FIRMS API<br/>(VIIRS S-NPP 375m NRT)"]
+        FIRMS["NASA FIRMS API<br/>(VIIRS NOAA-20, NOAA-21, Suomi-NPP 375m NRT)"]
         GeoBoundary["Poligon Batas Kab/Kota Resmi<br/>(kalimantan_kabkota.geojson)"]
         Settlements["120+ Titik Pusat Kecamatan<br/>(SETTLEMENT_CENTERS Kalimantan)"]
         OpenMeteo["Open-Meteo Atmosphere API<br/>(Suhu, Kelembapan, Angin, Cuaca)"]
@@ -80,8 +80,8 @@ flowchart TD
 ## Metodologi & Implementasi Algoritma Inti
 
 ### 1. Ingesti Data Satelit NASA FIRMS (`app/services/firms_client.py`)
-* Mengambil data titik panas dari endpoint resmi NASA FIRMS (`VIIRS_SNPP_NRT`) menggunakan *bounding box* Pulau Kalimantan (`108.5,-4.5,119.2,4.5`).
-* Mendukung kueri rentang 5 hari terakhir maupun penarikan spesifik per tanggal observasi (`YYYY-MM-DD`).
+* Mengambil data titik panas dari konstelasi satelit aktif NASA FIRMS (`VIIRS_NOAA20_NRT`, `VIIRS_NOAA21_NRT`, dan `VIIRS_SNPP_NRT`) secara paralel menggunakan *bounding box* Pulau Kalimantan (`108.5,-4.5,119.2,4.5`).
+* Mendukung kueri rentang 5 hari terakhir maupun penarikan spesifik per tanggal observasi (`YYYY-MM-DD`). Apabila tanggal spesifik yang diminta belum memiliki data atau 0 titik api, sistem mengembalikan daftar kosong `[]` (bukan data cadangan) guna menjamin integritas saintifik.
 * Apabila jumlah titik pada tanggal terbaru terlalu sedikit (`< 100` titik akibat jeda orbit), sistem otomatis menggabungkan 2 tanggal observasi terbaru agar pemantauan tetap komprehensif.
 * Dilengkapi *graceful fallback* ke berkas cache lokal (`hotspots_kalimantan_7d.csv`) jika API NASA sedang mengalami kendala jaringan atau limitasi kuota.
 
@@ -158,7 +158,7 @@ Seluruh skema request dan response dapat diuji langsung melalui Swagger UI di [*
     * `kabupaten` *(opsional)*: Filter nama kabupaten/kota (misal: `Kabupaten Sintang`).
     * `kecamatan` *(opsional)*: Filter nama kecamatan terdekat.
     * `min_score` *(opsional)*: Batas minimum skor risiko (`float`).
-    * `date` *(opsional)*: Tanggal observasi satelit format `YYYY-MM-DD` (dilengkapi *in-memory caching* `< 10ms`).
+    * `date` *(opsional)*: Tanggal observasi satelit format `YYYY-MM-DD` (dilengkapi *in-memory caching* `< 10ms`; mengembalikan `[]` jika tanggal tersebut belum ada observasi).
 * `GET /api/clusters/statistics` — Ringkasan jumlah total klaster, rincian jumlah klaster P1, P2, P3, dan total titik panas terklaster.
 * `GET /api/clusters/{cluster_id}` — Detail spesifik satu Area Pantau berdasarkan ID (misal: `area_pantau_01`) beserta daftar koordinat titik panas penyusunnya.
 
