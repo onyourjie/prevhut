@@ -57,11 +57,12 @@ async def get_clusters(
                     if clusters:
                         set_clusters_cache(clean_date, clusters)
                     else:
-                        clusters = data_loader.get_clusters()
+                        clusters = []
                 else:
-                    clusters = data_loader.get_clusters()
+                    # Jika tidak ada observasi satelit pada tanggal yang dipilih, kembalikan list kosong
+                    clusters = []
             except Exception:
-                clusters = data_loader.get_clusters()
+                clusters = []
     else:
         cache_key = "_latest"
         cached = _get_valid_cached_clusters(cache_key)

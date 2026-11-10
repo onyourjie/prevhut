@@ -27,10 +27,11 @@
 **PrevHut** merupakan lapisan *Data Science & Geospatial Intelligence* pada platform **FIREZONE**. Layanan ini bertugas mengubah ribuan data mentah penginderaan jauh satelit menjadi informasi **Area Pantau Prioritas (P1, P2, P3)** yang dapat dijelaskan secara transparan (*Explainable AI/Risk Scoring*) dan siap ditindaklanjuti oleh masyarakat, relawan lapangan, maupun Admin Posko BPBD di seluruh Pulau Kalimantan (Kalimantan Barat, Kalimantan Tengah, Kalimantan Selatan, Kalimantan Timur, dan Kalimantan Utara).
 
 Masalah utama pada pantauan titik panas mentah adalah jumlah titik yang terlalu masif dan tersebar tanpa konteks kedekatan permukiman atau tingkat keparahan. Repositori ini menyelesaikan masalah tersebut melalui:
-1. **Akuisisi Langsung NASA FIRMS VIIRS 375m:** Penarikan data *Near Real-Time* (NRT) dari instrumen VIIRS Suomi-NPP beserta mekanisme *fallback* dataset lokal.
+1. **Akuisisi Paralel Multi-Sensor NASA FIRMS VIIRS 375m:** Penarikan data *Near Real-Time* (NRT) paralel dari konstelasi satelit VIIRS 375m (NOAA-20, NOAA-21, dan Suomi-NPP) dengan deduplikasi spasio-temporal dan *fallback* dataset lokal guna menjamin pemantauan bebas dari *blackout* sensor.
 2. **Pemetaan Poligon Administrasi Presisi (*Point-in-Polygon*):** Penentuan Provinsi dan Kabupaten/Kota menggunakan algoritma *Vectorized Ray Casting* dan `KDTree` pesisir, sekaligus membuang titik di luar wilayah Indonesia (Sarawak, Sabah, Brunei).
 3. **Spatio-Temporal DBSCAN Clustering:** Mengelompokkan titik panas aktif dalam radius Haversine 8 km menjadi kesatuan poligon **Area Pantau**.
 4. **Explainable Multi-Criteria Risk Scoring:** Menggabungkan 3 parameter fisik satelit (kerapatan aktivitas, persistensi multi-hari di lahan gambut, dan energi radiasi termal FRP) dengan eksposur jarak ke permukiman terdekat serta validasi laporan warga lapangan.
+5. **Pemicu Peringatan Dini & Push Notification:** Klaster bahaya prioritas tinggi (P1) yang terdeteksi menjadi dasar pemicu notifikasi darurat (*push notifications*) bagi warga di sekitar lokasi dan disposisi tugas otomatis ke posko BPBD.
 
 ---
 

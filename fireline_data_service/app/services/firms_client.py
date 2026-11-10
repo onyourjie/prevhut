@@ -162,7 +162,11 @@ class FirmsClient:
                 except Exception:
                     pass
 
-        # Jika tidak ada target date atau target date tidak ditemukan, ambil tanggal terbaru yang tersedia
+            # Jika target_date telah ditentukan namun tidak ada data untuk tanggal tersebut (misal belum ada orbit satelit atau 0 hotspot),
+            # kembalikan DataFrame kosong agar tidak keliru menampilkan data dari tanggal lain
+            return pd.DataFrame(), df_history, f"NASA FIRMS VIIRS ({clean_date} - Tidak Ada Observasi/Titik Api)"
+
+        # Jika target_date TIDAK ditentukan (None / default), ambil observasi tanggal terbaru yang tersedia
         if "date" in df_history.columns and not df_history["date"].empty:
             latest_date = df_history["date"].max()
             df_daily = df_history[df_history["date"] == latest_date].copy()
