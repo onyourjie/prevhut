@@ -12,6 +12,32 @@ from app.core.config import settings
 
 router = APIRouter(prefix="/sync", tags=["Live Synchronization"])
 
+def _df_to_hotspot_items(df) -> list[dict]:
+    items = []
+    for idx, (_, row) in enumerate(df.iterrows(), start=1):
+        acq_time_raw = str(row.get("acq_time", "")).split(".")[0].zfill(4)
+        time_utc = f"{acq_time_raw[:2]}:{acq_time_raw[2:]}" if len(acq_time_raw) == 4 else ""
+        conf_raw = str(row.get("confidence", "n")).lower()
+        conf_label = "high" if conf_raw in ["h", "high"] else ("low" if conf_raw in ["l", "low"] else "nominal")
+        sat_code = str(row.get("satellite", "N20"))
+        sat_label = "VIIRS (NOAA-20)" if "20" in sat_code else ("VIIRS (NOAA-21)" if "21" in sat_code else "VIIRS (Suomi-NPP)")
+        items.append({
+            "id": f"hotspot_{idx}",
+            "latitude": round(float(row["latitude"]), 5),
+            "longitude": round(float(row["longitude"]), 5),
+            "province": str(row.get("province", "Kalimantan")),
+            "brightness_kelvin": round(float(row.get("bright_ti4", 325.0)), 2),
+            "confidence": conf_label,
+            "frp_mw": round(float(row.get("frp_mw", row.get("frp", 1.0))), 2),
+            "date": str(row.get("date", row.get("acq_date", ""))),
+            "time_utc": time_utc,
+            "time_wib": str(row.get("acq_time_wib", "")),
+            "satellite": sat_label,
+            "daynight": str(row.get("daynight", "D")),
+        })
+    return items
+
+
 @router.post("", response_model=SyncResponse)
 async def sync_live_data():
     """
@@ -53,29 +79,10 @@ async def sync_live_data():
             except Exception:
                 pass
 
-        # 2. Perbarui hotspots_kalimantan_24h.json agar endpoint /hotspots/live & /transparency/summary ikut real-time
+        # 2. Perbarui hotspots_kalimantan_24h.json & hotspots_kalimantan_7d.json agar /hotspots/* & /transparency/summary real-time
         if not df_24h.empty:
-            hotspots_list = []
-            for idx, (_, row) in enumerate(df_24h.iterrows(), start=1):
-                acq_time_raw = str(row.get("acq_time", "")).split(".")[0].zfill(4)
-                time_utc = f"{acq_time_raw[:2]}:{acq_time_raw[2:]}" if len(acq_time_raw) == 4 else ""
-                conf_raw = str(row.get("confidence", "n")).lower()
-                conf_label = "high" if conf_raw in ["h", "high"] else ("low" if conf_raw in ["l", "low"] else "nominal")
-                sat_code = str(row.get("satellite", "N20"))
-                sat_label = "VIIRS (NOAA-20)" if "20" in sat_code else ("VIIRS (NOAA-21)" if "21" in sat_code else "VIIRS (Suomi-NPP)")
-                hotspots_list.append({
-                    "id": f"hotspot_{idx}",
-                    "latitude": round(float(row["latitude"]), 5),
-                    "longitude": round(float(row["longitude"]), 5),
-                    "province": str(row.get("province", "Kalimantan")),
-                    "brightness_kelvin": round(float(row.get("bright_ti4", 325.0)), 2),
-                    "confidence": conf_label,
-                    "frp_mw": round(float(row.get("frp_mw", row.get("frp", 1.0))), 2),
-                    "date": str(row.get("date", row.get("acq_date", ""))),
-                    "time_utc": time_utc,
-                    "satellite": sat_label,
-                    "daynight": str(row.get("daynight", "D")),
-                })
+            hotspots_24h = _df_to_hotspot_items(df_24h)
+            hotspots_7d = _df_to_hotspot_items(df_7d)
             for d in target_dirs:
                 try:
                     h24_path = os.path.join(d, "hotspots_kalimantan_24h.json")
@@ -85,8 +92,18 @@ async def sync_live_data():
                             "sensor": "VIIRS 375m (NOAA-20 / NOAA-21 / S-NPP)",
                             "extracted_at": datetime.now().isoformat(),
                             "region": "Pulau Kalimantan",
-                            "total_hotspots": len(hotspots_list),
-                            "hotspots": hotspots_list,
+                            "total_hotspots": len(hotspots_24h),
+                            "hotspots": hotspots_24h,
+                        }, f, indent=2)
+                    h7_path = os.path.join(d, "hotspots_kalimantan_7d.json")
+                    with open(h7_path, "w", encoding="utf-8") as f:
+                        json.dump({
+                            "source": source_label,
+                            "sensor": "VIIRS 375m (NOAA-20 / NOAA-21 / S-NPP)",
+                            "extracted_at": datetime.now().isoformat(),
+                            "region": "Pulau Kalimantan",
+                            "total_hotspots": len(hotspots_7d),
+                            "hotspots": hotspots_7d,
                         }, f, indent=2)
                 except Exception:
                     pass

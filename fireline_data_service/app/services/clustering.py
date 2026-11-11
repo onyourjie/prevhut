@@ -218,6 +218,94 @@ SETTLEMENT_CENTERS = {
     "Kecamatan Nunukan": {"lat": 4.1357, "lon": 117.6467, "kab": "Kabupaten Nunukan", "prov": "Kalimantan Utara"},
     "Kecamatan Malinau Kota": {"lat": 3.5843, "lon": 116.6388, "kab": "Kabupaten Malinau", "prov": "Kalimantan Utara"},
     "Kecamatan Sesayap": {"lat": 3.5500, "lon": 117.2500, "kab": "Kabupaten Tana Tidung", "prov": "Kalimantan Utara"},
+    # Tambahan cakupan kecamatan - Kalimantan Barat
+    "Kecamatan Sungai Raya Kepulauan": {"lat": 0.7422, "lon": 108.9573, "kab": "Kabupaten Bengkayang", "prov": "Kalimantan Barat"},
+    "Kecamatan Badau": {"lat": 1.0423, "lon": 111.9018, "kab": "Kabupaten Kapuas Hulu", "prov": "Kalimantan Barat"},
+    "Kecamatan Bika": {"lat": 0.8208, "lon": 112.8279, "kab": "Kabupaten Kapuas Hulu", "prov": "Kalimantan Barat"},
+    "Kecamatan Embaloh Hulu": {"lat": 1.1476, "lon": 112.3789, "kab": "Kabupaten Kapuas Hulu", "prov": "Kalimantan Barat"},
+    "Kecamatan Semitau": {"lat": 0.5484, "lon": 111.9682, "kab": "Kabupaten Kapuas Hulu", "prov": "Kalimantan Barat"},
+    "Kecamatan Simpang Hilir": {"lat": -1.093, "lon": 109.9639, "kab": "Kabupaten Kayong Utara", "prov": "Kalimantan Barat"},
+    "Kecamatan Nanga Tayap": {"lat": -1.5268, "lon": 110.5662, "kab": "Kabupaten Ketapang", "prov": "Kalimantan Barat"},
+    "Kecamatan Tumbang Titi": {"lat": -1.823, "lon": 110.6176, "kab": "Kabupaten Ketapang", "prov": "Kalimantan Barat"},
+    "Kecamatan Kuala Mandor B": {"lat": -0.0051, "lon": 109.4634, "kab": "Kabupaten Kubu Raya", "prov": "Kalimantan Barat"},
+    "Kecamatan Mandor": {"lat": 0.3181, "lon": 109.3346, "kab": "Kabupaten Landak", "prov": "Kalimantan Barat"},
+    "Kecamatan Ella Hilir": {"lat": -0.4119, "lon": 112.0013, "kab": "Kabupaten Melawi", "prov": "Kalimantan Barat"},
+    "Kecamatan Siantan": {"lat": 0.0698, "lon": 109.1943, "kab": "Kabupaten Mempawah", "prov": "Kalimantan Barat"},
+    "Kecamatan Teluk Keramat": {"lat": 1.4698, "lon": 109.2184, "kab": "Kabupaten Sambas", "prov": "Kalimantan Barat"},
+    "Kecamatan Beduai": {"lat": 0.7531, "lon": 110.3038, "kab": "Kabupaten Sanggau", "prov": "Kalimantan Barat"},
+    "Kecamatan Parindu": {"lat": 0.2025, "lon": 110.4405, "kab": "Kabupaten Sanggau", "prov": "Kalimantan Barat"},
+    "Kecamatan Sekayam": {"lat": 0.8283, "lon": 110.4385, "kab": "Kabupaten Sanggau", "prov": "Kalimantan Barat"},
+    "Kecamatan Belitang Hilir": {"lat": 0.2259, "lon": 111.0439, "kab": "Kabupaten Sekadau", "prov": "Kalimantan Barat"},
+    "Kecamatan Pontianak Tenggara": {"lat": -0.0796, "lon": 109.3493, "kab": "Kota Pontianak", "prov": "Kalimantan Barat"},
+    "Kecamatan Pontianak Utara": {"lat": 0.0131, "lon": 109.3129, "kab": "Kota Pontianak", "prov": "Kalimantan Barat"},
+    "Kecamatan Singkawang Selatan": {"lat": 0.8658, "lon": 108.9292, "kab": "Kota Singkawang", "prov": "Kalimantan Barat"},
+    # Tambahan cakupan kecamatan - Kalimantan Selatan
+    "Kecamatan Awayan": {"lat": -2.4148, "lon": 115.5277, "kab": "Kabupaten Balangan", "prov": "Kalimantan Selatan"},
+    "Kecamatan Karang Intan": {"lat": -3.4352, "lon": 114.9253, "kab": "Kabupaten Banjar", "prov": "Kalimantan Selatan"},
+    "Kecamatan Daha Selatan": {"lat": -2.6376, "lon": 115.1069, "kab": "Kabupaten Hulu Sungai Selatan", "prov": "Kalimantan Selatan"},
+    "Kecamatan Pandawan": {"lat": -2.5688, "lon": 115.3512, "kab": "Kabupaten Hulu Sungai Tengah", "prov": "Kalimantan Selatan"},
+    "Kecamatan Danau Panggang": {"lat": -2.4562, "lon": 115.1044, "kab": "Kabupaten Hulu Sungai Utara", "prov": "Kalimantan Selatan"},
+    "Kecamatan Tambang Ulang": {"lat": -3.6826, "lon": 114.7182, "kab": "Kabupaten Tanah Laut", "prov": "Kalimantan Selatan"},
+    "Kecamatan Banjarbaru Utara": {"lat": -3.4402, "lon": 114.833, "kab": "Kota Banjarbaru", "prov": "Kalimantan Selatan"},
+    "Kecamatan Banjarmasin Utara": {"lat": -3.2801, "lon": 114.5775, "kab": "Kota Banjarmasin", "prov": "Kalimantan Selatan"},
+    # Tambahan cakupan kecamatan - Kalimantan Tengah
+    "Kecamatan Benua Lima": {"lat": -2.1847, "lon": 115.2203, "kab": "Kabupaten Barito Timur", "prov": "Kalimantan Tengah"},
+    "Kecamatan Gunung Purei": {"lat": -1.1405, "lon": 115.5982, "kab": "Kabupaten Barito Utara", "prov": "Kalimantan Tengah"},
+    "Kecamatan Lahei": {"lat": -0.8666, "lon": 114.9266, "kab": "Kabupaten Barito Utara", "prov": "Kalimantan Tengah"},
+    "Kecamatan Montallat": {"lat": -1.3222, "lon": 114.8215, "kab": "Kabupaten Barito Utara", "prov": "Kalimantan Tengah"},
+    "Kecamatan Teweh Timur": {"lat": -1.0011, "lon": 115.3687, "kab": "Kabupaten Barito Utara", "prov": "Kalimantan Tengah"},
+    "Kecamatan Sepang": {"lat": -1.4965, "lon": 113.9044, "kab": "Kabupaten Gunung Mas", "prov": "Kalimantan Tengah"},
+    "Kecamatan Tewah": {"lat": -1.0336, "lon": 113.7252, "kab": "Kabupaten Gunung Mas", "prov": "Kalimantan Tengah"},
+    "Kecamatan Kapuas Hulu": {"lat": -0.9308, "lon": 114.0212, "kab": "Kabupaten Kapuas", "prov": "Kalimantan Tengah"},
+    "Kecamatan Katingan Hulu": {"lat": -1.158, "lon": 112.4358, "kab": "Kabupaten Katingan", "prov": "Kalimantan Tengah"},
+    "Kecamatan Arut Utara": {"lat": -2.1887, "lon": 111.9193, "kab": "Kabupaten Kotawaringin Barat", "prov": "Kalimantan Tengah"},
+    "Kecamatan Seranau": {"lat": -2.5391, "lon": 112.9704, "kab": "Kabupaten Kotawaringin Timur", "prov": "Kalimantan Tengah"},
+    "Kecamatan Laung Tuhup": {"lat": -0.5983, "lon": 114.7305, "kab": "Kabupaten Murung Raya", "prov": "Kalimantan Tengah"},
+    "Kecamatan Permata Intan": {"lat": -0.7023, "lon": 114.2954, "kab": "Kabupaten Murung Raya", "prov": "Kalimantan Tengah"},
+    "Kecamatan Sumber Barito": {"lat": -0.4802, "lon": 114.1254, "kab": "Kabupaten Murung Raya", "prov": "Kalimantan Tengah"},
+    "Kecamatan Tanah Siang": {"lat": -0.5245, "lon": 114.5069, "kab": "Kabupaten Murung Raya", "prov": "Kalimantan Tengah"},
+    # Tambahan cakupan kecamatan - Kalimantan Timur
+    "Kecamatan Biatan": {"lat": 1.6739, "lon": 118.0162, "kab": "Kabupaten Berau", "prov": "Kalimantan Timur"},
+    "Kecamatan Kelay": {"lat": 1.6939, "lon": 117.0802, "kab": "Kabupaten Berau", "prov": "Kalimantan Timur"},
+    "Kecamatan Segah": {"lat": 2.1868, "lon": 117.117, "kab": "Kabupaten Berau", "prov": "Kalimantan Timur"},
+    "Kecamatan Talisayan": {"lat": 1.6033, "lon": 118.1768, "kab": "Kabupaten Berau", "prov": "Kalimantan Timur"},
+    "Kecamatan Teluk Bayur": {"lat": 2.1583, "lon": 117.4242, "kab": "Kabupaten Berau", "prov": "Kalimantan Timur"},
+    "Kecamatan Bentian Besar": {"lat": -0.7141, "lon": 115.7659, "kab": "Kabupaten Kutai Barat", "prov": "Kalimantan Timur"},
+    "Kecamatan Bongan": {"lat": -0.7505, "lon": 116.2424, "kab": "Kabupaten Kutai Barat", "prov": "Kalimantan Timur"},
+    "Kecamatan Siluq Ngurai": {"lat": -0.5372, "lon": 115.909, "kab": "Kabupaten Kutai Barat", "prov": "Kalimantan Timur"},
+    "Kecamatan Anggana": {"lat": -0.5729, "lon": 117.2672, "kab": "Kabupaten Kutai Kartanegara", "prov": "Kalimantan Timur"},
+    "Kecamatan Kembang Janggut": {"lat": 0.1472, "lon": 116.3654, "kab": "Kabupaten Kutai Kartanegara", "prov": "Kalimantan Timur"},
+    "Kecamatan Kenohan": {"lat": -0.0137, "lon": 116.3649, "kab": "Kabupaten Kutai Kartanegara", "prov": "Kalimantan Timur"},
+    "Kecamatan Muara Kaman": {"lat": 0.2511, "lon": 117.0375, "kab": "Kabupaten Kutai Kartanegara", "prov": "Kalimantan Timur"},
+    "Kecamatan Muara Muntai": {"lat": -0.3602, "lon": 116.3932, "kab": "Kabupaten Kutai Kartanegara", "prov": "Kalimantan Timur"},
+    "Kecamatan Sebulu": {"lat": -0.2716, "lon": 117.0063, "kab": "Kabupaten Kutai Kartanegara", "prov": "Kalimantan Timur"},
+    "Kecamatan Tabang": {"lat": 0.5611, "lon": 116.021, "kab": "Kabupaten Kutai Kartanegara", "prov": "Kalimantan Timur"},
+    "Kecamatan Busang": {"lat": 0.8165, "lon": 116.5544, "kab": "Kabupaten Kutai Timur", "prov": "Kalimantan Timur"},
+    "Kecamatan Kombeng": {"lat": 1.187, "lon": 116.9488, "kab": "Kabupaten Kutai Timur", "prov": "Kalimantan Timur"},
+    "Kecamatan Muara Ancalong": {"lat": 0.425, "lon": 116.6834, "kab": "Kabupaten Kutai Timur", "prov": "Kalimantan Timur"},
+    "Kecamatan Muara Bengkal": {"lat": 0.4385, "lon": 116.7179, "kab": "Kabupaten Kutai Timur", "prov": "Kalimantan Timur"},
+    "Kecamatan Sandaran": {"lat": 0.8294, "lon": 118.4973, "kab": "Kabupaten Kutai Timur", "prov": "Kalimantan Timur"},
+    "Kecamatan Long Apari": {"lat": 0.7737, "lon": 114.2715, "kab": "Kabupaten Mahakam Hulu", "prov": "Kalimantan Timur"},
+    "Kecamatan Long Bagun": {"lat": 0.6, "lon": 115.1833, "kab": "Kabupaten Mahakam Hulu", "prov": "Kalimantan Timur"},
+    "Kecamatan Long Pahangai": {"lat": 0.89, "lon": 114.69, "kab": "Kabupaten Mahakam Hulu", "prov": "Kalimantan Timur"},
+    "Kecamatan Muara Komam": {"lat": -1.6775, "lon": 115.8126, "kab": "Kabupaten Paser", "prov": "Kalimantan Timur"},
+    "Kecamatan Balikpapan Selatan": {"lat": -1.2457, "lon": 116.895, "kab": "Kota Balikpapan", "prov": "Kalimantan Timur"},
+    "Kecamatan Balikpapan Utara": {"lat": -1.1536, "lon": 116.8842, "kab": "Kota Balikpapan", "prov": "Kalimantan Timur"},
+    "Kecamatan Bontang Selatan": {"lat": 0.0856, "lon": 117.4208, "kab": "Kota Bontang", "prov": "Kalimantan Timur"},
+    "Kecamatan Samarinda Ulu": {"lat": -0.4848, "lon": 117.1276, "kab": "Kota Samarinda", "prov": "Kalimantan Timur"},
+    "Kecamatan Sungai Kunjang": {"lat": -0.5145, "lon": 117.0926, "kab": "Kota Samarinda", "prov": "Kalimantan Timur"},
+    # Tambahan cakupan kecamatan - Kalimantan Utara
+    "Kecamatan Peso": {"lat": 2.6667, "lon": 116.5833, "kab": "Kabupaten Bulungan", "prov": "Kalimantan Utara"},
+    "Kecamatan Malinau Barat": {"lat": 3.4833, "lon": 116.6167, "kab": "Kabupaten Malinau", "prov": "Kalimantan Utara"},
+    "Kecamatan Mentarang": {"lat": 3.5269, "lon": 116.5095, "kab": "Kabupaten Malinau", "prov": "Kalimantan Utara"},
+    "Kecamatan Krayan": {"lat": 3.9065, "lon": 115.6982, "kab": "Kabupaten Nunukan", "prov": "Kalimantan Utara"},
+    "Kecamatan Lumbis": {"lat": 3.7529, "lon": 116.7407, "kab": "Kabupaten Nunukan", "prov": "Kalimantan Utara"},
+    "Kecamatan Sebatik": {"lat": 4.0651, "lon": 117.9228, "kab": "Kabupaten Nunukan", "prov": "Kalimantan Utara"},
+    "Kecamatan Sebuku": {"lat": 4.0022, "lon": 117.0344, "kab": "Kabupaten Nunukan", "prov": "Kalimantan Utara"},
+    "Kecamatan Tulin Onsoi": {"lat": 4.0406, "lon": 116.9815, "kab": "Kabupaten Nunukan", "prov": "Kalimantan Utara"},
+    "Kecamatan Tana Lia": {"lat": 3.7, "lon": 117.65, "kab": "Kabupaten Tana Tidung", "prov": "Kalimantan Utara"},
+    "Kecamatan Tarakan Barat": {"lat": 3.3059, "lon": 117.5847, "kab": "Kota Tarakan", "prov": "Kalimantan Utara"},
+    "Kecamatan Tarakan Timur": {"lat": 3.2986, "lon": 117.6241, "kab": "Kota Tarakan", "prov": "Kalimantan Utara"},
 }
 
 def haversine_dist(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
@@ -250,18 +338,9 @@ def run_clustering_and_scoring(
     if df_daily.empty:
         return []
 
-    # Ambil laporan komunitas
+    # Laporan komunitas hanya dihitung bila diteruskan langsung dari data aktif
     if community_reports is None:
-        try:
-            reports_path = os.path.join(settings.DATA_DIR, "community_reports.json")
-            if os.path.exists(reports_path):
-                with open(reports_path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    community_reports = data.get("reports", [])
-            else:
-                community_reports = []
-        except Exception:
-            community_reports = []
+        community_reports = []
 
     coords_rad = np.radians(df_daily[['latitude', 'longitude']].values)
     epsilon = 8.0 / 6371.0  # Jari-jari klaster 8 km dalam radian
@@ -350,7 +429,7 @@ def run_clustering_and_scoring(
                 kec_in_kab = s_name
 
         distance_km = round(min_d, 1)
-        kecamatan = kec_in_kab if kec_in_kab_d <= 70.0 else ""
+        kecamatan = kec_in_kab or best_kec
         nearest_settlement = f"{best_kec} ({best_center.get('kab', '-')})" if best_kec else None
 
         # Titik panas riil di dalam klaster (30 titik dengan FRP tertinggi)
@@ -358,6 +437,15 @@ def run_clustering_and_scoring(
         sort_col = frp_col if frp_col else 'latitude'
         for i, (_, row) in enumerate(c_pts.sort_values(sort_col, ascending=False).head(30).iterrows()):
             acq_time = str(row.get('acq_time', '')).split('.')[0].zfill(4) if 'acq_time' in row else ''
+            acq_time_utc = f"{acq_time[:2]}:{acq_time[2:]}" if len(acq_time) == 4 and acq_time.isdigit() else ""
+            raw_wib = row.get('acq_time_wib', '') if 'acq_time_wib' in row else ''
+            if pd.notna(raw_wib) and str(raw_wib).strip():
+                acq_time_wib = str(raw_wib).strip()
+            elif acq_time_utc:
+                hh_wib = (int(acq_time[:2]) + 7) % 24
+                acq_time_wib = f"{hh_wib:02d}:{acq_time[2:]}"
+            else:
+                acq_time_wib = ""
             conf_raw = str(row.get('confidence', '')).lower()
             conf = {'h': 'high', 'n': 'nominal', 'l': 'low'}.get(conf_raw, conf_raw or 'nominal')
             hotspot_items.append({
@@ -366,7 +454,8 @@ def run_clustering_and_scoring(
                 "frp_mw": round(float(row[frp_col]), 2) if frp_col and pd.notna(row[frp_col]) else 0.0,
                 "confidence": conf,
                 "acq_date": str(row.get('date', row.get('acq_date', ''))),
-                "acq_time_utc": f"{acq_time[:2]}:{acq_time[2:]}" if len(acq_time) == 4 else "",
+                "acq_time_utc": acq_time_utc,
+                "acq_time_wib": acq_time_wib,
                 "satellite": "VIIRS S-NPP 375m" if str(row.get('satellite', 'N')) in ('N', 'Suomi NPP') else f"VIIRS {row.get('satellite')}",
                 "daynight": str(row.get('daynight', '')),
             })

@@ -19,12 +19,17 @@ class FirmsClient:
         self._cached_5d: Optional[pd.DataFrame] = None
         self._cached_label: str = ""
         self._cache_time: Optional[float] = None
+        self._window_cache: dict[str, Tuple[float, pd.DataFrame, str]] = {}
         # Konstelasi satelit VIIRS resolusi 375m dari NASA FIRMS (NOAA-20, NOAA-21, Suomi-NPP)
         self.satellite_sources = [
             "VIIRS_NOAA20_NRT",
             "VIIRS_NOAA21_NRT",
             "VIIRS_SNPP_NRT",
         ]
+
+    @staticmethod
+    def _today_wib_str() -> str:
+        return (datetime.utcnow() + timedelta(hours=7)).strftime("%Y-%m-%d")
 
     def _normalize_df(self, df: pd.DataFrame) -> pd.DataFrame:
         if df.empty:
@@ -33,9 +38,9 @@ class FirmsClient:
         if "frp" in df.columns and "frp_mw" not in df.columns:
             df["frp_mw"] = df["frp"]
 
-        # Konversi waktu pengamatan NASA FIRMS (UTC) ke tanggal kalender WIB (UTC+7)
+        # Konversi waktu pengamatan NASA FIRMS (UTC) ke tanggal & jam WIB (UTC+7)
         # agar lintasan malam Kalimantan (00:00–06:59 WIB = 17:00–23:59 UTC hari sebelumnya)
-        # tercatat tepat pada tanggal hari ini menurut waktu Indonesia.
+        # tercatat tepat pada tanggal dan jam lokal Indonesia.
         if "acq_date" in df.columns and "acq_time" in df.columns:
             hhmm = (
                 df["acq_time"]
@@ -55,6 +60,7 @@ class FirmsClient:
                 else df["acq_date"].astype(str).str.strip()
             )
             df["date"] = wib_dt.dt.strftime("%Y-%m-%d").where(wib_dt.notna(), fallback_date)
+            df["acq_time_wib"] = wib_dt.dt.strftime("%H:%M").where(wib_dt.notna(), "")
         elif "acq_date" in df.columns and "date" not in df.columns:
             df["date"] = df["acq_date"].astype(str).str.strip()
 
@@ -87,11 +93,79 @@ class FirmsClient:
             pass
         return pd.DataFrame()
 
+    async def _fetch_wib_7d_window(
+        self, end_wib_date: str, force_refresh: bool = False
+    ) -> Tuple[pd.DataFrame, str]:
+        """
+        Ambil dataset jendela 7 hari penuh dalam kalender WIB ([end_wib - 6d .. end_wib])
+        secara paralel dalam 2 irisan agar batas API NASA FIRMS (maks 5 hari/kueri) terlampaui
+        tanpa kebocoran data masa depan untuk tanggal historis.
+        """
+        now = time.time()
+        cached = self._window_cache.get(end_wib_date)
+        if (
+            not force_refresh
+            and cached is not None
+            and not cached[1].empty
+            and (now - cached[0]) < self.CACHE_TTL_SECONDS
+        ):
+            return cached[1].copy(), cached[2]
+
+        today_wib = self._today_wib_str()
+        parsed_end = datetime.strptime(end_wib_date, "%Y-%m-%d")
+        start_wib_date = (parsed_end - timedelta(days=6)).strftime("%Y-%m-%d")
+        # 00:00 WIB pada start_wib_date = 17:00 UTC pada (end_wib - 7 hari)
+        early_utc_start = (parsed_end - timedelta(days=7)).strftime("%Y-%m-%d")
+        late_utc_start = (parsed_end - timedelta(days=3)).strftime("%Y-%m-%d")
+
+        map_key = settings.NASA_FIRMS_MAP_KEY
+        if map_key != "DEMO_KEY" and map_key:
+            try:
+                async with httpx.AsyncClient(timeout=25.0) as client:
+                    # Gabung 2 irisan: 4 hari awal [H-7..H-4 UTC] + 4/5 hari akhir [H-3..H UTC]
+                    tasks = [
+                        self._fetch_single_source(client, src, days=4, target_date=early_utc_start)
+                        for src in self.satellite_sources
+                    ]
+                    if end_wib_date >= today_wib:
+                        tasks.extend(
+                            self._fetch_single_source(client, src, days=5)
+                            for src in self.satellite_sources
+                        )
+                    else:
+                        tasks.extend(
+                            self._fetch_single_source(client, src, days=4, target_date=late_utc_start)
+                            for src in self.satellite_sources
+                        )
+                    results = await asyncio.gather(*tasks)
+                    valid_dfs = [df for df in results if not df.empty]
+
+                    if valid_dfs:
+                        df_combined = pd.concat(valid_dfs, ignore_index=True)
+                        if {"latitude", "longitude", "acq_date", "acq_time"}.issubset(df_combined.columns):
+                            df_combined = df_combined.drop_duplicates(
+                                subset=["latitude", "longitude", "acq_date", "acq_time"]
+                            )
+                        df_norm = self._normalize_df(df_combined)
+                        if not df_norm.empty and "date" in df_norm.columns:
+                            in_win = (df_norm["date"] >= start_wib_date) & (df_norm["date"] <= end_wib_date)
+                            df_window = df_norm[in_win].copy()
+                            if not df_window.empty:
+                                label = f"NASA FIRMS VIIRS 7D WIB ({len(df_window):,} Titik Kalimantan)"
+                                self._window_cache[end_wib_date] = (time.time(), df_window, label)
+                                return df_window.copy(), label
+                        return pd.DataFrame(), f"NASA FIRMS VIIRS ({end_wib_date} - Tidak Ada Titik Api)"
+            except Exception:
+                pass
+
+        if cached is not None and not cached[1].empty:
+            return cached[1].copy(), cached[2]
+
+        return pd.DataFrame(), "No Data Available"
+
     async def fetch_5d_dataset(self, force_refresh: bool = False) -> Tuple[pd.DataFrame, str]:
         """
-        Ambil dataset 5 hari NASA FIRMS untuk Pulau Kalimantan.
-        Mengambil dari konstelasi satelit aktif NOAA-20 & NOAA-21 (serta Suomi-NPP)
-        sehingga jika salah satu sensor satelit degradasi/offline, sistem tetap mendapatkan data penuh.
+        Ambil dataset riwayat NASA FIRMS (7 hari WIB penuh) untuk Pulau Kalimantan.
         Cache diperbarui otomatis setiap 3 jam (atau saat force_refresh=True).
         """
         now = time.time()
@@ -104,32 +178,13 @@ class FirmsClient:
         ):
             return self._cached_5d.copy(), self._cached_label
 
-        map_key = settings.NASA_FIRMS_MAP_KEY
-        if map_key != "DEMO_KEY" and map_key:
-            try:
-                async with httpx.AsyncClient(timeout=25.0) as client:
-                    # Ambil paralel dari seluruh konstelasi satelit VIIRS 375m (NOAA-20, NOAA-21, dan Suomi-NPP)
-                    tasks = [
-                        self._fetch_single_source(client, src, days=5)
-                        for src in self.satellite_sources
-                    ]
-                    results = await asyncio.gather(*tasks)
-                    valid_dfs = [df for df in results if not df.empty]
-
-                    if valid_dfs:
-                        df_combined = pd.concat(valid_dfs, ignore_index=True)
-                        if {"latitude", "longitude", "acq_date", "acq_time"}.issubset(df_combined.columns):
-                            df_combined = df_combined.drop_duplicates(
-                                subset=["latitude", "longitude", "acq_date", "acq_time"]
-                            )
-                        df_norm = self._normalize_df(df_combined)
-                        if not df_norm.empty:
-                            self._cached_5d = df_norm
-                            self._cached_label = f"NASA FIRMS VIIRS Live Multi-Satellite ({len(df_norm):,} Titik Kalimantan)"
-                            self._cache_time = time.time()
-                            return df_norm.copy(), self._cached_label
-            except Exception:
-                pass
+        today_wib = self._today_wib_str()
+        df_window, label = await self._fetch_wib_7d_window(today_wib, force_refresh=force_refresh)
+        if not df_window.empty:
+            self._cached_5d = df_window
+            self._cached_label = f"NASA FIRMS VIIRS Live Multi-Satellite ({len(df_window):,} Titik Kalimantan)"
+            self._cache_time = time.time()
+            return df_window.copy(), self._cached_label
 
         # Jika gagal kueri baru namun ada cache lama di memori, gunakan cache memori terlebih dahulu
         if self._cached_5d is not None and not self._cached_5d.empty:
@@ -154,33 +209,27 @@ class FirmsClient:
     ) -> Tuple[pd.DataFrame, pd.DataFrame, str]:
         """
         Ambil data titik panas satelit NASA FIRMS.
-        Jika target_date diberikan (misal: '2026-11-08'), ambil data untuk tanggal tersebut.
+        Jika target_date diberikan (misal: '2026-11-08'), ambil data tanggal WIB tersebut
+        beserta riwayat kausal 7 hari WIB hingga tanggal tersebut ([date - 6d .. date]).
         Mengembalikan (df_harian, df_riwayat, label_sumber).
         """
-        df_history, label = await self.fetch_5d_dataset(force_refresh=force_refresh)
-
         if target_date:
             clean_date = target_date.strip()
-            # 1. Saring dari dataset riwayat 5 hari jika tanggal WIB tercakup penuh
-            has_complete_window = (
-                not df_history.empty
-                and "date" in df_history.columns
-                and clean_date in df_history["date"].values
-                and (
-                    "acq_date" not in df_history.columns
-                    or clean_date > str(df_history["acq_date"].min())
-                )
-            )
-            if has_complete_window:
+            try:
+                parsed_wib = datetime.strptime(clean_date, "%Y-%m-%d")
+            except ValueError:
+                return pd.DataFrame(), pd.DataFrame(), f"Format tanggal tidak valid: {clean_date}"
+
+            # Riwayat kausal 7 hari WIB [clean_date - 6d .. clean_date] (tanpa data masa depan)
+            df_history, _ = await self._fetch_wib_7d_window(clean_date, force_refresh=force_refresh)
+            if not df_history.empty and "date" in df_history.columns and clean_date in df_history["date"].values:
                 df_daily = df_history[df_history["date"] == clean_date].copy()
                 return df_daily, df_history, f"NASA FIRMS VIIRS ({clean_date} - {len(df_daily):,} Titik)"
 
-            # 2. Kueri API NASA FIRMS mulai (clean_date - 1 hari) UTC selama 2 hari
-            # agar seluruh rentang 00:00–23:59 WIB (17:00 UTC H-1 s.d. 16:59 UTC H) tercakup penuh
+            # Fallback langsung 2 hari UTC [clean_date - 1d .. clean_date] jika salah satu irisan gagal
             map_key = settings.NASA_FIRMS_MAP_KEY
             if map_key != "DEMO_KEY" and map_key:
                 try:
-                    parsed_wib = datetime.strptime(clean_date, "%Y-%m-%d")
                     prev_utc_date = (parsed_wib - timedelta(days=1)).strftime("%Y-%m-%d")
                     async with httpx.AsyncClient(timeout=20.0) as client:
                         tasks = [
@@ -199,14 +248,14 @@ class FirmsClient:
                             if not df_fetched.empty and "date" in df_fetched.columns:
                                 df_daily = df_fetched[df_fetched["date"] == clean_date].copy()
                                 if not df_daily.empty:
-                                    return df_daily, df_history, f"NASA FIRMS VIIRS Live ({clean_date} - {len(df_daily):,} Titik)"
+                                    hist = df_history if not df_history.empty else df_daily
+                                    return df_daily, hist, f"NASA FIRMS VIIRS Live ({clean_date} - {len(df_daily):,} Titik)"
                 except Exception:
                     pass
 
-            # Jika tidak ada data untuk tanggal WIB tersebut (belum ada orbit atau 0 hotspot),
-            # kembalikan DataFrame kosong agar tidak keliru menampilkan data dari tanggal lain
             return pd.DataFrame(), df_history, f"NASA FIRMS VIIRS ({clean_date} - Tidak Ada Observasi/Titik Api)"
 
+        df_history, label = await self.fetch_5d_dataset(force_refresh=force_refresh)
         if df_history.empty:
             return pd.DataFrame(), pd.DataFrame(), label
 
