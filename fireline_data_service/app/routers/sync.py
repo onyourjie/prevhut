@@ -126,7 +126,7 @@ async def sync_live_data():
         data_loader.reload_all()
         clear_clusters_cache()
         set_clusters_cache("_latest", new_clusters)
-        if not df_24h.empty and "date" in df_24h.columns:
+        if not df_24h.empty and "date" in df_24h.columns and df_24h["date"].nunique() == 1:
             latest_date_str = str(df_24h["date"].max())
             set_clusters_cache(latest_date_str, new_clusters)
 

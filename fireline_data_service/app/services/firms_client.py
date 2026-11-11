@@ -2,6 +2,7 @@ import os
 import io
 import time
 import asyncio
+from datetime import datetime, timedelta
 import httpx
 import pandas as pd
 from typing import Tuple, Optional
@@ -28,10 +29,38 @@ class FirmsClient:
     def _normalize_df(self, df: pd.DataFrame) -> pd.DataFrame:
         if df.empty:
             return df
+        df = df.copy()
         if "frp" in df.columns and "frp_mw" not in df.columns:
             df["frp_mw"] = df["frp"]
-        if "acq_date" in df.columns and "date" not in df.columns:
-            df["date"] = df["acq_date"]
+
+        # Konversi waktu pengamatan NASA FIRMS (UTC) ke tanggal kalender WIB (UTC+7)
+        # agar lintasan malam Kalimantan (00:00–06:59 WIB = 17:00–23:59 UTC hari sebelumnya)
+        # tercatat tepat pada tanggal hari ini menurut waktu Indonesia.
+        if "acq_date" in df.columns and "acq_time" in df.columns:
+            hhmm = (
+                df["acq_time"]
+                .fillna("")
+                .astype(str)
+                .str.split(".")
+                .str[0]
+                .str.strip()
+                .str.zfill(4)
+            )
+            utc_str = df["acq_date"].astype(str).str.strip() + " " + hhmm
+            utc_dt = pd.to_datetime(utc_str, format="%Y-%m-%d %H%M", errors="coerce", utc=True)
+            wib_dt = utc_dt + pd.Timedelta(hours=7)
+            fallback_date = (
+                df["date"].astype(str).str.strip()
+                if "date" in df.columns
+                else df["acq_date"].astype(str).str.strip()
+            )
+            df["date"] = wib_dt.dt.strftime("%Y-%m-%d").where(wib_dt.notna(), fallback_date)
+        elif "acq_date" in df.columns and "date" not in df.columns:
+            df["date"] = df["acq_date"].astype(str).str.strip()
+
+        if "date" in df.columns:
+            df["date"] = df["date"].astype(str).str.strip()
+
         # Provinsi & Kabupaten/Kota ditentukan dari poligon batas administrasi (point-in-polygon).
         # Titik di Sarawak/Sabah/Brunei yang ikut terambil bbox Pulau Kalimantan dibuang.
         return region_locator.annotate(df)
@@ -129,24 +158,34 @@ class FirmsClient:
         Mengembalikan (df_harian, df_riwayat, label_sumber).
         """
         df_history, label = await self.fetch_5d_dataset(force_refresh=force_refresh)
-        if df_history.empty:
-            return pd.DataFrame(), pd.DataFrame(), label
 
         if target_date:
             clean_date = target_date.strip()
-            # 1. Coba saring langsung dari dataset riwayat 5 hari
-            if "date" in df_history.columns and clean_date in df_history["date"].values:
+            # 1. Saring dari dataset riwayat 5 hari jika tanggal WIB tercakup penuh
+            has_complete_window = (
+                not df_history.empty
+                and "date" in df_history.columns
+                and clean_date in df_history["date"].values
+                and (
+                    "acq_date" not in df_history.columns
+                    or clean_date > str(df_history["acq_date"].min())
+                )
+            )
+            if has_complete_window:
                 df_daily = df_history[df_history["date"] == clean_date].copy()
                 return df_daily, df_history, f"NASA FIRMS VIIRS ({clean_date} - {len(df_daily):,} Titik)"
 
-            # 2. Jika tanggal belum ada di riwayat 5 hari (misal tanggal historis lampau), kueri API NASA untuk tanggal tersebut
+            # 2. Kueri API NASA FIRMS mulai (clean_date - 1 hari) UTC selama 2 hari
+            # agar seluruh rentang 00:00–23:59 WIB (17:00 UTC H-1 s.d. 16:59 UTC H) tercakup penuh
             map_key = settings.NASA_FIRMS_MAP_KEY
             if map_key != "DEMO_KEY" and map_key:
                 try:
+                    parsed_wib = datetime.strptime(clean_date, "%Y-%m-%d")
+                    prev_utc_date = (parsed_wib - timedelta(days=1)).strftime("%Y-%m-%d")
                     async with httpx.AsyncClient(timeout=20.0) as client:
                         tasks = [
-                            self._fetch_single_source(client, src, days=1, target_date=clean_date)
-                            for src in ["VIIRS_NOAA20_NRT", "VIIRS_NOAA21_NRT", "VIIRS_SNPP_NRT"]
+                            self._fetch_single_source(client, src, days=2, target_date=prev_utc_date)
+                            for src in self.satellite_sources
                         ]
                         results = await asyncio.gather(*tasks)
                         valid_dfs = [df for df in results if not df.empty]
@@ -157,22 +196,27 @@ class FirmsClient:
                                     subset=["latitude", "longitude", "acq_date", "acq_time"]
                                 )
                             df_fetched = self._normalize_df(df_fetched)
-                            if not df_fetched.empty:
-                                return df_fetched, df_history, f"NASA FIRMS VIIRS Live ({clean_date} - {len(df_fetched):,} Titik)"
+                            if not df_fetched.empty and "date" in df_fetched.columns:
+                                df_daily = df_fetched[df_fetched["date"] == clean_date].copy()
+                                if not df_daily.empty:
+                                    return df_daily, df_history, f"NASA FIRMS VIIRS Live ({clean_date} - {len(df_daily):,} Titik)"
                 except Exception:
                     pass
 
-            # Jika target_date telah ditentukan namun tidak ada data untuk tanggal tersebut (misal belum ada orbit satelit atau 0 hotspot),
+            # Jika tidak ada data untuk tanggal WIB tersebut (belum ada orbit atau 0 hotspot),
             # kembalikan DataFrame kosong agar tidak keliru menampilkan data dari tanggal lain
             return pd.DataFrame(), df_history, f"NASA FIRMS VIIRS ({clean_date} - Tidak Ada Observasi/Titik Api)"
 
-        # Jika target_date TIDAK ditentukan (None / default), ambil observasi tanggal terbaru yang tersedia
+        if df_history.empty:
+            return pd.DataFrame(), pd.DataFrame(), label
+
+        # Jika target_date TIDAK ditentukan (None / default), ambil observasi tanggal WIB terbaru yang tersedia
         if "date" in df_history.columns and not df_history["date"].empty:
-            latest_date = df_history["date"].max()
+            latest_date = str(df_history["date"].max())
             df_daily = df_history[df_history["date"] == latest_date].copy()
             # Jika tanggal terbaru titiknya sangat sedikit (< 100), gabungkan dengan tanggal sebelumnya
             if len(df_daily) < 100:
-                recent_dates = df_history["date"].drop_duplicates().nlargest(2)
+                recent_dates = sorted(df_history["date"].dropna().astype(str).unique(), reverse=True)[:2]
                 df_daily = df_history[df_history["date"].isin(recent_dates)].copy()
                 return df_daily, df_history, f"NASA FIRMS VIIRS (Terbaru - {len(df_daily):,} Titik)"
             return df_daily, df_history, f"NASA FIRMS VIIRS ({latest_date} - {len(df_daily):,} Titik)"
